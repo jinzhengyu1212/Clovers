@@ -1,0 +1,6601 @@
+0: inf(0);  pat(1,0),cyc=1
+1: finite(2)
+2: inf(0);  pat(4,2),cyc=1
+3: finite(3)
+4: finite(4)
+5: inf(2);  pat(11,7),cyc=1
+6: finite(4)
+7: inf(3);  pat(15,10),cyc=1
+8: finite(5)
+9: inf(3);  pat(18,12),cyc=1
+10: finite(5)
+11: inf(8);  pat(26,19),cyc=1
+12: finite(6)
+13: finite(7)
+14: inf(6);  pat(29,20),cyc=1
+15: finite(8)
+16: finite(8)
+17: inf(7);  pat(35,24),cyc=1
+18: finite(9)
+19: inf(8);  pat(39,27),cyc=1
+20: finite(10)
+21: finite(11)
+22: inf(9);  pat(45,31),cyc=1
+23: finite(11)
+24: inf(10);  pat(49,34),cyc=1
+25: finite(12)
+26: inf(10);  pat(52,36),cyc=1
+27: finite(12)
+28: inf(11);  pat(56,39),cyc=1
+29: finite(13)
+30: finite(14)
+31: inf(13);  pat(63,44),cyc=1
+32: finite(15)
+33: finite(15)
+34: inf(14);  pat(69,48),cyc=1
+35: finite(16)
+36: inf(14);  pat(72,50),cyc=1
+37: finite(16)
+38: inf(18);  pat(79,56),cyc=1
+39: finite(17)
+40: inf(20);  pat(84,60),cyc=1
+41: finite(18)
+42: inf(21);  pat(88,63),cyc=1
+43: finite(19)
+44: finite(19)
+45: inf(18);  pat(90,63),cyc=1
+46: finite(20)
+47: finite(21)
+48: inf(19);  pat(96,67),cyc=1
+49: finite(21)
+50: finite(22)
+51: inf(22);  pat(104,73),cyc=1
+52: finite(24)
+53: inf(22);  pat(107,75),cyc=1
+54: finite(24)
+55: finite(25)
+56: inf(23);  pat(113,79),cyc=1
+57: finite(25)
+58: inf(24);  pat(117,82),cyc=1
+59: finite(26)
+60: inf(24);  pat(120,84),cyc=1
+61: finite(26)
+62: inf(26);  pat(125,88),cyc=1
+63: finite(28)
+64: finite(28)
+65: inf(27);  pat(131,92),cyc=1
+66: finite(29)
+67: inf(28);  pat(135,95),cyc=1
+68: finite(30)
+69: inf(28);  pat(138,97),cyc=1
+70: finite(30)
+71: finite(31)
+72: inf(29);  pat(144,101),cyc=1
+73: finite(31)
+74: inf(30);  pat(148,104),cyc=1
+75: finite(32)
+76: finite(33)
+77: inf(31);  pat(154,108),cyc=1
+78: finite(33)
+79: inf(33);  pat(159,112),cyc=1
+80: finite(35)
+81: finite(35)
+82: inf(35);  pat(166,117),cyc=1
+83: finite(37)
+84: inf(37);  pat(171,121),cyc=1
+85: finite(36)
+86: inf(35);  pat(172,121),cyc=1
+87: finite(37)
+88: inf(37);  pat(177,125),cyc=1
+89: finite(38)
+90: finite(38)
+91: inf(38);  pat(183,129),cyc=1
+92: finite(40)
+93: finite(40)
+94: inf(39);  pat(189,133),cyc=1
+95: finite(41)
+96: finite(42)
+97: inf(41);  pat(196,138),cyc=1
+98: finite(43)
+99: inf(41);  pat(199,140),cyc=1
+100: finite(43)
+101: inf(42);  pat(203,143),cyc=1
+102: finite(44)
+103: finite(45)
+104: inf(43);  pat(209,147),cyc=1
+105: finite(45)
+106: inf(44);  pat(213,150),cyc=1
+107: finite(46)
+108: inf(44);  pat(216,152),cyc=1
+109: finite(46)
+110: inf(45);  pat(220,155),cyc=1
+111: finite(47)
+112: inf(46);  pat(224,158),cyc=1
+113: finite(48)
+114: finite(49)
+115: inf(47);  pat(230,162),cyc=1
+116: finite(49)
+117: finite(50)
+118: finite(51)
+119: inf(50);  pat(240,169),cyc=1
+120: inf(50);  pat(242,170),pat(241,171),cyc=2
+121: finite(52)
+122: finite(53)
+123: finite(53)
+124: inf(52);  pat(250,176),cyc=1
+125: finite(54)
+126: inf(52);  pat(253,178),cyc=1
+127: finite(54)
+128: inf(54);  pat(258,182),cyc=1
+129: finite(56)
+130: inf(54);  pat(261,184),cyc=1
+131: finite(56)
+132: inf(54);  pat(264,186),cyc=1
+133: finite(56)
+134: finite(57)
+135: inf(57);  pat(272,192),cyc=1
+136: finite(59)
+137: inf(59);  pat(277,196),cyc=1
+138: finite(58)
+139: inf(57);  pat(278,196),cyc=1
+140: finite(59)
+141: finite(59)
+142: inf(59);  pat(285,201),cyc=1
+143: finite(61)
+144: finite(62)
+145: inf(61);  pat(292,206),cyc=1
+146: finite(63)
+147: inf(61);  pat(295,208),cyc=1
+148: finite(63)
+149: inf(62);  pat(299,211),cyc=1
+150: finite(64)
+151: inf(63);  pat(303,214),cyc=1
+152: finite(65)
+153: finite(65)
+154: inf(64);  pat(309,218),cyc=1
+155: finite(66)
+156: finite(67)
+157: inf(65);  pat(315,222),cyc=1
+158: finite(67)
+159: inf(67);  pat(320,226),cyc=1
+160: finite(69)
+161: finite(69)
+162: inf(67);  pat(325,229),cyc=1
+163: finite(69)
+164: inf(68);  pat(329,232),cyc=1
+165: finite(70)
+166: inf(68);  pat(332,234),cyc=1
+167: finite(70)
+168: inf(69);  pat(336,237),cyc=1
+169: finite(71)
+170: finite(72)
+171: inf(71);  pat(343,242),cyc=1
+172: finite(73)
+173: inf(72);  pat(347,245),cyc=1
+174: finite(74)
+175: inf(72);  pat(350,247),cyc=1
+176: finite(74)
+177: finite(75)
+178: inf(73);  pat(356,251),cyc=1
+179: finite(75)
+180: finite(76)
+181: inf(75);  pat(363,256),cyc=1
+182: finite(77)
+183: finite(78)
+184: inf(77);  pat(370,261),cyc=1
+185: finite(79)
+186: inf(77);  pat(373,263),cyc=1
+187: finite(79)
+188: inf(78);  pat(377,266),cyc=1
+189: finite(80)
+190: inf(78);  pat(380,268),cyc=1
+191: finite(80)
+192: finite(81)
+193: inf(81);  pat(388,274),cyc=1
+194: finite(83)
+195: inf(81);  pat(391,276),cyc=1
+196: finite(83)
+197: finite(84)
+198: inf(82);  pat(397,280),cyc=1
+199: finite(84)
+200: inf(82);  pat(400,282),cyc=1
+201: finite(84)
+202: inf(86);  pat(407,288),cyc=1
+203: finite(85)
+204: inf(84);  pat(408,288),cyc=1
+205: finite(86)
+206: finite(87)
+207: finite(88)
+208: inf(86);  pat(417,294),cyc=1
+209: finite(88)
+210: inf(88);  pat(422,298),cyc=1
+211: finite(90)
+212: finite(90)
+213: inf(90);  pat(429,303),cyc=1
+214: finite(92)
+215: inf(90);  pat(432,305),cyc=1
+216: finite(92)
+217: inf(93);  pat(438,310),cyc=1
+218: finite(92)
+219: finite(93)
+220: inf(91);  pat(441,311),cyc=1
+221: finite(93)
+222: inf(91);  pat(444,313),cyc=1
+223: finite(93)
+224: inf(93);  pat(449,317),cyc=1
+225: finite(95)
+226: finite(96)
+227: inf(94);  pat(455,321),cyc=1
+228: finite(96)
+229: inf(94);  pat(458,323),cyc=1
+230: finite(96)
+231: inf(95);  pat(462,326),cyc=1
+232: finite(97)
+233: inf(100);  pat(470,333),cyc=1
+234: finite(98)
+235: finite(98)
+236: inf(98);  pat(473,334),cyc=1
+237: finite(99)
+238: inf(100);  pat(478,338),cyc=1
+239: finite(100)
+240: finite(101)
+241: inf(100);  pat(483,341),cyc=1
+242: finite(102)
+243: finite(103)
+244: inf(101);  pat(489,345),cyc=1
+245: finite(103)
+246: inf(102);  pat(493,348),cyc=1
+247: finite(104)
+248: finite(105)
+249: inf(103);  pat(499,352),cyc=1
+250: finite(105)
+251: inf(104);  pat(503,355),cyc=1
+252: finite(106)
+253: inf(104);  pat(506,357),cyc=1
+254: finite(106)
+255: inf(105);  pat(510,360),cyc=1
+256: finite(107)
+257: finite(108)
+258: inf(106);  pat(516,364),cyc=1
+259: finite(108)
+260: inf(107);  pat(520,367),cyc=1
+261: finite(109)
+262: inf(111);  pat(527,373),cyc=1
+263: finite(110)
+264: finite(110)
+265: inf(109);  pat(530,374),cyc=1
+266: finite(111)
+267: inf(112);  pat(536,379),cyc=1
+268: finite(112)
+269: inf(114);  pat(541,383),cyc=1
+270: finite(113)
+271: finite(113)
+272: finite(114)
+273: inf(113);  pat(547,386),cyc=1
+274: finite(115)
+275: finite(116)
+276: inf(115);  pat(554,391),cyc=1
+277: finite(117)
+278: inf(115);  pat(557,393),cyc=1
+279: finite(117)
+280: inf(117);  pat(562,397),cyc=1
+281: finite(119)
+282: inf(117);  pat(565,399),cyc=1
+283: finite(119)
+284: finite(119)
+285: inf(118);  pat(571,403),cyc=1
+286: finite(120)
+287: finite(121)
+288: inf(120);  pat(578,408),cyc=1
+289: finite(122)
+290: inf(121);  pat(582,411),cyc=1
+291: finite(123)
+292: inf(121);  pat(585,413),cyc=1
+293: finite(123)
+294: inf(122);  pat(589,416),cyc=1
+295: finite(124)
+296: inf(123);  pat(593,419),cyc=1
+297: finite(125)
+298: finite(125)
+299: inf(124);  pat(599,423),cyc=1
+300: finite(126)
+301: inf(125);  pat(603,426),cyc=1
+302: finite(127)
+303: finite(127)
+304: inf(126);  pat(609,430),cyc=1
+305: finite(128)
+306: inf(127);  pat(613,433),cyc=1
+307: finite(129)
+308: inf(128);  pat(617,436),cyc=1
+309: finite(130)
+310: finite(130)
+311: inf(128);  pat(622,439),cyc=1
+312: finite(130)
+313: inf(129);  pat(626,442),cyc=1
+314: finite(131)
+315: inf(131);  pat(631,446),cyc=1
+316: finite(133)
+317: finite(133)
+318: finite(134)
+319: inf(133);  pat(640,452),cyc=1
+320: finite(135)
+321: inf(133);  pat(643,454),cyc=1
+322: finite(135)
+323: inf(136);  pat(649,459),cyc=1
+324: finite(135)
+325: inf(134);  pat(650,459),cyc=1
+326: finite(136)
+327: finite(137)
+328: finite(138)
+329: inf(136);  pat(659,465),cyc=1
+330: finite(138)
+331: inf(138);  pat(664,469),cyc=1
+332: finite(140)
+333: inf(138);  pat(667,471),cyc=1
+334: finite(140)
+335: finite(141)
+336: inf(139);  pat(673,475),cyc=1
+337: finite(141)
+338: inf(141);  pat(678,479),cyc=1
+339: finite(143)
+340: inf(141);  pat(681,481),cyc=1
+341: finite(143)
+342: finite(144)
+343: inf(142);  pat(687,485),cyc=1
+344: finite(144)
+345: inf(143);  pat(691,488),cyc=1
+346: finite(145)
+347: inf(143);  pat(694,490),cyc=1
+348: finite(145)
+349: finite(146)
+350: inf(144);  pat(700,494),cyc=1
+351: finite(146)
+352: inf(145);  pat(704,497),cyc=1
+353: finite(147)
+354: inf(146);  pat(708,500),cyc=1
+355: finite(148)
+356: finite(149)
+357: inf(149);  pat(716,506),cyc=1
+358: finite(151)
+359: inf(151);  pat(721,510),cyc=1
+360: finite(150)
+361: inf(149);  pat(722,510),cyc=1
+362: finite(151)
+363: finite(151)
+364: inf(150);  pat(728,514),cyc=1
+365: finite(152)
+366: finite(153)
+367: inf(153);  pat(736,520),cyc=1
+368: finite(155)
+369: inf(153);  pat(739,522),cyc=1
+370: finite(155)
+371: inf(153);  pat(742,524),cyc=1
+372: finite(155)
+373: inf(154);  pat(746,527),cyc=1
+374: finite(156)
+375: finite(157)
+376: finite(158)
+377: inf(158);  pat(757,535),cyc=1
+378: finite(160)
+379: inf(158);  pat(760,537),cyc=1
+380: finite(160)
+381: inf(159);  pat(764,540),cyc=1
+382: finite(161)
+383: inf(163);  pat(771,546),cyc=1
+384: finite(160)
+385: inf(163);  pat(774,548),cyc=1
+386: finite(161)
+387: finite(161)
+388: inf(160);  pat(776,548),cyc=1
+389: finite(162)
+390: inf(161);  pat(780,551),cyc=1
+391: finite(163)
+392: finite(164)
+393: inf(163);  pat(787,556),cyc=1
+394: finite(165)
+395: inf(163);  pat(790,558),cyc=1
+396: finite(165)
+397: finite(166)
+398: finite(167)
+399: inf(165);  pat(799,564),cyc=1
+400: inf(166);  pat(802,566),pat(801,567),cyc=2
+401: finite(168)
+402: inf(169);  pat(807,571),pat(809,572),pat(810,573),pat(808,574),cyc=4
+403: finite(168)
+404: finite(168)
+405: inf(168);  pat(811,573),cyc=1
+406: finite(170)
+407: finite(170)
+408: inf(169);  pat(817,577),cyc=1
+409: finite(171)
+410: inf(170);  pat(821,580),cyc=1
+411: finite(172)
+412: finite(172)
+413: inf(172);  pat(828,585),cyc=1
+414: finite(174)
+415: inf(174);  pat(833,589),cyc=1
+416: finite(173)
+417: inf(173);  pat(835,590),cyc=1
+418: finite(175)
+419: finite(175)
+420: finite(176)
+421: inf(174);  pat(843,595),cyc=1
+422: inf(175);  pat(846,597),pat(845,598),cyc=2
+423: finite(177)
+424: inf(176);  pat(849,600),pat(851,601),pat(852,602),pat(850,603),cyc=4
+425: finite(178)
+426: finite(179)
+427: inf(179);  pat(857,606),cyc=1
+428: finite(179)
+429: inf(178);  pat(859,607),cyc=1
+430: finite(180)
+431: finite(180)
+432: inf(178);  pat(864,610),cyc=1
+433: finite(180)
+434: inf(181);  pat(870,615),cyc=1
+435: finite(181)
+436: inf(183);  pat(875,619),cyc=1
+437: finite(182)
+438: inf(185);  pat(880,623),cyc=1
+439: finite(183)
+440: finite(183)
+441: finite(184)
+442: inf(183);  pat(885,625),cyc=1
+443: finite(185)
+444: inf(184);  pat(889,628),cyc=1
+445: finite(186)
+446: finite(187)
+447: inf(186);  pat(896,633),cyc=1
+448: finite(188)
+449: inf(188);  pat(901,637),cyc=1
+450: finite(187)
+451: inf(188);  pat(904,639),cyc=1
+452: finite(190)
+453: finite(190)
+454: inf(188);  pat(909,642),cyc=1
+455: finite(190)
+456: inf(190);  pat(914,646),cyc=1
+457: finite(190)
+458: inf(188);  pat(915,646),cyc=1
+459: finite(190)
+460: inf(190);  pat(920,650),cyc=1
+461: finite(192)
+462: finite(193)
+463: inf(191);  pat(926,654),cyc=1
+464: finite(193)
+465: inf(192);  pat(930,657),cyc=1
+466: finite(194)
+467: finite(195)
+468: inf(194);  pat(937,662),cyc=1
+469: finite(196)
+470: finite(196)
+471: inf(196);  pat(944,667),cyc=1
+472: finite(198)
+473: inf(197);  pat(948,670),cyc=1
+474: finite(199)
+475: inf(200);  pat(954,675),cyc=1
+476: finite(198)
+477: finite(199)
+478: inf(198);  pat(957,676),cyc=1
+479: finite(200)
+480: inf(199);  pat(961,679),cyc=1
+481: finite(201)
+482: inf(200);  pat(965,682),cyc=1
+483: finite(202)
+484: finite(202)
+485: inf(202);  pat(972,687),cyc=1
+486: finite(204)
+487: inf(204);  pat(977,691),cyc=1
+488: finite(203)
+489: finite(204)
+490: inf(203);  pat(981,693),cyc=1
+491: finite(205)
+492: inf(204);  pat(985,696),cyc=1
+493: finite(206)
+494: inf(204);  pat(988,698),cyc=1
+495: finite(206)
+496: finite(207)
+497: inf(206);  pat(995,703),cyc=1
+498: finite(208)
+499: inf(206);  pat(998,705),cyc=1
+500: finite(208)
+501: inf(207);  pat(1002,708),cyc=1
+502: finite(209)
+503: finite(210)
+504: inf(208);  pat(1008,712),cyc=1
+505: finite(210)
+506: inf(211);  pat(1014,717),cyc=1
+507: finite(211)
+508: inf(210);  pat(1016,718),cyc=1
+509: finite(212)
+510: finite(213)
+511: finite(214)
+512: inf(213);  pat(1026,725),cyc=1
+513: inf(212);  pat(1025,725),pat(1028,726),cyc=2
+514: finite(214)
+515: finite(214)
+516: inf(214);  pat(1033,730),cyc=1
+517: finite(216)
+518: inf(214);  pat(1036,732),cyc=1
+519: finite(216)
+520: inf(215);  pat(1040,735),cyc=1
+521: finite(217)
+522: finite(218)
+523: finite(219)
+524: inf(217);  pat(1049,741),cyc=1
+525: finite(219)
+526: inf(219);  pat(1054,745),cyc=1
+527: finite(221)
+528: finite(221)
+529: inf(220);  pat(1060,749),cyc=1
+530: finite(222)
+531: inf(220);  pat(1063,751),cyc=1
+532: finite(222)
+533: inf(221);  pat(1067,754),cyc=1
+534: finite(223)
+535: finite(224)
+536: inf(222);  pat(1073,758),cyc=1
+537: finite(224)
+538: inf(224);  pat(1078,762),cyc=1
+539: finite(226)
+540: finite(226)
+541: inf(225);  pat(1084,766),cyc=1
+542: finite(227)
+543: inf(227);  pat(1089,770),cyc=1
+544: finite(226)
+545: inf(227);  pat(1092,772),cyc=1
+546: finite(227)
+547: finite(228)
+548: inf(228);  pat(1098,776),cyc=1
+549: finite(230)
+550: inf(230);  pat(1103,780),cyc=1
+551: finite(229)
+552: inf(230);  pat(1106,782),cyc=1
+553: finite(230)
+554: finite(231)
+555: inf(230);  pat(1111,785),cyc=1
+556: finite(232)
+557: inf(231);  pat(1115,788),cyc=1
+558: finite(233)
+559: finite(233)
+560: inf(232);  pat(1121,792),cyc=1
+561: finite(234)
+562: inf(232);  pat(1124,794),cyc=1
+563: finite(234)
+564: inf(233);  pat(1128,797),cyc=1
+565: finite(235)
+566: finite(236)
+567: inf(236);  pat(1136,803),cyc=1
+568: finite(238)
+569: finite(238)
+570: inf(236);  pat(1141,806),cyc=1
+571: finite(238)
+572: inf(237);  pat(1145,809),cyc=1
+573: finite(239)
+574: finite(240)
+575: inf(239);  pat(1152,814),cyc=1
+576: inf(238);  pat(1151,814),pat(1154,815),cyc=2
+577: finite(240)
+578: finite(241)
+579: inf(240);  pat(1159,819),cyc=1
+580: finite(242)
+581: finite(243)
+582: inf(241);  pat(1165,823),cyc=1
+583: inf(241);  pat(1167,824),pat(1166,825),cyc=2
+584: finite(243)
+585: inf(243);  pat(1172,828),pat(1173,829),pat(1171,830),pat(1174,831),cyc=4
+586: finite(244)
+587: finite(244)
+588: inf(243);  pat(1176,831),cyc=1
+589: finite(245)
+590: finite(246)
+591: finite(247)
+592: inf(246);  pat(1186,838),cyc=1
+593: inf(245);  pat(1185,838),pat(1188,839),cyc=2
+594: finite(247)
+595: finite(248)
+596: inf(247);  pat(1193,843),cyc=1
+597: finite(249)
+598: finite(250)
+599: inf(248);  pat(1199,847),cyc=1
+600: finite(250)
+601: inf(249);  pat(1203,850),cyc=1
+602: finite(251)
+603: finite(252)
+604: inf(251);  pat(1210,855),cyc=1
+605: inf(251);  pat(1212,856),pat(1211,857),cyc=2
+606: finite(253)
+607: finite(254)
+608: finite(254)
+609: inf(254);  pat(1221,863),cyc=1
+610: inf(253);  pat(1222,863),pat(1221,864),cyc=2
+611: finite(255)
+612: finite(255)
+613: inf(254);  pat(1227,867),cyc=1
+614: finite(256)
+615: inf(255);  pat(1231,870),cyc=1
+616: finite(257)
+617: finite(258)
+618: inf(256);  pat(1237,874),cyc=1
+619: finite(258)
+620: inf(256);  pat(1240,876),cyc=1
+621: finite(258)
+622: inf(258);  pat(1245,880),cyc=1
+623: finite(260)
+624: inf(258);  pat(1248,882),cyc=1
+625: finite(260)
+626: inf(264);  pat(1257,890),cyc=1
+627: finite(261)
+628: finite(261)
+629: finite(262)
+630: inf(261);  pat(1261,891),cyc=1
+631: finite(263)
+632: inf(261);  pat(1264,893),cyc=1
+633: finite(263)
+634: finite(264)
+635: inf(263);  pat(1271,898),cyc=1
+636: finite(265)
+637: inf(264);  pat(1275,901),cyc=1
+638: finite(266)
+639: finite(266)
+640: inf(265);  pat(1281,905),cyc=1
+641: finite(267)
+642: inf(266);  pat(1285,908),cyc=1
+643: finite(268)
+644: inf(267);  pat(1289,911),cyc=1
+645: finite(269)
+646: inf(267);  pat(1292,913),cyc=1
+647: finite(269)
+648: finite(270)
+649: inf(268);  pat(1298,917),cyc=1
+650: finite(270)
+651: inf(270);  pat(1303,921),cyc=1
+652: finite(272)
+653: finite(272)
+654: inf(272);  pat(1310,926),cyc=1
+655: finite(274)
+656: inf(272);  pat(1313,928),cyc=1
+657: finite(274)
+658: finite(274)
+659: inf(273);  pat(1319,932),cyc=1
+660: finite(275)
+661: inf(273);  pat(1322,934),cyc=1
+662: finite(275)
+663: inf(275);  pat(1327,938),cyc=1
+664: finite(277)
+665: finite(277)
+666: inf(277);  pat(1334,943),cyc=1
+667: finite(279)
+668: finite(279)
+669: inf(278);  pat(1340,947),cyc=1
+670: finite(280)
+671: inf(278);  pat(1343,949),cyc=1
+672: finite(280)
+673: inf(281);  pat(1349,954),cyc=1
+674: finite(280)
+675: inf(283);  pat(1354,958),cyc=1
+676: finite(281)
+677: finite(282)
+678: inf(281);  pat(1357,959),cyc=1
+679: finite(283)
+680: inf(282);  pat(1361,962),cyc=1
+681: finite(284)
+682: finite(284)
+683: inf(283);  pat(1367,966),cyc=1
+684: finite(285)
+685: inf(283);  pat(1370,968),cyc=1
+686: finite(285)
+687: inf(284);  pat(1374,971),cyc=1
+688: finite(286)
+689: finite(287)
+690: inf(285);  pat(1380,975),cyc=1
+691: finite(287)
+692: inf(287);  pat(1385,979),cyc=1
+693: finite(289)
+694: finite(289)
+695: inf(287);  pat(1390,982),cyc=1
+696: finite(289)
+697: inf(289);  pat(1395,986),cyc=1
+698: finite(291)
+699: finite(292)
+700: inf(291);  pat(1402,991),cyc=1
+701: finite(293)
+702: inf(291);  pat(1405,993),cyc=1
+703: finite(293)
+704: finite(293)
+705: inf(291);  pat(1410,996),cyc=1
+706: finite(293)
+707: inf(294);  pat(1416,1001),cyc=1
+708: finite(294)
+709: inf(296);  pat(1421,1005),cyc=1
+710: finite(295)
+711: inf(298);  pat(1426,1009),cyc=1
+712: finite(296)
+713: inf(299);  pat(1430,1012),cyc=1
+714: finite(297)
+715: finite(298)
+716: finite(298)
+717: inf(298);  pat(1436,1015),cyc=1
+718: finite(300)
+719: inf(298);  pat(1439,1017),cyc=1
+720: finite(300)
+721: finite(301)
+722: inf(299);  pat(1445,1021),cyc=1
+723: finite(301)
+724: inf(301);  pat(1450,1025),cyc=1
+725: finite(303)
+726: inf(304);  pat(1456,1030),cyc=1
+727: finite(302)
+728: finite(303)
+729: inf(302);  pat(1459,1031),cyc=1
+730: finite(304)
+731: inf(303);  pat(1463,1034),cyc=1
+732: finite(305)
+733: finite(305)
+734: inf(304);  pat(1469,1038),cyc=1
+735: finite(306)
+736: inf(305);  pat(1473,1041),cyc=1
+737: finite(307)
+738: finite(307)
+739: inf(307);  pat(1480,1046),cyc=1
+740: finite(309)
+741: inf(307);  pat(1483,1048),cyc=1
+742: finite(309)
+743: inf(308);  pat(1487,1051),cyc=1
+744: finite(310)
+745: finite(310)
+746: inf(310);  pat(1494,1056),cyc=1
+747: finite(312)
+748: inf(312);  pat(1499,1060),cyc=1
+749: finite(311)
+750: finite(312)
+751: inf(311);  pat(1503,1062),cyc=1
+752: finite(313)
+753: inf(312);  pat(1507,1065),cyc=1
+754: finite(314)
+755: finite(315)
+756: inf(313);  pat(1513,1069),cyc=1
+757: finite(315)
+758: inf(314);  pat(1517,1072),cyc=1
+759: finite(316)
+760: inf(315);  pat(1521,1075),cyc=1
+761: finite(317)
+762: finite(318)
+763: inf(316);  pat(1527,1079),cyc=1
+764: finite(318)
+765: inf(318);  pat(1532,1083),cyc=1
+766: finite(320)
+767: finite(320)
+768: inf(318);  pat(1537,1086),cyc=1
+769: finite(320)
+770: inf(319);  pat(1541,1089),cyc=1
+771: finite(321)
+772: inf(320);  pat(1545,1092),cyc=1
+773: finite(322)
+774: inf(320);  pat(1548,1094),cyc=1
+775: finite(322)
+776: inf(321);  pat(1552,1097),cyc=1
+777: finite(323)
+778: finite(324)
+779: finite(325)
+780: inf(324);  pat(1562,1104),cyc=1
+781: finite(326)
+782: inf(324);  pat(1565,1106),cyc=1
+783: finite(326)
+784: inf(324);  pat(1568,1108),cyc=1
+785: finite(326)
+786: inf(326);  pat(1573,1112),cyc=1
+787: finite(328)
+788: finite(328)
+789: inf(327);  pat(1579,1116),cyc=1
+790: finite(329)
+791: finite(329)
+792: inf(328);  pat(1585,1120),cyc=1
+793: finite(330)
+794: inf(329);  pat(1589,1123),cyc=1
+795: finite(331)
+796: inf(330);  pat(1593,1126),cyc=1
+797: finite(332)
+798: finite(332)
+799: inf(331);  pat(1599,1130),cyc=1
+800: finite(333)
+801: inf(332);  pat(1603,1133),cyc=1
+802: finite(334)
+803: finite(334)
+804: inf(334);  pat(1610,1138),cyc=1
+805: finite(336)
+806: inf(336);  pat(1615,1142),cyc=1
+807: finite(335)
+808: inf(334);  pat(1616,1142),cyc=1
+809: finite(336)
+810: inf(339);  pat(1624,1149),cyc=1
+811: finite(337)
+812: inf(340);  pat(1628,1152),cyc=1
+813: finite(338)
+814: finite(338)
+815: inf(338);  pat(1631,1153),cyc=1
+816: finite(339)
+817: inf(338);  pat(1634,1155),cyc=1
+818: finite(340)
+819: finite(340)
+820: inf(340);  pat(1641,1160),cyc=1
+821: finite(342)
+822: finite(342)
+823: inf(341);  pat(1647,1164),cyc=1
+824: finite(343)
+825: inf(342);  pat(1651,1167),cyc=1
+826: finite(344)
+827: finite(345)
+828: inf(344);  pat(1658,1172),cyc=1
+829: finite(346)
+830: inf(344);  pat(1661,1174),cyc=1
+831: finite(346)
+832: finite(347)
+833: inf(345);  pat(1667,1178),cyc=1
+834: finite(347)
+835: inf(346);  pat(1671,1181),cyc=1
+836: finite(348)
+837: inf(347);  pat(1675,1184),cyc=1
+838: finite(349)
+839: finite(350)
+840: inf(348);  pat(1681,1188),cyc=1
+841: finite(350)
+842: inf(349);  pat(1685,1191),cyc=1
+843: finite(351)
+844: finite(352)
+845: inf(350);  pat(1691,1195),cyc=1
+846: finite(352)
+847: inf(351);  pat(1695,1198),cyc=1
+848: finite(353)
+849: inf(352);  pat(1699,1201),cyc=1
+850: finite(354)
+851: finite(354)
+852: inf(354);  pat(1706,1206),cyc=1
+853: finite(356)
+854: inf(354);  pat(1709,1208),cyc=1
+855: finite(356)
+856: finite(357)
+857: inf(356);  pat(1716,1213),cyc=1
+858: finite(358)
+859: finite(358)
+860: inf(356);  pat(1721,1216),cyc=1
+861: inf(356);  pat(1723,1217),pat(1722,1218),cyc=2
+862: finite(358)
+863: finite(359)
+864: inf(358);  pat(1729,1222),cyc=1
+865: finite(360)
+866: inf(358);  pat(1732,1224),cyc=1
+867: finite(360)
+868: inf(364);  pat(1741,1232),cyc=1
+869: finite(361)
+870: inf(362);  pat(1742,1232),cyc=1
+871: finite(362)
+872: finite(363)
+873: finite(364)
+874: inf(362);  pat(1749,1236),cyc=1
+875: finite(364)
+876: inf(363);  pat(1753,1239),cyc=1
+877: finite(365)
+878: inf(363);  pat(1756,1241),cyc=1
+879: finite(365)
+880: finite(366)
+881: inf(365);  pat(1763,1246),cyc=1
+882: finite(367)
+883: finite(368)
+884: inf(367);  pat(1770,1251),cyc=1
+885: finite(369)
+886: finite(370)
+887: inf(368);  pat(1776,1255),cyc=1
+888: inf(367);  pat(1777,1255),pat(1776,1256),cyc=2
+889: finite(369)
+890: inf(368);  pat(1780,1258),pat(1782,1259),pat(1783,1260),pat(1781,1261),cyc=4
+891: finite(370)
+892: inf(373);  pat(1788,1265),pat(1789,1266),pat(1791,1267),pat(1790,1268),cyc=4
+893: finite(371)
+894: finite(372)
+895: inf(371);  pat(1791,1266),cyc=1
+896: finite(372)
+897: finite(373)
+898: inf(373);  pat(1798,1271),cyc=1
+899: finite(375)
+900: inf(375);  pat(1803,1275),cyc=1
+901: finite(374)
+902: finite(375)
+903: inf(374);  pat(1807,1277),cyc=1
+904: inf(374);  pat(1809,1278),pat(1808,1279),cyc=2
+905: finite(376)
+906: finite(377)
+907: inf(376);  pat(1815,1283),cyc=1
+908: finite(378)
+909: finite(379)
+910: inf(378);  pat(1822,1288),cyc=1
+911: finite(380)
+912: finite(380)
+913: inf(378);  pat(1827,1291),cyc=1
+914: finite(380)
+915: inf(380);  pat(1832,1295),cyc=1
+916: finite(382)
+917: inf(380);  pat(1835,1297),cyc=1
+918: finite(382)
+919: inf(380);  pat(1838,1299),cyc=1
+920: finite(382)
+921: inf(381);  pat(1842,1302),cyc=1
+922: finite(383)
+923: finite(384)
+924: inf(383);  pat(1849,1307),cyc=1
+925: finite(385)
+926: finite(385)
+927: inf(385);  pat(1856,1312),cyc=1
+928: finite(387)
+929: inf(385);  pat(1859,1314),cyc=1
+930: finite(387)
+931: inf(385);  pat(1862,1316),cyc=1
+932: finite(387)
+933: inf(386);  pat(1866,1319),cyc=1
+934: finite(388)
+935: finite(389)
+936: inf(387);  pat(1872,1323),cyc=1
+937: finite(389)
+938: inf(389);  pat(1877,1327),cyc=1
+939: finite(390)
+940: finite(390)
+941: inf(389);  pat(1882,1330),cyc=1
+942: finite(391)
+943: inf(390);  pat(1886,1333),cyc=1
+944: finite(392)
+945: finite(393)
+946: inf(391);  pat(1892,1337),cyc=1
+947: finite(393)
+948: inf(394);  pat(1898,1342),cyc=1
+949: finite(394)
+950: inf(393);  pat(1900,1343),cyc=1
+951: finite(395)
+952: finite(396)
+953: inf(395);  pat(1907,1348),cyc=1
+954: finite(397)
+955: finite(397)
+956: inf(396);  pat(1913,1352),cyc=1
+957: finite(398)
+958: inf(396);  pat(1916,1354),cyc=1
+959: finite(398)
+960: inf(397);  pat(1920,1357),cyc=1
+961: finite(399)
+962: finite(400)
+963: inf(399);  pat(1927,1362),cyc=1
+964: finite(401)
+965: inf(399);  pat(1930,1364),cyc=1
+966: finite(401)
+967: inf(400);  pat(1934,1367),cyc=1
+968: finite(402)
+969: finite(403)
+970: finite(404)
+971: inf(402);  pat(1943,1373),cyc=1
+972: finite(404)
+973: inf(403);  pat(1947,1376),cyc=1
+974: finite(405)
+975: inf(404);  pat(1951,1379),cyc=1
+976: finite(406)
+977: inf(405);  pat(1955,1382),cyc=1
+978: finite(407)
+979: finite(407)
+980: inf(406);  pat(1961,1386),cyc=1
+981: finite(408)
+982: inf(407);  pat(1965,1389),cyc=1
+983: finite(409)
+984: inf(407);  pat(1968,1391),cyc=1
+985: finite(409)
+986: finite(410)
+987: finite(411)
+988: inf(410);  pat(1978,1398),cyc=1
+989: finite(412)
+990: inf(410);  pat(1981,1400),cyc=1
+991: finite(412)
+992: inf(411);  pat(1985,1403),cyc=1
+993: finite(413)
+994: finite(414)
+995: inf(412);  pat(1991,1407),cyc=1
+996: finite(414)
+997: inf(413);  pat(1995,1410),cyc=1
+998: finite(415)
+999: inf(413);  pat(1998,1412),cyc=1
+1000: finite(415)
+1001: inf(415);  pat(2003,1416),cyc=1
+1002: finite(417)
+1003: finite(418)
+1004: inf(416);  pat(2009,1420),cyc=1
+1005: finite(418)
+1006: inf(417);  pat(2013,1423),cyc=1
+1007: finite(419)
+1008: finite(420)
+1009: inf(418);  pat(2019,1427),cyc=1
+1010: finite(420)
+1011: finite(421)
+1012: inf(419);  pat(2025,1431),cyc=1
+1013: inf(419);  pat(2027,1432),pat(2026,1433),cyc=2
+1014: finite(421)
+1015: inf(421);  pat(2032,1436),pat(2033,1437),pat(2031,1438),pat(2034,1439),cyc=4
+1016: finite(422)
+1017: finite(422)
+1018: inf(421);  pat(2036,1439),cyc=1
+1019: finite(423)
+1020: finite(424)
+1021: inf(424);  pat(2044,1445),cyc=1
+1022: finite(426)
+1023: inf(424);  pat(2047,1447),cyc=1
+1024: finite(426)
+1025: finite(427)
+1026: inf(425);  pat(2053,1451),cyc=1
+1027: finite(427)
+1028: inf(426);  pat(2057,1454),cyc=1
+1029: finite(428)
+1030: inf(427);  pat(2061,1457),cyc=1
+1031: finite(429)
+1032: finite(430)
+1033: inf(429);  pat(2068,1462),cyc=1
+1034: finite(429)
+1035: inf(428);  pat(2070,1463),cyc=1
+1036: finite(430)
+1037: finite(431)
+1038: inf(429);  pat(2076,1467),cyc=1
+1039: finite(431)
+1040: inf(431);  pat(2081,1471),cyc=1
+1041: finite(433)
+1042: finite(434)
+1043: inf(432);  pat(2087,1475),cyc=1
+1044: finite(434)
+1045: inf(433);  pat(2091,1478),cyc=1
+1046: finite(435)
+1047: finite(436)
+1048: inf(434);  pat(2097,1482),cyc=1
+1049: finite(436)
+1050: inf(435);  pat(2101,1485),cyc=1
+1051: finite(437)
+1052: inf(436);  pat(2105,1488),cyc=1
+1053: finite(438)
+1054: inf(436);  pat(2108,1490),cyc=1
+1055: finite(438)
+1056: finite(439)
+1057: finite(440)
+1058: inf(439);  pat(2118,1497),cyc=1
+1059: inf(439);  pat(2120,1498),pat(2119,1499),cyc=2
+1060: finite(441)
+1061: finite(441)
+1062: inf(440);  pat(2125,1502),cyc=1
+1063: finite(442)
+1064: inf(441);  pat(2129,1505),cyc=1
+1065: finite(443)
+1066: finite(443)
+1067: inf(442);  pat(2135,1509),cyc=1
+1068: finite(444)
+1069: inf(443);  pat(2139,1512),cyc=1
+1070: finite(445)
+1071: inf(443);  pat(2142,1514),cyc=1
+1072: finite(445)
+1073: finite(446)
+1074: inf(446);  pat(2150,1520),cyc=1
+1075: finite(448)
+1076: finite(448)
+1077: inf(446);  pat(2155,1523),cyc=1
+1078: finite(448)
+1079: inf(447);  pat(2159,1526),cyc=1
+1080: finite(449)
+1081: inf(447);  pat(2162,1528),cyc=1
+1082: finite(449)
+1083: finite(450)
+1084: inf(450);  pat(2170,1534),cyc=1
+1085: finite(452)
+1086: inf(452);  pat(2175,1538),cyc=1
+1087: finite(451)
+1088: finite(452)
+1089: inf(452);  pat(2180,1541),cyc=1
+1090: finite(454)
+1091: inf(452);  pat(2183,1543),cyc=1
+1092: finite(454)
+1093: inf(453);  pat(2187,1546),cyc=1
+1094: finite(455)
+1095: finite(456)
+1096: inf(454);  pat(2193,1550),cyc=1
+1097: finite(456)
+1098: inf(455);  pat(2197,1553),cyc=1
+1099: finite(457)
+1100: finite(458)
+1101: inf(457);  pat(2204,1558),cyc=1
+1102: finite(459)
+1103: inf(457);  pat(2207,1560),cyc=1
+1104: finite(459)
+1105: inf(458);  pat(2211,1563),cyc=1
+1106: finite(460)
+1107: finite(461)
+1108: inf(459);  pat(2217,1567),cyc=1
+1109: finite(461)
+1110: inf(460);  pat(2221,1570),cyc=1
+1111: finite(462)
+1112: finite(463)
+1113: inf(462);  pat(2228,1575),cyc=1
+1114: finite(464)
+1115: inf(462);  pat(2231,1577),cyc=1
+1116: finite(464)
+1117: finite(465)
+1118: inf(463);  pat(2237,1581),cyc=1
+1119: finite(465)
+1120: inf(464);  pat(2241,1584),cyc=1
+1121: finite(466)
+1122: inf(464);  pat(2244,1586),cyc=1
+1123: finite(466)
+1124: inf(465);  pat(2248,1589),cyc=1
+1125: finite(467)
+1126: finite(468)
+1127: finite(469)
+1128: inf(468);  pat(2258,1596),cyc=1
+1129: inf(467);  pat(2259,1596),pat(2258,1597),cyc=2
+1130: finite(469)
+1131: finite(470)
+1132: inf(468);  pat(2264,1600),cyc=1
+1133: finite(470)
+1134: inf(469);  pat(2268,1603),cyc=1
+1135: finite(471)
+1136: finite(472)
+1137: inf(471);  pat(2275,1608),cyc=1
+1138: finite(473)
+1139: finite(474)
+1140: inf(472);  pat(2281,1612),cyc=1
+1141: inf(472);  pat(2283,1613),pat(2282,1614),cyc=2
+1142: finite(474)
+1143: inf(475);  pat(2288,1618),pat(2290,1619),pat(2291,1620),pat(2289,1621),cyc=4
+1144: finite(475)
+1145: finite(476)
+1146: inf(475);  pat(2293,1621),cyc=1
+1147: finite(477)
+1148: finite(478)
+1149: finite(479)
+1150: inf(477);  pat(2302,1627),cyc=1
+1151: finite(479)
+1152: inf(477);  pat(2305,1629),cyc=1
+1153: finite(479)
+1154: inf(478);  pat(2309,1632),cyc=1
+1155: finite(480)
+1156: inf(480);  pat(2314,1636),cyc=1
+1157: finite(482)
+1158: inf(480);  pat(2317,1638),cyc=1
+1159: finite(482)
+1160: finite(483)
+1161: finite(483)
+1162: inf(482);  pat(2326,1644),cyc=1
+1163: inf(482);  pat(2328,1645),pat(2327,1646),cyc=2
+1164: finite(484)
+1165: finite(485)
+1166: inf(484);  pat(2334,1650),cyc=1
+1167: finite(486)
+1168: inf(484);  pat(2337,1652),cyc=1
+1169: finite(486)
+1170: finite(487)
+1171: inf(485);  pat(2343,1656),cyc=1
+1172: finite(487)
+1173: inf(486);  pat(2347,1659),cyc=1
+1174: finite(488)
+1175: finite(489)
+1176: inf(488);  pat(2354,1664),cyc=1
+1177: finite(490)
+1178: inf(489);  pat(2358,1667),cyc=1
+1179: finite(491)
+1180: inf(492);  pat(2364,1672),cyc=1
+1181: finite(490)
+1182: inf(490);  pat(2365,1672),cyc=1
+1183: finite(492)
+1184: finite(492)
+1185: finite(493)
+1186: inf(492);  pat(2374,1678),cyc=1
+1187: finite(494)
+1188: inf(493);  pat(2378,1681),cyc=1
+1189: finite(495)
+1190: inf(493);  pat(2381,1683),cyc=1
+1191: finite(495)
+1192: finite(496)
+1193: inf(495);  pat(2388,1688),cyc=1
+1194: finite(497)
+1195: inf(495);  pat(2391,1690),cyc=1
+1196: finite(497)
+1197: inf(496);  pat(2395,1693),cyc=1
+1198: finite(498)
+1199: finite(499)
+1200: inf(498);  pat(2402,1698),cyc=1
+1201: finite(500)
+1202: inf(498);  pat(2405,1700),cyc=1
+1203: finite(500)
+1204: inf(498);  pat(2408,1702),cyc=1
+1205: finite(500)
+1206: finite(501)
+1207: inf(500);  pat(2415,1707),cyc=1
+1208: finite(502)
+1209: finite(503)
+1210: inf(502);  pat(2422,1712),cyc=1
+1211: finite(504)
+1212: inf(503);  pat(2426,1715),cyc=1
+1213: finite(505)
+1214: finite(505)
+1215: inf(505);  pat(2433,1720),cyc=1
+1216: inf(504);  pat(2434,1720),pat(2433,1721),cyc=2
+1217: finite(506)
+1218: finite(506)
+1219: inf(505);  pat(2439,1724),cyc=1
+1220: finite(506)
+1221: inf(505);  pat(2442,1726),cyc=1
+1222: finite(507)
+1223: finite(508)
+1224: inf(507);  pat(2449,1731),cyc=1
+1225: finite(509)
+1226: finite(510)
+1227: inf(508);  pat(2455,1735),cyc=1
+1228: finite(510)
+1229: inf(509);  pat(2459,1738),cyc=1
+1230: finite(511)
+1231: inf(510);  pat(2463,1741),cyc=1
+1232: finite(512)
+1233: inf(511);  pat(2467,1744),cyc=1
+1234: finite(513)
+1235: finite(514)
+1236: inf(512);  pat(2473,1748),cyc=1
+1237: finite(514)
+1238: inf(513);  pat(2477,1751),cyc=1
+1239: finite(515)
+1240: finite(516)
+1241: inf(514);  pat(2483,1755),cyc=1
+1242: finite(516)
+1243: inf(514);  pat(2486,1757),cyc=1
+1244: finite(516)
+1245: inf(515);  pat(2490,1760),cyc=1
+1246: finite(517)
+1247: finite(518)
+1248: inf(517);  pat(2497,1765),cyc=1
+1249: finite(519)
+1250: inf(518);  pat(2501,1768),cyc=1
+1251: finite(520)
+1252: finite(521)
+1253: inf(519);  pat(2507,1772),cyc=1
+1254: finite(521)
+1255: inf(519);  pat(2510,1774),cyc=1
+1256: finite(521)
+1257: inf(521);  pat(2515,1778),cyc=1
+1258: finite(523)
+1259: finite(524)
+1260: inf(522);  pat(2521,1782),cyc=1
+1261: finite(524)
+1262: finite(525)
+1263: inf(524);  pat(2528,1787),cyc=1
+1264: finite(526)
+1265: inf(524);  pat(2531,1789),cyc=1
+1266: finite(526)
+1267: inf(524);  pat(2534,1791),cyc=1
+1268: finite(526)
+1269: inf(525);  pat(2538,1794),cyc=1
+1270: finite(527)
+1271: inf(526);  pat(2542,1797),cyc=1
+1272: finite(528)
+1273: finite(529)
+1274: inf(528);  pat(2549,1802),cyc=1
+1275: finite(530)
+1276: finite(530)
+1277: inf(530);  pat(2556,1807),cyc=1
+1278: finite(532)
+1279: finite(532)
+1280: inf(531);  pat(2562,1811),cyc=1
+1281: inf(531);  pat(2564,1812),pat(2563,1813),cyc=2
+1282: finite(533)
+1283: finite(533)
+1284: finite(534)
+1285: inf(533);  pat(2572,1818),cyc=1
+1286: finite(535)
+1287: inf(534);  pat(2576,1821),cyc=1
+1288: finite(536)
+1289: finite(536)
+1290: inf(536);  pat(2583,1826),cyc=1
+1291: inf(535);  pat(2584,1826),pat(2583,1827),cyc=2
+1292: finite(536)
+1293: inf(540);  pat(2591,1833),pat(2593,1834),pat(2594,1835),pat(2592,1836),cyc=4
+1294: finite(537)
+1295: inf(536);  pat(2591,1831),pat(2592,1832),pat(2593,1833),pat(2590,1834),cyc=4
+1296: finite(538)
+1297: finite(539)
+1298: inf(538);  pat(2597,1836),cyc=1
+1299: finite(540)
+1300: finite(540)
+1301: inf(539);  pat(2603,1840),cyc=1
+1302: finite(541)
+1303: finite(542)
+1304: inf(541);  pat(2610,1845),cyc=1
+1305: finite(543)
+1306: inf(541);  pat(2613,1847),cyc=1
+1307: finite(543)
+1308: inf(542);  pat(2617,1850),cyc=1
+1309: finite(544)
+1310: inf(542);  pat(2620,1852),cyc=1
+1311: finite(544)
+1312: finite(545)
+1313: inf(544);  pat(2627,1857),cyc=1
+1314: finite(546)
+1315: finite(547)
+1316: inf(545);  pat(2633,1861),cyc=1
+1317: finite(547)
+1318: inf(547);  pat(2638,1865),cyc=1
+1319: finite(549)
+1320: finite(549)
+1321: inf(547);  pat(2643,1868),cyc=1
+1322: finite(549)
+1323: inf(549);  pat(2648,1872),cyc=1
+1324: finite(551)
+1325: inf(549);  pat(2651,1874),cyc=1
+1326: finite(551)
+1327: finite(552)
+1328: inf(550);  pat(2657,1878),cyc=1
+1329: finite(552)
+1330: inf(552);  pat(2662,1882),cyc=1
+1331: finite(554)
+1332: inf(552);  pat(2665,1884),cyc=1
+1333: finite(554)
+1334: finite(555)
+1335: inf(554);  pat(2672,1889),cyc=1
+1336: finite(554)
+1337: inf(553);  pat(2674,1890),cyc=1
+1338: finite(555)
+1339: inf(554);  pat(2678,1893),cyc=1
+1340: finite(556)
+1341: finite(557)
+1342: inf(556);  pat(2685,1898),cyc=1
+1343: finite(558)
+1344: finite(559)
+1345: inf(558);  pat(2692,1903),cyc=1
+1346: finite(560)
+1347: inf(558);  pat(2695,1905),cyc=1
+1348: finite(560)
+1349: inf(559);  pat(2699,1908),cyc=1
+1350: finite(561)
+1351: inf(559);  pat(2702,1910),cyc=1
+1352: finite(561)
+1353: finite(562)
+1354: inf(560);  pat(2708,1914),cyc=1
+1355: finite(562)
+1356: inf(561);  pat(2712,1917),cyc=1
+1357: finite(563)
+1358: finite(564)
+1359: inf(563);  pat(2719,1922),cyc=1
+1360: finite(565)
+1361: inf(564);  pat(2723,1925),cyc=1
+1362: finite(566)
+1363: finite(567)
+1364: inf(565);  pat(2729,1929),cyc=1
+1365: finite(567)
+1366: finite(568)
+1367: inf(566);  pat(2735,1933),cyc=1
+1368: finite(568)
+1369: inf(567);  pat(2739,1936),cyc=1
+1370: finite(569)
+1371: inf(568);  pat(2743,1939),cyc=1
+1372: finite(570)
+1373: inf(568);  pat(2746,1941),cyc=1
+1374: finite(570)
+1375: finite(571)
+1376: inf(569);  pat(2752,1945),cyc=1
+1377: finite(571)
+1378: inf(571);  pat(2757,1949),cyc=1
+1379: finite(573)
+1380: finite(574)
+1381: inf(573);  pat(2764,1954),cyc=1
+1382: finite(575)
+1383: inf(573);  pat(2767,1956),cyc=1
+1384: finite(575)
+1385: inf(573);  pat(2770,1958),cyc=1
+1386: finite(575)
+1387: finite(576)
+1388: inf(575);  pat(2777,1963),cyc=1
+1389: finite(577)
+1390: finite(578)
+1391: inf(576);  pat(2783,1967),cyc=1
+1392: finite(578)
+1393: inf(578);  pat(2788,1971),cyc=1
+1394: finite(580)
+1395: inf(578);  pat(2791,1973),cyc=1
+1396: finite(580)
+1397: inf(578);  pat(2794,1975),cyc=1
+1398: finite(580)
+1399: finite(581)
+1400: inf(580);  pat(2801,1980),cyc=1
+1401: finite(582)
+1402: inf(580);  pat(2804,1982),cyc=1
+1403: finite(582)
+1404: finite(583)
+1405: inf(583);  pat(2812,1988),cyc=1
+1406: finite(585)
+1407: inf(583);  pat(2815,1990),cyc=1
+1408: finite(585)
+1409: inf(584);  pat(2819,1993),cyc=1
+1410: finite(586)
+1411: finite(586)
+1412: inf(585);  pat(2825,1997),cyc=1
+1413: finite(587)
+1414: inf(586);  pat(2829,2000),cyc=1
+1415: finite(588)
+1416: finite(589)
+1417: finite(589)
+1418: inf(587);  pat(2837,2005),cyc=1
+1419: inf(588);  pat(2840,2007),pat(2839,2008),cyc=2
+1420: finite(590)
+1421: finite(590)
+1422: inf(590);  pat(2846,2012),cyc=1
+1423: finite(592)
+1424: finite(592)
+1425: inf(590);  pat(2851,2015),cyc=1
+1426: finite(592)
+1427: inf(591);  pat(2855,2018),cyc=1
+1428: finite(593)
+1429: inf(593);  pat(2860,2022),cyc=1
+1430: finite(595)
+1431: inf(597);  pat(2867,2028),cyc=1
+1432: finite(594)
+1433: inf(594);  pat(2867,2027),cyc=1
+1434: finite(595)
+1435: finite(596)
+1436: inf(596);  pat(2874,2032),cyc=1
+1437: finite(597)
+1438: finite(597)
+1439: inf(597);  pat(2880,2036),cyc=1
+1440: finite(599)
+1441: inf(599);  pat(2885,2040),cyc=1
+1442: finite(598)
+1443: inf(599);  pat(2888,2042),cyc=1
+1444: finite(599)
+1445: finite(600)
+1446: finite(601)
+1447: inf(600);  pat(2896,2047),cyc=1
+1448: inf(600);  pat(2898,2048),pat(2897,2049),cyc=2
+1449: finite(602)
+1450: finite(603)
+1451: inf(602);  pat(2904,2053),cyc=1
+1452: finite(604)
+1453: inf(602);  pat(2907,2055),cyc=1
+1454: finite(604)
+1455: finite(605)
+1456: inf(604);  pat(2914,2060),cyc=1
+1457: finite(606)
+1458: inf(604);  pat(2917,2062),cyc=1
+1459: finite(606)
+1460: inf(605);  pat(2921,2065),cyc=1
+1461: finite(607)
+1462: finite(607)
+1463: inf(606);  pat(2927,2069),cyc=1
+1464: finite(608)
+1465: inf(607);  pat(2931,2072),cyc=1
+1466: finite(609)
+1467: finite(609)
+1468: inf(608);  pat(2937,2076),cyc=1
+1469: finite(610)
+1470: inf(610);  pat(2942,2080),cyc=1
+1471: finite(612)
+1472: finite(612)
+1473: inf(610);  pat(2947,2083),cyc=1
+1474: finite(612)
+1475: inf(611);  pat(2951,2086),cyc=1
+1476: finite(613)
+1477: inf(611);  pat(2954,2088),cyc=1
+1478: finite(613)
+1479: inf(613);  pat(2959,2092),cyc=1
+1480: finite(615)
+1481: finite(615)
+1482: inf(613);  pat(2964,2095),cyc=1
+1483: finite(615)
+1484: inf(615);  pat(2969,2099),cyc=1
+1485: finite(617)
+1486: finite(617)
+1487: inf(616);  pat(2975,2103),cyc=1
+1488: finite(618)
+1489: finite(619)
+1490: inf(618);  pat(2982,2108),cyc=1
+1491: finite(620)
+1492: inf(620);  pat(2987,2112),cyc=1
+1493: finite(619)
+1494: inf(620);  pat(2990,2114),cyc=1
+1495: finite(620)
+1496: inf(620);  pat(2993,2116),cyc=1
+1497: finite(622)
+1498: finite(622)
+1499: inf(622);  pat(3000,2121),cyc=1
+1500: finite(624)
+1501: inf(624);  pat(3005,2125),cyc=1
+1502: finite(623)
+1503: inf(622);  pat(3006,2125),cyc=1
+1504: finite(624)
+1505: finite(625)
+1506: finite(626)
+1507: inf(625);  pat(3016,2132),cyc=1
+1508: inf(625);  pat(3018,2133),pat(3017,2134),cyc=2
+1509: finite(627)
+1510: finite(627)
+1511: inf(626);  pat(3023,2137),cyc=1
+1512: finite(627)
+1513: inf(628);  pat(3028,2141),cyc=1
+1514: finite(628)
+1515: finite(629)
+1516: inf(627);  pat(3032,2143),cyc=1
+1517: finite(629)
+1518: inf(629);  pat(3037,2147),cyc=1
+1519: finite(631)
+1520: finite(632)
+1521: finite(632)
+1522: inf(630);  pat(3045,2152),cyc=1
+1523: inf(630);  pat(3047,2153),pat(3046,2154),cyc=2
+1524: finite(632)
+1525: inf(631);  pat(3050,2156),pat(3052,2157),pat(3053,2158),pat(3051,2159),cyc=4
+1526: finite(633)
+1527: finite(634)
+1528: inf(634);  pat(3058,2162),cyc=1
+1529: finite(636)
+1530: inf(634);  pat(3061,2164),cyc=1
+1531: finite(636)
+1532: inf(635);  pat(3065,2167),cyc=1
+1533: finite(637)
+1534: finite(638)
+1535: finite(638)
+1536: inf(636);  pat(3073,2172),cyc=1
+1537: inf(636);  pat(3075,2173),pat(3074,2174),cyc=2
+1538: finite(638)
+1539: finite(639)
+1540: inf(638);  pat(3081,2178),cyc=1
+1541: finite(640)
+1542: inf(639);  pat(3085,2181),cyc=1
+1543: finite(641)
+1544: finite(642)
+1545: inf(641);  pat(3092,2186),cyc=1
+1546: finite(643)
+1547: finite(643)
+1548: inf(641);  pat(3097,2189),cyc=1
+1549: finite(643)
+1550: inf(642);  pat(3101,2192),cyc=1
+1551: finite(644)
+1552: inf(642);  pat(3104,2194),cyc=1
+1553: finite(644)
+1554: inf(643);  pat(3108,2197),cyc=1
+1555: finite(645)
+1556: finite(646)
+1557: inf(645);  pat(3115,2202),cyc=1
+1558: finite(647)
+1559: finite(648)
+1560: inf(647);  pat(3122,2207),cyc=1
+1561: inf(647);  pat(3124,2208),pat(3123,2209),cyc=2
+1562: finite(649)
+1563: finite(650)
+1564: finite(650)
+1565: inf(649);  pat(3132,2214),cyc=1
+1566: finite(651)
+1567: inf(650);  pat(3136,2217),cyc=1
+1568: finite(652)
+1569: inf(650);  pat(3139,2219),cyc=1
+1570: finite(652)
+1571: inf(651);  pat(3143,2222),cyc=1
+1572: finite(653)
+1573: finite(654)
+1574: inf(652);  pat(3149,2226),cyc=1
+1575: finite(654)
+1576: finite(655)
+1577: inf(654);  pat(3156,2231),cyc=1
+1578: finite(656)
+1579: inf(655);  pat(3160,2234),cyc=1
+1580: finite(657)
+1581: inf(655);  pat(3163,2236),cyc=1
+1582: finite(657)
+1583: inf(656);  pat(3167,2239),cyc=1
+1584: finite(657)
+1585: finite(658)
+1586: inf(657);  pat(3173,2243),cyc=1
+1587: finite(658)
+1588: inf(659);  pat(3178,2247),cyc=1
+1589: finite(659)
+1590: inf(658);  pat(3180,2248),cyc=1
+1591: finite(660)
+1592: finite(661)
+1593: inf(660);  pat(3187,2253),cyc=1
+1594: finite(662)
+1595: finite(662)
+1596: inf(662);  pat(3194,2258),cyc=1
+1597: finite(664)
+1598: inf(663);  pat(3198,2261),cyc=1
+1599: finite(665)
+1600: inf(665);  pat(3203,2265),cyc=1
+1601: finite(664)
+1602: inf(666);  pat(3207,2268),cyc=1
+1603: finite(665)
+1604: finite(665)
+1605: inf(665);  pat(3211,2270),cyc=1
+1606: finite(667)
+1607: finite(667)
+1608: inf(666);  pat(3217,2274),cyc=1
+1609: finite(668)
+1610: inf(667);  pat(3221,2277),cyc=1
+1611: finite(669)
+1612: inf(667);  pat(3224,2279),cyc=1
+1613: finite(669)
+1614: inf(668);  pat(3228,2282),cyc=1
+1615: finite(670)
+1616: finite(671)
+1617: inf(670);  pat(3235,2287),cyc=1
+1618: finite(672)
+1619: finite(673)
+1620: inf(672);  pat(3242,2292),cyc=1
+1621: finite(674)
+1622: finite(674)
+1623: inf(673);  pat(3248,2296),cyc=1
+1624: finite(675)
+1625: inf(673);  pat(3251,2298),cyc=1
+1626: finite(675)
+1627: inf(674);  pat(3255,2301),cyc=1
+1628: finite(676)
+1629: inf(674);  pat(3258,2303),cyc=1
+1630: finite(676)
+1631: finite(677)
+1632: inf(676);  pat(3265,2308),cyc=1
+1633: finite(678)
+1634: inf(676);  pat(3268,2310),cyc=1
+1635: finite(678)
+1636: inf(677);  pat(3272,2313),cyc=1
+1637: finite(679)
+1638: finite(680)
+1639: inf(679);  pat(3279,2318),cyc=1
+1640: finite(681)
+1641: inf(680);  pat(3283,2321),cyc=1
+1642: finite(682)
+1643: inf(680);  pat(3286,2323),cyc=1
+1644: finite(682)
+1645: inf(681);  pat(3290,2326),cyc=1
+1646: finite(683)
+1647: finite(684)
+1648: finite(684)
+1649: inf(684);  pat(3300,2333),cyc=1
+1650: finite(686)
+1651: finite(686)
+1652: inf(685);  pat(3306,2337),cyc=1
+1653: finite(687)
+1654: inf(686);  pat(3310,2340),cyc=1
+1655: finite(688)
+1656: inf(686);  pat(3313,2342),cyc=1
+1657: finite(688)
+1658: inf(686);  pat(3316,2344),cyc=1
+1659: finite(688)
+1660: finite(689)
+1661: inf(689);  pat(3324,2350),cyc=1
+1662: finite(691)
+1663: inf(691);  pat(3329,2354),cyc=1
+1664: finite(690)
+1665: inf(692);  pat(3333,2357),cyc=1
+1666: finite(691)
+1667: inf(690);  pat(3334,2357),cyc=1
+1668: finite(692)
+1669: finite(693)
+1670: inf(691);  pat(3340,2361),cyc=1
+1671: finite(693)
+1672: inf(692);  pat(3344,2364),cyc=1
+1673: finite(694)
+1674: finite(695)
+1675: inf(694);  pat(3351,2369),cyc=1
+1676: finite(696)
+1677: finite(696)
+1678: inf(695);  pat(3357,2373),cyc=1
+1679: finite(697)
+1680: inf(695);  pat(3360,2375),cyc=1
+1681: finite(697)
+1682: inf(699);  pat(3367,2381),cyc=1
+1683: finite(698)
+1684: inf(697);  pat(3368,2381),cyc=1
+1685: finite(699)
+1686: finite(700)
+1687: inf(699);  pat(3375,2386),cyc=1
+1688: finite(701)
+1689: inf(700);  pat(3379,2389),cyc=1
+1690: finite(702)
+1691: finite(702)
+1692: inf(700);  pat(3384,2392),cyc=1
+1693: finite(702)
+1694: inf(703);  pat(3390,2397),cyc=1
+1695: finite(703)
+1696: inf(702);  pat(3392,2398),cyc=1
+1697: finite(704)
+1698: finite(705)
+1699: inf(704);  pat(3399,2403),cyc=1
+1700: finite(706)
+1701: finite(707)
+1702: inf(705);  pat(3405,2407),cyc=1
+1703: finite(707)
+1704: inf(706);  pat(3409,2410),cyc=1
+1705: finite(708)
+1706: inf(706);  pat(3412,2412),cyc=1
+1707: finite(708)
+1708: finite(709)
+1709: inf(708);  pat(3419,2417),cyc=1
+1710: finite(710)
+1711: inf(709);  pat(3423,2420),cyc=1
+1712: finite(711)
+1713: finite(712)
+1714: inf(710);  pat(3429,2424),cyc=1
+1715: finite(712)
+1716: inf(711);  pat(3433,2427),cyc=1
+1717: finite(713)
+1718: inf(711);  pat(3436,2429),cyc=1
+1719: finite(713)
+1720: finite(714)
+1721: finite(715)
+1722: inf(714);  pat(3446,2436),cyc=1
+1723: inf(713);  pat(3445,2436),pat(3448,2437),cyc=2
+1724: finite(715)
+1725: finite(716)
+1726: inf(715);  pat(3453,2441),cyc=1
+1727: finite(717)
+1728: inf(715);  pat(3456,2443),cyc=1
+1729: finite(717)
+1730: inf(716);  pat(3460,2446),cyc=1
+1731: finite(718)
+1732: finite(719)
+1733: inf(718);  pat(3467,2451),cyc=1
+1734: finite(720)
+1735: inf(719);  pat(3471,2454),cyc=1
+1736: finite(721)
+1737: inf(719);  pat(3474,2456),cyc=1
+1738: finite(721)
+1739: finite(722)
+1740: inf(720);  pat(3480,2460),cyc=1
+1741: finite(722)
+1742: inf(721);  pat(3484,2463),cyc=1
+1743: finite(723)
+1744: finite(724)
+1745: finite(725)
+1746: inf(724);  pat(3494,2470),cyc=1
+1747: inf(724);  pat(3496,2471),pat(3495,2472),cyc=2
+1748: finite(726)
+1749: finite(726)
+1750: inf(725);  pat(3501,2475),cyc=1
+1751: finite(727)
+1752: finite(728)
+1753: inf(726);  pat(3507,2479),cyc=1
+1754: finite(728)
+1755: inf(727);  pat(3511,2482),cyc=1
+1756: finite(729)
+1757: inf(727);  pat(3514,2484),cyc=1
+1758: finite(729)
+1759: inf(728);  pat(3518,2487),cyc=1
+1760: finite(730)
+1761: finite(731)
+1762: inf(730);  pat(3525,2492),cyc=1
+1763: finite(732)
+1764: inf(730);  pat(3528,2494),cyc=1
+1765: finite(732)
+1766: finite(733)
+1767: inf(732);  pat(3535,2499),cyc=1
+1768: finite(734)
+1769: inf(733);  pat(3539,2502),cyc=1
+1770: finite(735)
+1771: finite(736)
+1772: inf(734);  pat(3545,2506),cyc=1
+1773: finite(736)
+1774: inf(735);  pat(3549,2509),cyc=1
+1775: finite(737)
+1776: inf(736);  pat(3553,2512),cyc=1
+1777: finite(738)
+1778: finite(739)
+1779: finite(739)
+1780: inf(738);  pat(3562,2518),cyc=1
+1781: finite(740)
+1782: inf(738);  pat(3565,2520),cyc=1
+1783: finite(740)
+1784: inf(739);  pat(3569,2523),cyc=1
+1785: finite(741)
+1786: inf(740);  pat(3573,2526),cyc=1
+1787: finite(742)
+1788: finite(743)
+1789: inf(741);  pat(3579,2530),cyc=1
+1790: finite(743)
+1791: inf(742);  pat(3583,2533),cyc=1
+1792: finite(744)
+1793: finite(744)
+1794: inf(744);  pat(3590,2538),cyc=1
+1795: finite(746)
+1796: inf(744);  pat(3593,2540),cyc=1
+1797: finite(746)
+1798: finite(747)
+1799: inf(745);  pat(3599,2544),cyc=1
+1800: finite(747)
+1801: inf(746);  pat(3603,2547),cyc=1
+1802: finite(748)
+1803: inf(747);  pat(3607,2550),cyc=1
+1804: finite(749)
+1805: finite(749)
+1806: inf(748);  pat(3613,2554),cyc=1
+1807: finite(750)
+1808: inf(749);  pat(3617,2557),cyc=1
+1809: finite(751)
+1810: inf(749);  pat(3620,2559),cyc=1
+1811: finite(751)
+1812: finite(752)
+1813: inf(751);  pat(3627,2564),cyc=1
+1814: finite(753)
+1815: inf(752);  pat(3631,2567),cyc=1
+1816: finite(754)
+1817: inf(752);  pat(3634,2569),cyc=1
+1818: finite(754)
+1819: inf(753);  pat(3638,2572),cyc=1
+1820: finite(755)
+1821: finite(756)
+1822: finite(757)
+1823: inf(756);  pat(3648,2579),cyc=1
+1824: inf(755);  pat(3647,2579),pat(3650,2580),cyc=2
+1825: finite(757)
+1826: finite(757)
+1827: inf(757);  pat(3655,2584),cyc=1
+1828: finite(758)
+1829: inf(759);  pat(3660,2588),cyc=1
+1830: finite(759)
+1831: inf(758);  pat(3662,2589),cyc=1
+1832: finite(760)
+1833: finite(761)
+1834: inf(760);  pat(3669,2594),cyc=1
+1835: finite(762)
+1836: finite(763)
+1837: inf(761);  pat(3675,2598),cyc=1
+1838: finite(763)
+1839: inf(761);  pat(3678,2600),cyc=1
+1840: finite(763)
+1841: finite(764)
+1842: inf(764);  pat(3686,2606),cyc=1
+1843: finite(766)
+1844: inf(764);  pat(3689,2608),cyc=1
+1845: finite(766)
+1846: inf(765);  pat(3693,2611),cyc=1
+1847: finite(767)
+1848: finite(767)
+1849: inf(765);  pat(3698,2614),cyc=1
+1850: finite(767)
+1851: inf(767);  pat(3703,2618),cyc=1
+1852: finite(769)
+1853: finite(770)
+1854: inf(768);  pat(3709,2622),cyc=1
+1855: finite(770)
+1856: inf(768);  pat(3712,2624),cyc=1
+1857: finite(770)
+1858: inf(769);  pat(3716,2627),cyc=1
+1859: finite(771)
+1860: finite(772)
+1861: inf(772);  pat(3724,2633),cyc=1
+1862: finite(774)
+1863: inf(772);  pat(3727,2635),cyc=1
+1864: finite(774)
+1865: finite(775)
+1866: finite(775)
+1867: inf(773);  pat(3735,2640),cyc=1
+1868: inf(773);  pat(3737,2641),pat(3736,2642),cyc=2
+1869: finite(775)
+1870: inf(774);  pat(3740,2644),pat(3742,2645),pat(3743,2646),pat(3741,2647),cyc=4
+1871: finite(776)
+1872: finite(777)
+1873: finite(778)
+1874: inf(777);  pat(3750,2651),cyc=1
+1875: inf(777);  pat(3752,2652),pat(3751,2653),cyc=2
+1876: finite(779)
+1877: finite(779)
+1878: inf(778);  pat(3757,2656),cyc=1
+1879: finite(780)
+1880: inf(778);  pat(3760,2658),cyc=1
+1881: finite(780)
+1882: inf(782);  pat(3767,2664),cyc=1
+1883: finite(781)
+1884: inf(785);  pat(3773,2669),cyc=1
+1885: finite(782)
+1886: finite(783)
+1887: finite(783)
+1888: inf(781);  pat(3776,2669),cyc=1
+1889: inf(782);  pat(3779,2671),pat(3778,2672),cyc=2
+1890: finite(784)
+1891: finite(784)
+1892: inf(784);  pat(3785,2676),cyc=1
+1893: finite(786)
+1894: finite(786)
+1895: inf(784);  pat(3790,2679),cyc=1
+1896: finite(786)
+1897: inf(785);  pat(3794,2682),cyc=1
+1898: finite(787)
+1899: inf(789);  pat(3801,2688),cyc=1
+1900: finite(788)
+1901: inf(790);  pat(3805,2691),cyc=1
+1902: finite(789)
+1903: finite(789)
+1904: inf(788);  pat(3808,2692),cyc=1
+1905: finite(790)
+1906: finite(791)
+1907: inf(791);  pat(3816,2698),cyc=1
+1908: finite(793)
+1909: finite(793)
+1910: inf(791);  pat(3821,2701),cyc=1
+1911: finite(793)
+1912: inf(792);  pat(3825,2704),cyc=1
+1913: finite(794)
+1914: inf(792);  pat(3828,2706),cyc=1
+1915: finite(794)
+1916: inf(793);  pat(3832,2709),cyc=1
+1917: finite(795)
+1918: finite(796)
+1919: inf(795);  pat(3839,2714),cyc=1
+1920: finite(797)
+1921: inf(795);  pat(3842,2716),cyc=1
+1922: finite(797)
+1923: inf(799);  pat(3849,2722),cyc=1
+1924: finite(798)
+1925: inf(798);  pat(3851,2723),cyc=1
+1926: finite(799)
+1927: finite(799)
+1928: inf(798);  pat(3856,2726),cyc=1
+1929: finite(800)
+1930: finite(801)
+1931: inf(799);  pat(3862,2730),cyc=1
+1932: finite(801)
+1933: inf(800);  pat(3866,2733),cyc=1
+1934: finite(802)
+1935: finite(803)
+1936: inf(803);  pat(3874,2739),cyc=1
+1937: finite(805)
+1938: inf(803);  pat(3877,2741),cyc=1
+1939: finite(805)
+1940: finite(806)
+1941: inf(805);  pat(3884,2746),cyc=1
+1942: finite(807)
+1943: inf(805);  pat(3887,2748),cyc=1
+1944: finite(807)
+1945: inf(808);  pat(3893,2753),cyc=1
+1946: finite(807)
+1947: inf(810);  pat(3898,2757),cyc=1
+1948: finite(808)
+1949: finite(808)
+1950: inf(807);  pat(3900,2757),cyc=1
+1951: finite(809)
+1952: finite(810)
+1953: inf(809);  pat(3907,2762),cyc=1
+1954: finite(811)
+1955: inf(810);  pat(3911,2765),cyc=1
+1956: finite(812)
+1957: finite(813)
+1958: inf(812);  pat(3918,2770),cyc=1
+1959: finite(814)
+1960: inf(812);  pat(3921,2772),cyc=1
+1961: finite(814)
+1962: inf(815);  pat(3927,2777),cyc=1
+1963: finite(814)
+1964: inf(816);  pat(3931,2780),cyc=1
+1965: finite(815)
+1966: finite(815)
+1967: inf(815);  pat(3935,2782),cyc=1
+1968: finite(817)
+1969: inf(815);  pat(3938,2784),cyc=1
+1970: finite(817)
+1971: inf(817);  pat(3943,2788),cyc=1
+1972: finite(818)
+1973: finite(818)
+1974: inf(817);  pat(3948,2791),cyc=1
+1975: finite(819)
+1976: finite(820)
+1977: inf(819);  pat(3955,2796),cyc=1
+1978: finite(821)
+1979: inf(819);  pat(3958,2798),cyc=1
+1980: finite(821)
+1981: finite(822)
+1982: inf(821);  pat(3965,2803),cyc=1
+1983: finite(823)
+1984: inf(821);  pat(3968,2805),cyc=1
+1985: finite(823)
+1986: finite(824)
+1987: inf(823);  pat(3975,2810),cyc=1
+1988: finite(825)
+1989: inf(825);  pat(3980,2814),cyc=1
+1990: finite(827)
+1991: finite(827)
+1992: inf(825);  pat(3985,2817),cyc=1
+1993: finite(827)
+1994: inf(827);  pat(3990,2821),cyc=1
+1995: finite(829)
+1996: inf(827);  pat(3993,2823),cyc=1
+1997: finite(829)
+1998: inf(832);  pat(4001,2830),cyc=1
+1999: finite(830)
+2000: finite(830)
+2001: finite(831)
+2002: inf(829);  pat(4005,2831),cyc=1
+2003: inf(830);  pat(4008,2833),pat(4007,2834),cyc=2
+2004: finite(832)
+2005: finite(832)
+2006: inf(831);  pat(4013,2837),cyc=1
+2007: finite(833)
+2008: finite(834)
+2009: inf(832);  pat(4019,2841),cyc=1
+2010: inf(832);  pat(4021,2842),pat(4020,2843),cyc=2
+2011: finite(834)
+2012: inf(834);  pat(4026,2846),pat(4027,2847),pat(4025,2848),pat(4028,2849),cyc=4
+2013: finite(835)
+2014: finite(835)
+2015: inf(835);  pat(4031,2850),cyc=1
+2016: finite(836)
+2017: inf(835);  pat(4034,2852),cyc=1
+2018: finite(837)
+2019: finite(837)
+2020: inf(836);  pat(4040,2856),cyc=1
+2021: finite(838)
+2022: finite(839)
+2023: finite(840)
+2024: inf(839);  pat(4050,2863),cyc=1
+2025: finite(841)
+2026: inf(841);  pat(4055,2867),cyc=1
+2027: inf(840);  pat(4056,2867),pat(4057,2868),pat(4055,2869),cyc=3
+2028: finite(842)
+2029: finite(843)
+2030: inf(845);  pat(4065,2875),cyc=1
+2031: finite(843)
+2032: inf(843);  pat(4066,2875),cyc=1
+2033: finite(844)
+2034: finite(844)
+2035: inf(844);  pat(4072,2879),cyc=1
+2036: finite(846)
+2037: finite(846)
+2038: inf(844);  pat(4077,2882),cyc=1
+2039: finite(846)
+2040: inf(845);  pat(4081,2885),cyc=1
+2041: finite(847)
+2042: inf(845);  pat(4084,2887),cyc=1
+2043: finite(847)
+2044: inf(846);  pat(4088,2890),cyc=1
+2045: finite(848)
+2046: inf(847);  pat(4092,2893),cyc=1
+2047: finite(849)
+2048: finite(850)
+2049: finite(851)
+2050: inf(849);  pat(4101,2899),cyc=1
+2051: finite(851)
+2052: inf(850);  pat(4105,2902),cyc=1
+2053: finite(852)
+2054: finite(853)
+2055: inf(851);  pat(4111,2906),cyc=1
+2056: finite(853)
+2057: inf(853);  pat(4116,2910),cyc=1
+2058: finite(855)
+2059: inf(853);  pat(4119,2912),cyc=1
+2060: finite(855)
+2061: finite(856)
+2062: inf(854);  pat(4125,2916),cyc=1
+2063: finite(856)
+2064: inf(854);  pat(4128,2918),cyc=1
+2065: finite(856)
+2066: inf(855);  pat(4132,2921),cyc=1
+2067: finite(857)
+2068: finite(858)
+2069: inf(857);  pat(4139,2926),cyc=1
+2070: finite(859)
+2071: inf(857);  pat(4142,2928),cyc=1
+2072: finite(859)
+2073: inf(861);  pat(4149,2934),cyc=1
+2074: finite(860)
+2075: inf(863);  pat(4154,2938),cyc=1
+2076: finite(861)
+2077: finite(861)
+2078: inf(861);  pat(4157,2939),cyc=1
+2079: finite(862)
+2080: finite(863)
+2081: inf(862);  pat(4163,2943),cyc=1
+2082: finite(864)
+2083: inf(863);  pat(4167,2946),cyc=1
+2084: finite(865)
+2085: inf(863);  pat(4170,2948),cyc=1
+2086: finite(865)
+2087: inf(864);  pat(4174,2951),cyc=1
+2088: finite(866)
+2089: finite(867)
+2090: inf(866);  pat(4181,2956),cyc=1
+2091: finite(868)
+2092: finite(869)
+2093: inf(867);  pat(4187,2960),cyc=1
+2094: finite(869)
+2095: inf(868);  pat(4191,2963),cyc=1
+2096: finite(870)
+2097: inf(868);  pat(4194,2965),cyc=1
+2098: finite(870)
+2099: inf(869);  pat(4198,2968),cyc=1
+2100: finite(871)
+2101: finite(872)
+2102: inf(870);  pat(4204,2972),cyc=1
+2103: finite(872)
+2104: finite(873)
+2105: inf(871);  pat(4210,2976),cyc=1
+2106: finite(873)
+2107: inf(872);  pat(4214,2979),cyc=1
+2108: finite(874)
+2109: inf(876);  pat(4221,2985),cyc=1
+2110: finite(875)
+2111: inf(878);  pat(4226,2989),cyc=1
+2112: finite(876)
+2113: finite(877)
+2114: finite(877)
+2115: inf(877);  pat(4232,2992),cyc=1
+2116: finite(879)
+2117: inf(877);  pat(4235,2994),cyc=1
+2118: finite(879)
+2119: inf(877);  pat(4238,2996),cyc=1
+2120: finite(879)
+2121: finite(880)
+2122: inf(879);  pat(4245,3001),cyc=1
+2123: finite(881)
+2124: finite(882)
+2125: inf(881);  pat(4252,3006),cyc=1
+2126: finite(883)
+2127: inf(881);  pat(4255,3008),cyc=1
+2128: finite(883)
+2129: inf(882);  pat(4259,3011),cyc=1
+2130: finite(884)
+2131: inf(882);  pat(4262,3013),cyc=1
+2132: finite(884)
+2133: finite(885)
+2134: inf(884);  pat(4269,3018),cyc=1
+2135: finite(886)
+2136: inf(884);  pat(4272,3020),cyc=1
+2137: finite(886)
+2138: finite(887)
+2139: inf(886);  pat(4279,3025),cyc=1
+2140: finite(888)
+2141: inf(887);  pat(4283,3028),cyc=1
+2142: finite(889)
+2143: inf(887);  pat(4286,3030),cyc=1
+2144: finite(889)
+2145: finite(890)
+2146: inf(888);  pat(4292,3034),cyc=1
+2147: finite(890)
+2148: inf(889);  pat(4296,3037),cyc=1
+2149: finite(891)
+2150: finite(892)
+2151: inf(890);  pat(4302,3041),cyc=1
+2152: finite(892)
+2153: inf(891);  pat(4306,3044),cyc=1
+2154: finite(893)
+2155: finite(894)
+2156: inf(894);  pat(4314,3050),cyc=1
+2157: finite(896)
+2158: inf(894);  pat(4317,3052),cyc=1
+2159: finite(896)
+2160: inf(895);  pat(4321,3055),cyc=1
+2161: finite(897)
+2162: finite(897)
+2163: inf(896);  pat(4327,3059),cyc=1
+2164: finite(898)
+2165: finite(899)
+2166: inf(897);  pat(4333,3063),cyc=1
+2167: finite(899)
+2168: inf(898);  pat(4337,3066),cyc=1
+2169: finite(900)
+2170: finite(901)
+2171: inf(900);  pat(4344,3071),cyc=1
+2172: inf(900);  pat(4346,3072),pat(4345,3073),cyc=2
+2173: finite(902)
+2174: finite(903)
+2175: inf(901);  pat(4351,3076),cyc=1
+2176: finite(903)
+2177: inf(903);  pat(4356,3080),cyc=1
+2178: finite(903)
+2179: inf(902);  pat(4358,3081),cyc=1
+2180: finite(904)
+2181: finite(905)
+2182: inf(904);  pat(4365,3086),cyc=1
+2183: finite(906)
+2184: inf(905);  pat(4369,3089),cyc=1
+2185: finite(907)
+2186: finite(907)
+2187: inf(906);  pat(4375,3093),cyc=1
+2188: finite(908)
+2189: inf(906);  pat(4378,3095),cyc=1
+2190: finite(908)
+2191: finite(909)
+2192: inf(908);  pat(4385,3100),cyc=1
+2193: finite(910)
+2194: inf(908);  pat(4388,3102),cyc=1
+2195: finite(910)
+2196: finite(911)
+2197: inf(911);  pat(4396,3108),cyc=1
+2198: finite(913)
+2199: inf(913);  pat(4401,3112),cyc=1
+2200: finite(912)
+2201: inf(913);  pat(4404,3114),cyc=1
+2202: finite(913)
+2203: finite(914)
+2204: inf(912);  pat(4408,3116),cyc=1
+2205: finite(914)
+2206: inf(914);  pat(4413,3120),cyc=1
+2207: finite(916)
+2208: finite(917)
+2209: inf(916);  pat(4420,3125),cyc=1
+2210: finite(918)
+2211: finite(918)
+2212: inf(916);  pat(4425,3128),cyc=1
+2213: inf(919);  pat(4430,3132),pat(4429,3133),cyc=2
+2214: finite(918)
+2215: finite(919)
+2216: inf(917);  pat(4432,3133),cyc=1
+2217: finite(919)
+2218: inf(920);  pat(4438,3138),cyc=1
+2219: finite(920)
+2220: inf(919);  pat(4440,3139),cyc=1
+2221: finite(921)
+2222: finite(922)
+2223: inf(921);  pat(4447,3144),cyc=1
+2224: finite(923)
+2225: finite(924)
+2226: inf(923);  pat(4454,3149),cyc=1
+2227: finite(925)
+2228: inf(925);  pat(4459,3153),cyc=1
+2229: finite(924)
+2230: inf(924);  pat(4461,3154),cyc=1
+2231: finite(926)
+2232: finite(926)
+2233: inf(925);  pat(4467,3158),cyc=1
+2234: finite(927)
+2235: inf(926);  pat(4471,3161),cyc=1
+2236: finite(928)
+2237: finite(929)
+2238: inf(928);  pat(4478,3166),cyc=1
+2239: finite(930)
+2240: inf(928);  pat(4481,3168),cyc=1
+2241: finite(930)
+2242: finite(930)
+2243: inf(930);  pat(4488,3173),cyc=1
+2244: finite(932)
+2245: inf(930);  pat(4491,3175),cyc=1
+2246: finite(932)
+2247: inf(931);  pat(4495,3178),cyc=1
+2248: finite(933)
+2249: finite(933)
+2250: inf(932);  pat(4501,3182),cyc=1
+2251: finite(934)
+2252: inf(933);  pat(4505,3185),cyc=1
+2253: finite(935)
+2254: finite(935)
+2255: inf(935);  pat(4512,3190),cyc=1
+2256: inf(934);  pat(4513,3190),pat(4512,3191),cyc=2
+2257: finite(936)
+2258: finite(936)
+2259: inf(936);  pat(4519,3195),cyc=1
+2260: finite(938)
+2261: finite(938)
+2262: inf(938);  pat(4526,3200),cyc=1
+2263: finite(940)
+2264: inf(938);  pat(4529,3202),cyc=1
+2265: finite(940)
+2266: inf(938);  pat(4532,3204),cyc=1
+2267: finite(940)
+2268: inf(939);  pat(4536,3207),cyc=1
+2269: finite(941)
+2270: finite(942)
+2271: finite(943)
+2272: inf(941);  pat(4545,3213),cyc=1
+2273: finite(943)
+2274: inf(943);  pat(4550,3217),cyc=1
+2275: finite(945)
+2276: inf(943);  pat(4553,3219),cyc=1
+2277: finite(945)
+2278: finite(945)
+2279: inf(944);  pat(4559,3223),cyc=1
+2280: finite(946)
+2281: finite(947)
+2282: inf(946);  pat(4566,3228),cyc=1
+2283: finite(948)
+2284: inf(946);  pat(4569,3230),cyc=1
+2285: finite(948)
+2286: inf(947);  pat(4573,3233),cyc=1
+2287: finite(949)
+2288: finite(950)
+2289: inf(948);  pat(4579,3237),cyc=1
+2290: finite(950)
+2291: inf(949);  pat(4583,3240),cyc=1
+2292: finite(951)
+2293: inf(950);  pat(4587,3243),cyc=1
+2294: finite(952)
+2295: inf(951);  pat(4591,3246),cyc=1
+2296: finite(953)
+2297: finite(954)
+2298: inf(953);  pat(4598,3251),cyc=1
+2299: finite(953)
+2300: inf(952);  pat(4600,3252),cyc=1
+2301: finite(954)
+2302: inf(953);  pat(4604,3255),cyc=1
+2303: finite(955)
+2304: finite(956)
+2305: inf(954);  pat(4610,3259),cyc=1
+2306: finite(956)
+2307: inf(955);  pat(4614,3262),cyc=1
+2308: finite(957)
+2309: finite(958)
+2310: inf(956);  pat(4620,3266),cyc=1
+2311: finite(958)
+2312: inf(957);  pat(4624,3269),cyc=1
+2313: finite(959)
+2314: finite(960)
+2315: inf(958);  pat(4630,3273),cyc=1
+2316: finite(960)
+2317: inf(959);  pat(4634,3276),cyc=1
+2318: finite(961)
+2319: inf(960);  pat(4638,3279),cyc=1
+2320: finite(962)
+2321: finite(962)
+2322: inf(961);  pat(4644,3283),cyc=1
+2323: finite(963)
+2324: inf(963);  pat(4649,3287),cyc=1
+2325: finite(965)
+2326: finite(966)
+2327: finite(966)
+2328: inf(965);  pat(4658,3293),cyc=1
+2329: finite(967)
+2330: inf(965);  pat(4661,3295),cyc=1
+2331: finite(967)
+2332: inf(966);  pat(4665,3298),cyc=1
+2333: finite(968)
+2334: finite(969)
+2335: inf(967);  pat(4671,3302),cyc=1
+2336: finite(969)
+2337: inf(968);  pat(4675,3305),cyc=1
+2338: finite(970)
+2339: inf(969);  pat(4679,3308),cyc=1
+2340: finite(971)
+2341: finite(972)
+2342: inf(971);  pat(4686,3313),cyc=1
+2343: finite(973)
+2344: inf(973);  pat(4691,3317),cyc=1
+2345: finite(972)
+2346: inf(972);  pat(4693,3318),cyc=1
+2347: finite(974)
+2348: inf(972);  pat(4696,3320),cyc=1
+2349: finite(974)
+2350: finite(975)
+2351: finite(976)
+2352: inf(975);  pat(4706,3327),cyc=1
+2353: finite(977)
+2354: inf(976);  pat(4710,3330),cyc=1
+2355: finite(978)
+2356: inf(976);  pat(4713,3332),cyc=1
+2357: finite(978)
+2358: inf(981);  pat(4721,3339),cyc=1
+2359: finite(979)
+2360: finite(979)
+2361: inf(978);  pat(4723,3339),cyc=1
+2362: finite(980)
+2363: inf(980);  pat(4728,3343),cyc=1
+2364: finite(982)
+2365: finite(982)
+2366: inf(980);  pat(4733,3346),cyc=1
+2367: finite(982)
+2368: inf(980);  pat(4736,3348),cyc=1
+2369: finite(982)
+2370: inf(982);  pat(4741,3352),cyc=1
+2371: finite(984)
+2372: finite(984)
+2373: inf(984);  pat(4748,3357),cyc=1
+2374: finite(986)
+2375: inf(986);  pat(4753,3361),cyc=1
+2376: finite(985)
+2377: inf(985);  pat(4755,3362),cyc=1
+2378: finite(987)
+2379: finite(987)
+2380: inf(986);  pat(4761,3366),cyc=1
+2381: finite(988)
+2382: finite(988)
+2383: inf(987);  pat(4767,3370),cyc=1
+2384: finite(989)
+2385: inf(988);  pat(4771,3373),cyc=1
+2386: finite(990)
+2387: inf(989);  pat(4775,3376),cyc=1
+2388: finite(991)
+2389: finite(991)
+2390: inf(991);  pat(4782,3381),cyc=1
+2391: finite(993)
+2392: inf(993);  pat(4787,3385),cyc=1
+2393: finite(992)
+2394: inf(992);  pat(4789,3386),cyc=1
+2395: finite(994)
+2396: finite(994)
+2397: inf(994);  pat(4796,3391),cyc=1
+2398: finite(996)
+2399: inf(994);  pat(4799,3393),cyc=1
+2400: finite(996)
+2401: finite(997)
+2402: inf(995);  pat(4805,3397),cyc=1
+2403: finite(997)
+2404: finite(998)
+2405: inf(996);  pat(4811,3401),cyc=1
+2406: finite(998)
+2407: inf(998);  pat(4816,3405),cyc=1
+2408: finite(1000)
+2409: inf(1001);  pat(4822,3410),cyc=1
+2410: finite(999)
+2411: inf(1001);  pat(4825,3412),cyc=1
+2412: finite(1000)
+2413: finite(1001)
+2414: inf(999);  pat(4828,3413),cyc=1
+2415: finite(1001)
+2416: inf(1001);  pat(4833,3417),cyc=1
+2417: finite(1003)
+2418: inf(1002);  pat(4837,3420),cyc=1
+2419: finite(1004)
+2420: finite(1004)
+2421: finite(1005)
+2422: inf(1004);  pat(4846,3426),cyc=1
+2423: inf(1004);  pat(4848,3427),pat(4847,3428),cyc=2
+2424: finite(1006)
+2425: finite(1006)
+2426: inf(1005);  pat(4853,3431),cyc=1
+2427: finite(1007)
+2428: finite(1008)
+2429: inf(1006);  pat(4859,3435),cyc=1
+2430: finite(1008)
+2431: inf(1007);  pat(4863,3438),cyc=1
+2432: finite(1009)
+2433: inf(1008);  pat(4867,3441),cyc=1
+2434: finite(1010)
+2435: inf(1008);  pat(4870,3443),cyc=1
+2436: finite(1010)
+2437: inf(1009);  pat(4874,3446),cyc=1
+2438: finite(1011)
+2439: finite(1012)
+2440: inf(1010);  pat(4880,3450),cyc=1
+2441: finite(1012)
+2442: inf(1011);  pat(4884,3453),cyc=1
+2443: finite(1013)
+2444: finite(1014)
+2445: inf(1012);  pat(4890,3457),cyc=1
+2446: finite(1014)
+2447: inf(1013);  pat(4894,3460),cyc=1
+2448: finite(1015)
+2449: finite(1016)
+2450: inf(1015);  pat(4901,3465),cyc=1
+2451: finite(1017)
+2452: finite(1018)
+2453: inf(1016);  pat(4907,3469),cyc=1
+2454: finite(1018)
+2455: inf(1017);  pat(4911,3472),cyc=1
+2456: finite(1019)
+2457: finite(1020)
+2458: inf(1019);  pat(4918,3477),cyc=1
+2459: finite(1021)
+2460: inf(1019);  pat(4921,3479),cyc=1
+2461: finite(1021)
+2462: inf(1020);  pat(4925,3482),cyc=1
+2463: finite(1022)
+2464: finite(1023)
+2465: inf(1021);  pat(4931,3486),cyc=1
+2466: finite(1023)
+2467: inf(1021);  pat(4934,3488),cyc=1
+2468: finite(1023)
+2469: inf(1022);  pat(4938,3491),cyc=1
+2470: finite(1024)
+2471: inf(1023);  pat(4942,3494),cyc=1
+2472: finite(1025)
+2473: finite(1026)
+2474: inf(1024);  pat(4948,3498),cyc=1
+2475: finite(1026)
+2476: inf(1025);  pat(4952,3501),cyc=1
+2477: finite(1027)
+2478: finite(1028)
+2479: inf(1027);  pat(4959,3506),cyc=1
+2480: finite(1029)
+2481: inf(1027);  pat(4962,3508),cyc=1
+2482: finite(1029)
+2483: finite(1030)
+2484: inf(1029);  pat(4969,3513),cyc=1
+2485: finite(1031)
+2486: inf(1029);  pat(4972,3515),cyc=1
+2487: finite(1031)
+2488: inf(1030);  pat(4976,3518),cyc=1
+2489: finite(1032)
+2490: finite(1033)
+2491: inf(1031);  pat(4982,3522),cyc=1
+2492: finite(1033)
+2493: inf(1033);  pat(4987,3526),cyc=1
+2494: finite(1035)
+2495: finite(1036)
+2496: inf(1034);  pat(4993,3530),cyc=1
+2497: finite(1036)
+2498: inf(1034);  pat(4996,3532),cyc=1
+2499: finite(1036)
+2500: finite(1037)
+2501: inf(1036);  pat(5003,3537),cyc=1
+2502: finite(1038)
+2503: finite(1039)
+2504: inf(1038);  pat(5010,3542),cyc=1
+2505: finite(1040)
+2506: inf(1038);  pat(5013,3544),cyc=1
+2507: finite(1040)
+2508: inf(1039);  pat(5017,3547),cyc=1
+2509: finite(1041)
+2510: inf(1040);  pat(5021,3550),cyc=1
+2511: finite(1042)
+2512: finite(1043)
+2513: inf(1041);  pat(5027,3554),cyc=1
+2514: finite(1043)
+2515: finite(1044)
+2516: inf(1043);  pat(5034,3559),cyc=1
+2517: inf(1042);  pat(5035,3559),pat(5034,3560),cyc=2
+2518: finite(1044)
+2519: finite(1045)
+2520: inf(1043);  pat(5040,3563),cyc=1
+2521: finite(1045)
+2522: inf(1044);  pat(5044,3566),cyc=1
+2523: finite(1046)
+2524: finite(1047)
+2525: inf(1047);  pat(5052,3572),cyc=1
+2526: finite(1049)
+2527: finite(1049)
+2528: inf(1047);  pat(5057,3575),cyc=1
+2529: finite(1049)
+2530: inf(1048);  pat(5061,3578),cyc=1
+2531: finite(1050)
+2532: inf(1048);  pat(5064,3580),cyc=1
+2533: finite(1050)
+2534: inf(1050);  pat(5069,3584),cyc=1
+2535: finite(1052)
+2536: inf(1050);  pat(5072,3586),cyc=1
+2537: finite(1052)
+2538: finite(1052)
+2539: inf(1052);  pat(5079,3591),cyc=1
+2540: finite(1053)
+2541: inf(1054);  pat(5084,3595),cyc=1
+2542: finite(1054)
+2543: finite(1055)
+2544: inf(1053);  pat(5088,3597),cyc=1
+2545: finite(1055)
+2546: finite(1056)
+2547: inf(1056);  pat(5096,3603),cyc=1
+2548: finite(1058)
+2549: inf(1056);  pat(5099,3605),cyc=1
+2550: finite(1058)
+2551: inf(1057);  pat(5103,3608),cyc=1
+2552: finite(1059)
+2553: inf(1057);  pat(5106,3610),cyc=1
+2554: finite(1059)
+2555: finite(1059)
+2556: inf(1058);  pat(5112,3614),cyc=1
+2557: finite(1060)
+2558: finite(1061)
+2559: inf(1061);  pat(5120,3620),cyc=1
+2560: finite(1063)
+2561: inf(1061);  pat(5123,3622),cyc=1
+2562: finite(1063)
+2563: inf(1061);  pat(5126,3624),cyc=1
+2564: finite(1063)
+2565: inf(1062);  pat(5130,3627),cyc=1
+2566: finite(1064)
+2567: finite(1065)
+2568: finite(1066)
+2569: inf(1065);  pat(5140,3634),cyc=1
+2570: finite(1067)
+2571: inf(1065);  pat(5143,3636),cyc=1
+2572: finite(1067)
+2573: finite(1068)
+2574: inf(1066);  pat(5149,3640),cyc=1
+2575: finite(1068)
+2576: inf(1067);  pat(5153,3643),cyc=1
+2577: finite(1069)
+2578: inf(1068);  pat(5157,3646),cyc=1
+2579: finite(1070)
+2580: inf(1069);  pat(5161,3649),cyc=1
+2581: finite(1071)
+2582: finite(1072)
+2583: inf(1071);  pat(5168,3654),cyc=1
+2584: finite(1073)
+2585: inf(1071);  pat(5171,3656),cyc=1
+2586: finite(1073)
+2587: finite(1073)
+2588: inf(1072);  pat(5177,3660),cyc=1
+2589: finite(1074)
+2590: inf(1073);  pat(5181,3663),cyc=1
+2591: finite(1075)
+2592: finite(1076)
+2593: inf(1074);  pat(5187,3667),cyc=1
+2594: finite(1076)
+2595: inf(1075);  pat(5191,3670),cyc=1
+2596: finite(1077)
+2597: finite(1078)
+2598: inf(1077);  pat(5198,3675),cyc=1
+2599: finite(1079)
+2600: inf(1077);  pat(5201,3677),cyc=1
+2601: finite(1079)
+2602: inf(1080);  pat(5207,3682),cyc=1
+2603: finite(1079)
+2604: inf(1078);  pat(5208,3682),cyc=1
+2605: finite(1080)
+2606: finite(1081)
+2607: finite(1082)
+2608: inf(1081);  pat(5218,3689),cyc=1
+2609: finite(1083)
+2610: inf(1082);  pat(5222,3692),cyc=1
+2611: finite(1084)
+2612: inf(1082);  pat(5225,3694),cyc=1
+2613: finite(1084)
+2614: inf(1082);  pat(5228,3696),cyc=1
+2615: finite(1084)
+2616: finite(1085)
+2617: inf(1084);  pat(5235,3701),cyc=1
+2618: finite(1086)
+2619: inf(1085);  pat(5239,3704),cyc=1
+2620: finite(1087)
+2621: finite(1087)
+2622: inf(1087);  pat(5246,3709),cyc=1
+2623: finite(1089)
+2624: inf(1088);  pat(5250,3712),cyc=1
+2625: finite(1090)
+2626: finite(1090)
+2627: inf(1089);  pat(5256,3716),cyc=1
+2628: finite(1091)
+2629: inf(1089);  pat(5259,3718),cyc=1
+2630: finite(1091)
+2631: inf(1092);  pat(5265,3723),cyc=1
+2632: finite(1091)
+2633: inf(1094);  pat(5270,3727),cyc=1
+2634: finite(1092)
+2635: inf(1092);  pat(5271,3727),cyc=1
+2636: finite(1093)
+2637: finite(1093)
+2638: inf(1092);  pat(5276,3730),cyc=1
+2639: finite(1094)
+2640: finite(1095)
+2641: inf(1093);  pat(5282,3734),cyc=1
+2642: inf(1095);  pat(5286,3737),pat(5285,3738),cyc=2
+2643: finite(1095)
+2644: finite(1096)
+2645: finite(1097)
+2646: inf(1096);  pat(5293,3742),cyc=1
+2647: finite(1098)
+2648: inf(1097);  pat(5297,3745),cyc=1
+2649: finite(1099)
+2650: inf(1097);  pat(5300,3747),cyc=1
+2651: finite(1099)
+2652: inf(1099);  pat(5305,3751),cyc=1
+2653: finite(1100)
+2654: finite(1100)
+2655: inf(1099);  pat(5310,3754),cyc=1
+2656: finite(1101)
+2657: finite(1102)
+2658: inf(1102);  pat(5318,3760),cyc=1
+2659: finite(1104)
+2660: inf(1102);  pat(5321,3762),cyc=1
+2661: finite(1104)
+2662: finite(1105)
+2663: inf(1104);  pat(5328,3767),cyc=1
+2664: finite(1106)
+2665: inf(1105);  pat(5332,3770),cyc=1
+2666: finite(1107)
+2667: finite(1107)
+2668: inf(1105);  pat(5337,3773),cyc=1
+2669: finite(1107)
+2670: inf(1106);  pat(5341,3776),cyc=1
+2671: finite(1108)
+2672: inf(1107);  pat(5345,3779),cyc=1
+2673: finite(1109)
+2674: inf(1107);  pat(5348,3781),cyc=1
+2675: finite(1109)
+2676: finite(1110)
+2677: inf(1109);  pat(5355,3786),cyc=1
+2678: finite(1111)
+2679: inf(1109);  pat(5358,3788),cyc=1
+2680: finite(1111)
+2681: finite(1112)
+2682: inf(1111);  pat(5365,3793),cyc=1
+2683: finite(1113)
+2684: finite(1114)
+2685: inf(1112);  pat(5371,3797),cyc=1
+2686: finite(1114)
+2687: inf(1113);  pat(5375,3800),cyc=1
+2688: finite(1115)
+2689: inf(1113);  pat(5378,3802),cyc=1
+2690: finite(1115)
+2691: inf(1114);  pat(5382,3805),cyc=1
+2692: finite(1116)
+2693: finite(1117)
+2694: inf(1115);  pat(5388,3809),cyc=1
+2695: finite(1117)
+2696: inf(1116);  pat(5392,3812),cyc=1
+2697: finite(1118)
+2698: inf(1118);  pat(5397,3816),cyc=1
+2699: finite(1119)
+2700: finite(1119)
+2701: inf(1119);  pat(5403,3820),cyc=1
+2702: finite(1121)
+2703: inf(1119);  pat(5406,3822),cyc=1
+2704: finite(1121)
+2705: finite(1122)
+2706: inf(1120);  pat(5412,3826),cyc=1
+2707: finite(1122)
+2708: inf(1122);  pat(5417,3830),cyc=1
+2709: finite(1124)
+2710: finite(1124)
+2711: inf(1123);  pat(5423,3834),cyc=1
+2712: finite(1125)
+2713: inf(1123);  pat(5426,3836),cyc=1
+2714: finite(1125)
+2715: finite(1126)
+2716: inf(1125);  pat(5433,3841),cyc=1
+2717: finite(1127)
+2718: finite(1128)
+2719: inf(1127);  pat(5440,3846),cyc=1
+2720: finite(1129)
+2721: inf(1127);  pat(5443,3848),cyc=1
+2722: finite(1129)
+2723: inf(1129);  pat(5448,3852),cyc=1
+2724: finite(1131)
+2725: finite(1131)
+2726: inf(1130);  pat(5454,3856),cyc=1
+2727: finite(1132)
+2728: inf(1131);  pat(5458,3859),cyc=1
+2729: finite(1133)
+2730: inf(1134);  pat(5464,3864),cyc=1
+2731: finite(1132)
+2732: inf(1132);  pat(5465,3864),cyc=1
+2733: finite(1134)
+2734: finite(1134)
+2735: inf(1132);  pat(5470,3867),cyc=1
+2736: finite(1134)
+2737: inf(1134);  pat(5475,3871),cyc=1
+2738: finite(1136)
+2739: finite(1137)
+2740: inf(1135);  pat(5481,3875),cyc=1
+2741: finite(1137)
+2742: inf(1136);  pat(5485,3878),cyc=1
+2743: finite(1138)
+2744: finite(1138)
+2745: inf(1137);  pat(5491,3882),cyc=1
+2746: finite(1139)
+2747: finite(1140)
+2748: inf(1139);  pat(5498,3887),cyc=1
+2749: finite(1141)
+2750: inf(1139);  pat(5501,3889),cyc=1
+2751: inf(1141);  pat(5505,3892),pat(5506,3893),pat(5504,3894),cyc=3
+2752: finite(1141)
+2753: finite(1142)
+2754: inf(1140);  pat(5508,3894),cyc=1
+2755: finite(1142)
+2756: inf(1141);  pat(5512,3897),cyc=1
+2757: finite(1143)
+2758: finite(1144)
+2759: inf(1143);  pat(5519,3902),cyc=1
+2760: finite(1145)
+2761: inf(1143);  pat(5522,3904),cyc=1
+2762: finite(1145)
+2763: finite(1146)
+2764: inf(1146);  pat(5530,3910),cyc=1
+2765: finite(1148)
+2766: inf(1146);  pat(5533,3912),cyc=1
+2767: finite(1148)
+2768: finite(1149)
+2769: inf(1148);  pat(5540,3917),cyc=1
+2770: finite(1150)
+2771: inf(1148);  pat(5543,3919),cyc=1
+2772: finite(1150)
+2773: finite(1150)
+2774: inf(1149);  pat(5549,3923),cyc=1
+2775: finite(1151)
+2776: finite(1152)
+2777: inf(1150);  pat(5555,3927),cyc=1
+2778: inf(1150);  pat(5557,3928),pat(5556,3929),cyc=2
+2779: finite(1152)
+2780: inf(1151);  pat(5561,3931),pat(5559,3932),pat(5562,3933),pat(5564,3934),cyc=4
+2781: finite(1153)
+2782: inf(1152);  pat(5565,3934),pat(5564,3935),pat(5566,3936),pat(5567,3937),cyc=4
+2783: finite(1154)
+2784: finite(1155)
+2785: finite(1155)
+2786: inf(1155);  pat(5574,3941),cyc=1
+2787: finite(1157)
+2788: finite(1158)
+2789: inf(1156);  pat(5580,3945),cyc=1
+2790: finite(1158)
+2791: inf(1156);  pat(5583,3947),cyc=1
+2792: finite(1158)
+2793: inf(1157);  pat(5587,3950),cyc=1
+2794: finite(1159)
+2795: inf(1157);  pat(5590,3952),cyc=1
+2796: finite(1159)
+2797: inf(1158);  pat(5594,3955),cyc=1
+2798: finite(1160)
+2799: finite(1161)
+2800: inf(1160);  pat(5601,3960),cyc=1
+2801: finite(1162)
+2802: finite(1162)
+2803: inf(1161);  pat(5607,3964),cyc=1
+2804: finite(1163)
+2805: inf(1162);  pat(5611,3967),cyc=1
+2806: finite(1164)
+2807: inf(1162);  pat(5614,3969),cyc=1
+2808: finite(1164)
+2809: finite(1165)
+2810: inf(1165);  pat(5622,3975),cyc=1
+2811: finite(1167)
+2812: inf(1167);  pat(5627,3979),cyc=1
+2813: finite(1166)
+2814: inf(1167);  pat(5630,3981),cyc=1
+2815: finite(1167)
+2816: finite(1168)
+2817: inf(1166);  pat(5634,3983),cyc=1
+2818: finite(1168)
+2819: inf(1167);  pat(5638,3986),cyc=1
+2820: finite(1169)
+2821: inf(1171);  pat(5645,3992),cyc=1
+2822: finite(1170)
+2823: inf(1170);  pat(5647,3993),cyc=1
+2824: finite(1171)
+2825: finite(1171)
+2826: inf(1172);  pat(5654,3998),cyc=1
+2827: finite(1172)
+2828: finite(1173)
+2829: inf(1171);  pat(5658,4000),cyc=1
+2830: finite(1173)
+2831: inf(1172);  pat(5662,4003),cyc=1
+2832: finite(1174)
+2833: inf(1176);  pat(5669,4009),cyc=1
+2834: finite(1175)
+2835: inf(1178);  pat(5674,4013),cyc=1
+2836: finite(1176)
+2837: finite(1176)
+2838: finite(1177)
+2839: inf(1177);  pat(5680,4016),cyc=1
+2840: finite(1179)
+2841: inf(1177);  pat(5683,4018),cyc=1
+2842: finite(1179)
+2843: inf(1182);  pat(5691,4025),cyc=1
+2844: finite(1179)
+2845: finite(1180)
+2846: finite(1182)
+2847: inf(1180);  pat(5696,4027),cyc=1
+2848: finite(1182)
+2849: inf(1180);  pat(5699,4029),cyc=1
+2850: finite(1182)
+2851: inf(1181);  pat(5703,4032),cyc=1
+2852: finite(1183)
+2853: inf(1182);  pat(5707,4035),cyc=1
+2854: finite(1184)
+2855: finite(1184)
+2856: inf(1184);  pat(5714,4040),cyc=1
+2857: finite(1186)
+2858: inf(1184);  pat(5717,4042),cyc=1
+2859: finite(1186)
+2860: inf(1184);  pat(5720,4044),cyc=1
+2861: finite(1186)
+2862: inf(1185);  pat(5724,4047),cyc=1
+2863: finite(1187)
+2864: finite(1188)
+2865: inf(1186);  pat(5730,4051),cyc=1
+2866: finite(1188)
+2867: inf(1189);  pat(5736,4056),cyc=1
+2868: finite(1189)
+2869: finite(1190)
+2870: inf(1189);  pat(5741,4059),cyc=1
+2871: finite(1191)
+2872: inf(1189);  pat(5744,4061),cyc=1
+2873: finite(1191)
+2874: finite(1192)
+2875: inf(1192);  pat(5752,4067),cyc=1
+2876: finite(1194)
+2877: inf(1194);  pat(5757,4071),cyc=1
+2878: finite(1193)
+2879: finite(1194)
+2880: finite(1195)
+2881: inf(1193);  pat(5763,4074),cyc=1
+2882: inf(1194);  pat(5766,4076),pat(5765,4077),cyc=2
+2883: finite(1195)
+2884: inf(1194);  pat(5769,4078),pat(5770,4079),pat(5768,4080),pat(5771,4081),cyc=4
+2885: finite(1196)
+2886: finite(1197)
+2887: inf(1195);  pat(5774,4082),cyc=1
+2888: finite(1197)
+2889: inf(1196);  pat(5778,4085),cyc=1
+2890: finite(1198)
+2891: finite(1199)
+2892: inf(1199);  pat(5786,4091),cyc=1
+2893: finite(1201)
+2894: finite(1201)
+2895: inf(1200);  pat(5792,4095),cyc=1
+2896: inf(1200);  pat(5794,4096),pat(5793,4097),cyc=2
+2897: finite(1202)
+2898: finite(1202)
+2899: inf(1201);  pat(5799,4100),cyc=1
+2900: finite(1203)
+2901: finite(1203)
+2902: inf(1202);  pat(5805,4104),cyc=1
+2903: finite(1204)
+2904: inf(1203);  pat(5809,4107),cyc=1
+2905: finite(1205)
+2906: inf(1203);  pat(5812,4109),cyc=1
+2907: finite(1205)
+2908: finite(1206)
+2909: inf(1205);  pat(5819,4114),cyc=1
+2910: finite(1207)
+2911: inf(1206);  pat(5823,4117),cyc=1
+2912: finite(1208)
+2913: finite(1209)
+2914: inf(1207);  pat(5829,4121),cyc=1
+2915: finite(1209)
+2916: inf(1208);  pat(5833,4124),cyc=1
+2917: finite(1210)
+2918: inf(1209);  pat(5837,4127),cyc=1
+2919: finite(1211)
+2920: finite(1212)
+2921: inf(1211);  pat(5844,4132),cyc=1
+2922: finite(1213)
+2923: inf(1213);  pat(5849,4136),cyc=1
+2924: finite(1212)
+2925: finite(1213)
+2926: inf(1212);  pat(5853,4138),cyc=1
+2927: finite(1214)
+2928: inf(1212);  pat(5856,4140),cyc=1
+2929: finite(1214)
+2930: finite(1215)
+2931: inf(1213);  pat(5862,4144),cyc=1
+2932: inf(1215);  pat(5866,4147),pat(5865,4148),cyc=2
+2933: finite(1216)
+2934: finite(1216)
+2935: inf(1216);  pat(5871,4151),cyc=1
+2936: finite(1218)
+2937: finite(1218)
+2938: inf(1217);  pat(5877,4155),cyc=1
+2939: finite(1219)
+2940: inf(1217);  pat(5880,4157),cyc=1
+2941: finite(1219)
+2942: finite(1220)
+2943: inf(1219);  pat(5887,4162),cyc=1
+2944: finite(1221)
+2945: inf(1220);  pat(5891,4165),cyc=1
+2946: finite(1222)
+2947: finite(1222)
+2948: inf(1222);  pat(5898,4170),cyc=1
+2949: finite(1224)
+2950: inf(1222);  pat(5901,4172),cyc=1
+2951: finite(1224)
+2952: inf(1223);  pat(5905,4175),cyc=1
+2953: finite(1225)
+2954: finite(1225)
+2955: inf(1225);  pat(5912,4180),cyc=1
+2956: finite(1227)
+2957: inf(1225);  pat(5915,4182),cyc=1
+2958: finite(1227)
+2959: finite(1228)
+2960: inf(1226);  pat(5921,4186),cyc=1
+2961: finite(1228)
+2962: inf(1228);  pat(5926,4190),cyc=1
+2963: finite(1230)
+2964: finite(1230)
+2965: inf(1229);  pat(5932,4194),cyc=1
+2966: finite(1231)
+2967: finite(1231)
+2968: inf(1230);  pat(5938,4198),cyc=1
+2969: inf(1230);  pat(5940,4199),pat(5939,4200),cyc=2
+2970: finite(1232)
+2971: finite(1233)
+2972: inf(1231);  pat(5945,4203),cyc=1
+2973: finite(1233)
+2974: inf(1233);  pat(5950,4207),cyc=1
+2975: finite(1235)
+2976: inf(1238);  pat(5958,4214),cyc=1
+2977: finite(1234)
+2978: finite(1235)
+2979: inf(1235);  pat(5960,4214),cyc=1
+2980: finite(1237)
+2981: finite(1237)
+2982: inf(1235);  pat(5965,4217),cyc=1
+2983: finite(1237)
+2984: inf(1236);  pat(5969,4220),cyc=1
+2985: finite(1238)
+2986: inf(1237);  pat(5973,4223),cyc=1
+2987: finite(1239)
+2988: finite(1240)
+2989: inf(1238);  pat(5979,4227),cyc=1
+2990: finite(1240)
+2991: inf(1239);  pat(5983,4230),cyc=1
+2992: finite(1241)
+2993: finite(1242)
+2994: inf(1240);  pat(5989,4234),cyc=1
+2995: finite(1242)
+2996: inf(1242);  pat(5994,4238),cyc=1
+2997: finite(1244)
+2998: inf(1242);  pat(5997,4240),cyc=1
+2999: finite(1244)
+3000: inf(1242);  pat(6000,4242),cyc=1
+3001: finite(1244)
+3002: inf(1243);  pat(6004,4245),cyc=1
+3003: finite(1245)
+3004: finite(1246)
+3005: inf(1245);  pat(6011,4250),cyc=1
+3006: finite(1247)
+3007: finite(1247)
+3008: inf(1247);  pat(6018,4255),cyc=1
+3009: finite(1249)
+3010: inf(1249);  pat(6023,4259),cyc=1
+3011: finite(1248)
+3012: inf(1249);  pat(6026,4261),cyc=1
+3013: finite(1249)
+3014: finite(1250)
+3015: inf(1249);  pat(6031,4264),cyc=1
+3016: finite(1251)
+3017: inf(1249);  pat(6034,4266),cyc=1
+3018: finite(1251)
+3019: finite(1252)
+3020: inf(1252);  pat(6042,4272),cyc=1
+3021: finite(1254)
+3022: inf(1254);  pat(6047,4276),cyc=1
+3023: finite(1253)
+3024: inf(1252);  pat(6048,4276),cyc=1
+3025: finite(1254)
+3026: finite(1255)
+3027: inf(1254);  pat(6055,4281),cyc=1
+3028: finite(1256)
+3029: inf(1255);  pat(6059,4284),cyc=1
+3030: finite(1257)
+3031: finite(1258)
+3032: inf(1257);  pat(6066,4289),cyc=1
+3033: finite(1257)
+3034: inf(1256);  pat(6068,4290),cyc=1
+3035: finite(1258)
+3036: inf(1260);  pat(6075,4296),cyc=1
+3037: finite(1259)
+3038: inf(1258);  pat(6076,4296),cyc=1
+3039: finite(1260)
+3040: finite(1261)
+3041: inf(1260);  pat(6083,4301),cyc=1
+3042: finite(1262)
+3043: finite(1262)
+3044: inf(1260);  pat(6088,4304),cyc=1
+3045: finite(1262)
+3046: inf(1261);  pat(6092,4307),cyc=1
+3047: finite(1263)
+3048: inf(1262);  pat(6096,4310),cyc=1
+3049: finite(1264)
+3050: finite(1265)
+3051: finite(1266)
+3052: inf(1265);  pat(6106,4317),cyc=1
+3053: finite(1267)
+3054: inf(1266);  pat(6110,4320),cyc=1
+3055: finite(1268)
+3056: inf(1266);  pat(6113,4322),cyc=1
+3057: finite(1268)
+3058: inf(1271);  pat(6121,4329),cyc=1
+3059: finite(1269)
+3060: finite(1269)
+3061: inf(1268);  pat(6123,4329),cyc=1
+3062: finite(1270)
+3063: inf(1269);  pat(6127,4332),cyc=1
+3064: finite(1271)
+3065: finite(1271)
+3066: inf(1270);  pat(6133,4336),cyc=1
+3067: finite(1272)
+3068: inf(1270);  pat(6136,4338),cyc=1
+3069: finite(1272)
+3070: inf(1272);  pat(6141,4342),cyc=1
+3071: finite(1274)
+3072: finite(1274)
+3073: inf(1273);  pat(6147,4346),cyc=1
+3074: finite(1275)
+3075: inf(1274);  pat(6151,4349),cyc=1
+3076: finite(1276)
+3077: finite(1276)
+3078: inf(1275);  pat(6157,4353),cyc=1
+3079: finite(1277)
+3080: finite(1278)
+3081: inf(1277);  pat(6164,4358),cyc=1
+3082: finite(1279)
+3083: inf(1278);  pat(6168,4361),cyc=1
+3084: finite(1280)
+3085: inf(1278);  pat(6171,4363),cyc=1
+3086: finite(1280)
+3087: finite(1281)
+3088: inf(1280);  pat(6178,4368),cyc=1
+3089: finite(1282)
+3090: inf(1280);  pat(6181,4370),cyc=1
+3091: finite(1282)
+3092: inf(1283);  pat(6187,4375),cyc=1
+3093: finite(1282)
+3094: inf(1284);  pat(6191,4378),cyc=1
+3095: finite(1283)
+3096: finite(1284)
+3097: inf(1284);  pat(6196,4381),cyc=1
+3098: finite(1286)
+3099: inf(1286);  pat(6201,4385),cyc=1
+3100: finite(1285)
+3101: finite(1286)
+3102: inf(1286);  pat(6206,4388),cyc=1
+3103: finite(1288)
+3104: inf(1288);  pat(6211,4392),cyc=1
+3105: finite(1287)
+3106: finite(1288)
+3107: inf(1287);  pat(6215,4394),cyc=1
+3108: finite(1289)
+3109: inf(1289);  pat(6220,4398),cyc=1
+3110: finite(1291)
+3111: inf(1292);  pat(6226,4403),cyc=1
+3112: finite(1290)
+3113: finite(1291)
+3114: inf(1290);  pat(6229,4404),cyc=1
+3115: finite(1292)
+3116: inf(1290);  pat(6232,4406),cyc=1
+3117: finite(1292)
+3118: inf(1291);  pat(6236,4409),cyc=1
+3119: finite(1293)
+3120: finite(1294)
+3121: finite(1295)
+3122: inf(1293);  pat(6245,4415),cyc=1
+3123: finite(1295)
+3124: inf(1295);  pat(6250,4419),cyc=1
+3125: finite(1297)
+3126: inf(1295);  pat(6253,4421),cyc=1
+3127: finite(1297)
+3128: inf(1300);  pat(6261,4428),cyc=1
+3129: finite(1298)
+3130: finite(1298)
+3131: inf(1298);  pat(6264,4429),cyc=1
+3132: finite(1300)
+3133: inf(1298);  pat(6267,4431),cyc=1
+3134: finite(1300)
+3135: finite(1300)
+3136: inf(1299);  pat(6273,4435),cyc=1
+3137: finite(1301)
+3138: inf(1300);  pat(6277,4438),cyc=1
+3139: finite(1302)
+3140: finite(1302)
+3141: inf(1302);  pat(6284,4443),cyc=1
+3142: finite(1304)
+3143: inf(1303);  pat(6288,4446),cyc=1
+3144: finite(1305)
+3145: finite(1305)
+3146: inf(1304);  pat(6294,4450),cyc=1
+3147: finite(1306)
+3148: inf(1304);  pat(6297,4452),cyc=1
+3149: finite(1306)
+3150: finite(1307)
+3151: inf(1306);  pat(6304,4457),cyc=1
+3152: inf(1305);  pat(6305,4457),pat(6304,4458),cyc=2
+3153: finite(1307)
+3154: finite(1308)
+3155: finite(1309)
+3156: inf(1308);  pat(6314,4464),cyc=1
+3157: inf(1307);  pat(6315,4464),pat(6314,4465),cyc=2
+3158: finite(1309)
+3159: finite(1310)
+3160: inf(1308);  pat(6320,4468),cyc=1
+3161: finite(1310)
+3162: inf(1309);  pat(6324,4471),cyc=1
+3163: finite(1311)
+3164: finite(1312)
+3165: inf(1311);  pat(6331,4476),cyc=1
+3166: finite(1313)
+3167: finite(1314)
+3168: inf(1313);  pat(6338,4481),cyc=1
+3169: finite(1315)
+3170: inf(1313);  pat(6341,4483),cyc=1
+3171: finite(1315)
+3172: inf(1314);  pat(6345,4486),cyc=1
+3173: finite(1316)
+3174: finite(1317)
+3175: inf(1315);  pat(6351,4490),cyc=1
+3176: finite(1317)
+3177: inf(1316);  pat(6355,4493),cyc=1
+3178: finite(1318)
+3179: inf(1317);  pat(6359,4496),cyc=1
+3180: finite(1319)
+3181: inf(1318);  pat(6363,4499),cyc=1
+3182: finite(1320)
+3183: finite(1320)
+3184: inf(1320);  pat(6370,4504),cyc=1
+3185: finite(1322)
+3186: inf(1320);  pat(6373,4506),cyc=1
+3187: finite(1322)
+3188: finite(1322)
+3189: inf(1320);  pat(6378,4509),cyc=1
+3190: finite(1322)
+3191: inf(1321);  pat(6382,4512),cyc=1
+3192: finite(1323)
+3193: finite(1324)
+3194: inf(1323);  pat(6389,4517),cyc=1
+3195: finite(1325)
+3196: inf(1324);  pat(6393,4520),cyc=1
+3197: finite(1326)
+3198: inf(1324);  pat(6396,4522),cyc=1
+3199: finite(1326)
+3200: finite(1327)
+3201: finite(1328)
+3202: inf(1327);  pat(6406,4529),cyc=1
+3203: finite(1329)
+3204: inf(1327);  pat(6409,4531),cyc=1
+3205: finite(1329)
+3206: inf(1329);  pat(6414,4535),cyc=1
+3207: finite(1331)
+3208: inf(1329);  pat(6417,4537),cyc=1
+3209: finite(1331)
+3210: finite(1332)
+3211: inf(1331);  pat(6424,4542),cyc=1
+3212: finite(1333)
+3213: inf(1331);  pat(6427,4544),cyc=1
+3214: finite(1333)
+3215: inf(1331);  pat(6430,4546),cyc=1
+3216: finite(1333)
+3217: inf(1332);  pat(6434,4549),cyc=1
+3218: finite(1334)
+3219: finite(1335)
+3220: finite(1336)
+3221: inf(1335);  pat(6444,4556),cyc=1
+3222: inf(1334);  pat(6445,4556),pat(6444,4557),cyc=2
+3223: finite(1336)
+3224: finite(1337)
+3225: inf(1335);  pat(6450,4560),cyc=1
+3226: finite(1337)
+3227: inf(1336);  pat(6454,4563),cyc=1
+3228: finite(1338)
+3229: inf(1338);  pat(6459,4567),cyc=1
+3230: finite(1340)
+3231: finite(1340)
+3232: inf(1338);  pat(6464,4570),cyc=1
+3233: finite(1340)
+3234: finite(1341)
+3235: inf(1340);  pat(6471,4575),cyc=1
+3236: finite(1342)
+3237: inf(1340);  pat(6474,4577),cyc=1
+3238: finite(1342)
+3239: inf(1341);  pat(6478,4580),cyc=1
+3240: finite(1343)
+3241: finite(1344)
+3242: inf(1342);  pat(6484,4584),cyc=1
+3243: finite(1344)
+3244: inf(1345);  pat(6490,4589),cyc=1
+3245: finite(1345)
+3246: inf(1347);  pat(6495,4593),cyc=1
+3247: finite(1346)
+3248: inf(1346);  pat(6497,4594),cyc=1
+3249: finite(1347)
+3250: finite(1347)
+3251: finite(1348)
+3252: inf(1347);  pat(6505,4599),cyc=1
+3253: finite(1349)
+3254: finite(1350)
+3255: inf(1349);  pat(6512,4604),cyc=1
+3256: inf(1349);  pat(6514,4605),pat(6513,4606),cyc=2
+3257: finite(1351)
+3258: finite(1352)
+3259: inf(1353);  pat(6522,4612),cyc=1
+3260: finite(1351)
+3261: inf(1350);  pat(6522,4611),cyc=1
+3262: finite(1352)
+3263: inf(1354);  pat(6529,4617),cyc=1
+3264: finite(1353)
+3265: inf(1352);  pat(6530,4617),cyc=1
+3266: finite(1354)
+3267: finite(1355)
+3268: finite(1356)
+3269: inf(1354);  pat(6539,4623),cyc=1
+3270: finite(1356)
+3271: inf(1355);  pat(6543,4626),cyc=1
+3272: finite(1357)
+3273: inf(1355);  pat(6546,4628),cyc=1
+3274: finite(1357)
+3275: inf(1356);  pat(6550,4631),cyc=1
+3276: finite(1358)
+3277: finite(1359)
+3278: inf(1358);  pat(6557,4636),cyc=1
+3279: finite(1360)
+3280: finite(1361)
+3281: inf(1359);  pat(6563,4640),cyc=1
+3282: finite(1361)
+3283: inf(1360);  pat(6567,4643),cyc=1
+3284: finite(1362)
+3285: finite(1363)
+3286: inf(1362);  pat(6574,4648),cyc=1
+3287: finite(1364)
+3288: inf(1363);  pat(6578,4651),cyc=1
+3289: finite(1365)
+3290: finite(1365)
+3291: inf(1363);  pat(6583,4654),cyc=1
+3292: finite(1365)
+3293: inf(1364);  pat(6587,4657),cyc=1
+3294: finite(1366)
+3295: inf(1365);  pat(6591,4660),cyc=1
+3296: finite(1367)
+3297: inf(1366);  pat(6595,4663),cyc=1
+3298: finite(1368)
+3299: finite(1368)
+3300: inf(1366);  pat(6600,4666),cyc=1
+3301: finite(1368)
+3302: inf(1367);  pat(6604,4669),cyc=1
+3303: finite(1369)
+3304: inf(1368);  pat(6608,4672),cyc=1
+3305: finite(1370)
+3306: inf(1373);  pat(6616,4679),cyc=1
+3307: finite(1371)
+3308: finite(1371)
+3309: finite(1372)
+3310: inf(1371);  pat(6621,4681),cyc=1
+3311: finite(1373)
+3312: inf(1372);  pat(6625,4684),cyc=1
+3313: finite(1374)
+3314: inf(1373);  pat(6629,4687),cyc=1
+3315: finite(1375)
+3316: finite(1375)
+3317: inf(1374);  pat(6635,4691),cyc=1
+3318: finite(1376)
+3319: finite(1377)
+3320: inf(1376);  pat(6642,4696),cyc=1
+3321: finite(1378)
+3322: inf(1377);  pat(6646,4699),cyc=1
+3323: finite(1379)
+3324: inf(1377);  pat(6649,4701),cyc=1
+3325: finite(1379)
+3326: inf(1377);  pat(6652,4703),cyc=1
+3327: finite(1379)
+3328: inf(1378);  pat(6656,4706),cyc=1
+3329: finite(1380)
+3330: finite(1381)
+3331: inf(1379);  pat(6662,4710),cyc=1
+3332: finite(1381)
+3333: finite(1382)
+3334: inf(1381);  pat(6669,4715),cyc=1
+3335: finite(1383)
+3336: inf(1381);  pat(6672,4717),cyc=1
+3337: finite(1383)
+3338: finite(1384)
+3339: inf(1383);  pat(6679,4722),cyc=1
+3340: finite(1385)
+3341: inf(1383);  pat(6682,4724),cyc=1
+3342: finite(1385)
+3343: inf(1387);  pat(6689,4730),cyc=1
+3344: finite(1386)
+3345: inf(1385);  pat(6690,4730),cyc=1
+3346: finite(1387)
+3347: finite(1388)
+3348: inf(1387);  pat(6697,4735),cyc=1
+3349: finite(1389)
+3350: inf(1388);  pat(6701,4738),cyc=1
+3351: finite(1390)
+3352: finite(1390)
+3353: finite(1391)
+3354: inf(1390);  pat(6710,4744),cyc=1
+3355: inf(1389);  pat(6709,4744),pat(6712,4745),cyc=2
+3356: finite(1391)
+3357: finite(1392)
+3358: inf(1391);  pat(6717,4749),cyc=1
+3359: finite(1393)
+3360: inf(1391);  pat(6720,4751),cyc=1
+3361: finite(1393)
+3362: finite(1394)
+3363: inf(1393);  pat(6727,4756),cyc=1
+3364: finite(1395)
+3365: inf(1394);  pat(6731,4759),cyc=1
+3366: finite(1396)
+3367: finite(1397)
+3368: inf(1396);  pat(6738,4764),cyc=1
+3369: inf(1395);  pat(6737,4764),pat(6740,4765),cyc=2
+3370: finite(1397)
+3371: inf(1401);  pat(6747,4772),pat(6749,4773),pat(6750,4774),pat(6748,4775),cyc=4
+3372: finite(1398)
+3373: finite(1398)
+3374: finite(1399)
+3375: inf(1398);  pat(6751,4773),cyc=1
+3376: finite(1400)
+3377: inf(1399);  pat(6755,4776),cyc=1
+3378: finite(1401)
+3379: inf(1399);  pat(6758,4778),cyc=1
+3380: finite(1401)
+3381: inf(1404);  pat(6766,4785),cyc=1
+3382: finite(1402)
+3383: inf(1405);  pat(6770,4788),cyc=1
+3384: finite(1403)
+3385: finite(1403)
+3386: inf(1402);  pat(6772,4788),cyc=1
+3387: finite(1404)
+3388: finite(1405)
+3389: inf(1403);  pat(6778,4792),cyc=1
+3390: finite(1405)
+3391: inf(1404);  pat(6782,4795),cyc=1
+3392: finite(1406)
+3393: finite(1407)
+3394: inf(1406);  pat(6789,4800),cyc=1
+3395: finite(1408)
+3396: inf(1407);  pat(6793,4803),cyc=1
+3397: finite(1409)
+3398: finite(1410)
+3399: inf(1409);  pat(6800,4808),cyc=1
+3400: finite(1409)
+3401: inf(1409);  pat(6803,4810),cyc=1
+3402: finite(1411)
+3403: inf(1409);  pat(6806,4812),cyc=1
+3404: finite(1411)
+3405: finite(1412)
+3406: inf(1411);  pat(6813,4817),cyc=1
+3407: finite(1413)
+3408: finite(1413)
+3409: inf(1412);  pat(6819,4821),cyc=1
+3410: finite(1414)
+3411: inf(1413);  pat(6823,4824),cyc=1
+3412: finite(1415)
+3413: inf(1414);  pat(6827,4827),cyc=1
+3414: finite(1416)
+3415: inf(1418);  pat(6834,4833),cyc=1
+3416: finite(1416)
+3417: finite(1416)
+3418: inf(1416);  pat(6837,4834),cyc=1
+3419: finite(1418)
+3420: finite(1419)
+3421: inf(1418);  pat(6844,4839),cyc=1
+3422: finite(1420)
+3423: inf(1420);  pat(6849,4843),cyc=1
+3424: finite(1419)
+3425: inf(1419);  pat(6851,4844),cyc=1
+3426: finite(1421)
+3427: finite(1422)
+3428: inf(1420);  pat(6857,4848),cyc=1
+3429: finite(1422)
+3430: inf(1420);  pat(6860,4850),cyc=1
+3431: finite(1422)
+3432: inf(1421);  pat(6864,4853),cyc=1
+3433: finite(1423)
+3434: finite(1424)
+3435: inf(1423);  pat(6871,4858),cyc=1
+3436: finite(1425)
+3437: finite(1425)
+3438: inf(1425);  pat(6878,4863),cyc=1
+3439: finite(1427)
+3440: inf(1425);  pat(6881,4865),cyc=1
+3441: finite(1427)
+3442: inf(1426);  pat(6885,4868),cyc=1
+3443: finite(1428)
+3444: finite(1428)
+3445: inf(1428);  pat(6892,4873),cyc=1
+3446: finite(1430)
+3447: inf(1428);  pat(6895,4875),cyc=1
+3448: finite(1430)
+3449: finite(1431)
+3450: inf(1430);  pat(6902,4880),cyc=1
+3451: finite(1432)
+3452: finite(1432)
+3453: inf(1431);  pat(6908,4884),cyc=1
+3454: inf(1431);  pat(6910,4885),pat(6909,4886),cyc=2
+3455: finite(1433)
+3456: finite(1433)
+3457: inf(1432);  pat(6915,4889),cyc=1
+3458: finite(1433)
+3459: inf(1434);  pat(6920,4893),cyc=1
+3460: finite(1434)
+3461: finite(1435)
+3462: inf(1434);  pat(6925,4896),cyc=1
+3463: finite(1436)
+3464: inf(1435);  pat(6929,4899),cyc=1
+3465: finite(1437)
+3466: finite(1437)
+3467: inf(1437);  pat(6936,4904),cyc=1
+3468: finite(1439)
+3469: inf(1437);  pat(6939,4906),cyc=1
+3470: finite(1439)
+3471: inf(1438);  pat(6943,4909),cyc=1
+3472: finite(1440)
+3473: finite(1440)
+3474: inf(1440);  pat(6950,4914),cyc=1
+3475: finite(1442)
+3476: inf(1440);  pat(6953,4916),cyc=1
+3477: finite(1442)
+3478: finite(1443)
+3479: inf(1441);  pat(6959,4920),cyc=1
+3480: finite(1443)
+3481: inf(1441);  pat(6962,4922),cyc=1
+3482: finite(1443)
+3483: inf(1445);  pat(6969,4928),cyc=1
+3484: finite(1444)
+3485: inf(1447);  pat(6974,4932),cyc=1
+3486: finite(1445)
+3487: inf(1445);  pat(6975,4932),cyc=1
+3488: finite(1446)
+3489: finite(1446)
+3490: finite(1447)
+3491: inf(1446);  pat(6983,4937),cyc=1
+3492: finite(1448)
+3493: finite(1449)
+3494: inf(1448);  pat(6990,4942),cyc=1
+3495: inf(1448);  pat(6992,4943),pat(6991,4944),cyc=2
+3496: finite(1450)
+3497: finite(1450)
+3498: inf(1449);  pat(6997,4947),cyc=1
+3499: finite(1451)
+3500: inf(1450);  pat(7001,4950),cyc=1
+3501: finite(1452)
+3502: inf(1451);  pat(7005,4953),cyc=1
+3503: finite(1453)
+3504: finite(1453)
+3505: inf(1451);  pat(7010,4956),cyc=1
+3506: finite(1453)
+3507: inf(1452);  pat(7014,4959),cyc=1
+3508: finite(1454)
+3509: finite(1455)
+3510: inf(1453);  pat(7020,4963),cyc=1
+3511: finite(1455)
+3512: inf(1454);  pat(7024,4966),cyc=1
+3513: finite(1456)
+3514: inf(1458);  pat(7031,4972),cyc=1
+3515: finite(1457)
+3516: inf(1457);  pat(7033,4973),cyc=1
+3517: finite(1458)
+3518: finite(1458)
+3519: inf(1458);  pat(7039,4977),cyc=1
+3520: finite(1459)
+3521: inf(1458);  pat(7042,4979),cyc=1
+3522: finite(1460)
+3523: finite(1460)
+3524: inf(1459);  pat(7048,4983),cyc=1
+3525: finite(1461)
+3526: inf(1460);  pat(7052,4986),cyc=1
+3527: finite(1462)
+3528: finite(1463)
+3529: finite(1464)
+3530: inf(1463);  pat(7062,4993),cyc=1
+3531: inf(1463);  pat(7064,4994),pat(7063,4995),cyc=2
+3532: finite(1465)
+3533: finite(1465)
+3534: inf(1464);  pat(7069,4998),cyc=1
+3535: finite(1465)
+3536: inf(1464);  pat(7072,5000),cyc=1
+3537: finite(1466)
+3538: finite(1467)
+3539: inf(1465);  pat(7078,5004),cyc=1
+3540: finite(1467)
+3541: inf(1467);  pat(7083,5008),cyc=1
+3542: finite(1469)
+3543: inf(1468);  pat(7087,5011),cyc=1
+3544: finite(1470)
+3545: finite(1471)
+3546: inf(1469);  pat(7093,5015),cyc=1
+3547: finite(1471)
+3548: finite(1472)
+3549: inf(1470);  pat(7099,5019),cyc=1
+3550: finite(1472)
+3551: inf(1471);  pat(7103,5022),cyc=1
+3552: finite(1473)
+3553: finite(1474)
+3554: inf(1473);  pat(7110,5027),cyc=1
+3555: finite(1475)
+3556: inf(1474);  pat(7114,5030),cyc=1
+3557: finite(1476)
+3558: inf(1477);  pat(7120,5035),cyc=1
+3559: finite(1475)
+3560: inf(1475);  pat(7121,5035),cyc=1
+3561: finite(1477)
+3562: finite(1477)
+3563: inf(1475);  pat(7126,5038),cyc=1
+3564: finite(1477)
+3565: inf(1476);  pat(7130,5041),cyc=1
+3566: finite(1478)
+3567: finite(1479)
+3568: inf(1479);  pat(7138,5047),cyc=1
+3569: finite(1481)
+3570: inf(1481);  pat(7143,5051),cyc=1
+3571: finite(1480)
+3572: finite(1481)
+3573: inf(1480);  pat(7147,5053),cyc=1
+3574: finite(1482)
+3575: inf(1480);  pat(7150,5055),cyc=1
+3576: finite(1482)
+3577: inf(1482);  pat(7155,5059),cyc=1
+3578: finite(1484)
+3579: finite(1484)
+3580: inf(1484);  pat(7162,5064),cyc=1
+3581: finite(1486)
+3582: finite(1486)
+3583: inf(1484);  pat(7167,5067),cyc=1
+3584: finite(1486)
+3585: inf(1485);  pat(7171,5070),cyc=1
+3586: finite(1487)
+3587: finite(1488)
+3588: inf(1487);  pat(7178,5075),cyc=1
+3589: finite(1489)
+3590: inf(1488);  pat(7182,5078),cyc=1
+3591: finite(1490)
+3592: inf(1488);  pat(7185,5080),cyc=1
+3593: finite(1490)
+3594: inf(1489);  pat(7189,5083),cyc=1
+3595: finite(1491)
+3596: finite(1492)
+3597: inf(1490);  pat(7195,5087),cyc=1
+3598: finite(1492)
+3599: inf(1491);  pat(7199,5090),cyc=1
+3600: finite(1493)
+3601: inf(1491);  pat(7202,5092),cyc=1
+3602: finite(1493)
+3603: inf(1492);  pat(7206,5095),cyc=1
+3604: finite(1494)
+3605: finite(1495)
+3606: finite(1496)
+3607: inf(1495);  pat(7216,5102),cyc=1
+3608: finite(1497)
+3609: inf(1495);  pat(7219,5104),cyc=1
+3610: finite(1497)
+3611: inf(1496);  pat(7223,5107),cyc=1
+3612: finite(1498)
+3613: finite(1498)
+3614: inf(1497);  pat(7229,5111),cyc=1
+3615: finite(1499)
+3616: inf(1497);  pat(7232,5113),cyc=1
+3617: finite(1499)
+3618: inf(1499);  pat(7237,5117),cyc=1
+3619: finite(1501)
+3620: finite(1502)
+3621: inf(1501);  pat(7244,5122),cyc=1
+3622: finite(1503)
+3623: finite(1503)
+3624: inf(1501);  pat(7249,5125),cyc=1
+3625: finite(1503)
+3626: inf(1502);  pat(7253,5128),cyc=1
+3627: finite(1504)
+3628: inf(1503);  pat(7257,5131),cyc=1
+3629: finite(1505)
+3630: finite(1506)
+3631: inf(1504);  pat(7263,5135),cyc=1
+3632: finite(1506)
+3633: inf(1504);  pat(7266,5137),cyc=1
+3634: finite(1506)
+3635: inf(1505);  pat(7270,5140),cyc=1
+3636: finite(1507)
+3637: finite(1508)
+3638: inf(1507);  pat(7277,5145),cyc=1
+3639: finite(1509)
+3640: inf(1508);  pat(7281,5148),cyc=1
+3641: finite(1510)
+3642: finite(1510)
+3643: inf(1509);  pat(7287,5152),cyc=1
+3644: finite(1511)
+3645: inf(1510);  pat(7291,5155),cyc=1
+3646: finite(1512)
+3647: finite(1513)
+3648: inf(1511);  pat(7297,5159),cyc=1
+3649: finite(1513)
+3650: inf(1513);  pat(7302,5163),cyc=1
+3651: finite(1515)
+3652: inf(1513);  pat(7305,5165),cyc=1
+3653: finite(1515)
+3654: finite(1515)
+3655: inf(1514);  pat(7311,5169),cyc=1
+3656: finite(1516)
+3657: inf(1515);  pat(7315,5172),cyc=1
+3658: finite(1517)
+3659: inf(1515);  pat(7318,5174),cyc=1
+3660: finite(1517)
+3661: finite(1518)
+3662: inf(1516);  pat(7324,5178),cyc=1
+3663: finite(1518)
+3664: inf(1517);  pat(7328,5181),cyc=1
+3665: finite(1519)
+3666: finite(1520)
+3667: inf(1519);  pat(7335,5186),cyc=1
+3668: finite(1521)
+3669: inf(1519);  pat(7338,5188),cyc=1
+3670: finite(1521)
+3671: inf(1520);  pat(7342,5191),cyc=1
+3672: finite(1522)
+3673: finite(1523)
+3674: inf(1522);  pat(7349,5196),cyc=1
+3675: finite(1524)
+3676: inf(1523);  pat(7353,5199),cyc=1
+3677: finite(1525)
+3678: finite(1526)
+3679: inf(1524);  pat(7359,5203),cyc=1
+3680: finite(1526)
+3681: finite(1527)
+3682: inf(1525);  pat(7365,5207),cyc=1
+3683: finite(1527)
+3684: inf(1526);  pat(7369,5210),cyc=1
+3685: finite(1528)
+3686: inf(1526);  pat(7372,5212),cyc=1
+3687: finite(1528)
+3688: inf(1527);  pat(7376,5215),cyc=1
+3689: finite(1529)
+3690: inf(1528);  pat(7380,5218),cyc=1
+3691: finite(1530)
+3692: finite(1530)
+3693: inf(1529);  pat(7386,5222),cyc=1
+3694: finite(1531)
+3695: finite(1532)
+3696: inf(1532);  pat(7394,5228),cyc=1
+3697: finite(1534)
+3698: inf(1534);  pat(7399,5232),cyc=1
+3699: finite(1533)
+3700: finite(1534)
+3701: inf(1533);  pat(7403,5234),cyc=1
+3702: finite(1535)
+3703: inf(1534);  pat(7407,5237),cyc=1
+3704: finite(1536)
+3705: inf(1535);  pat(7411,5240),cyc=1
+3706: finite(1537)
+3707: inf(1535);  pat(7414,5242),cyc=1
+3708: finite(1537)
+3709: inf(1536);  pat(7418,5245),cyc=1
+3710: finite(1538)
+3711: finite(1539)
+3712: finite(1540)
+3713: inf(1538);  pat(7427,5251),cyc=1
+3714: finite(1540)
+3715: inf(1538);  pat(7430,5253),cyc=1
+3716: finite(1540)
+3717: inf(1539);  pat(7434,5256),cyc=1
+3718: finite(1541)
+3719: finite(1542)
+3720: inf(1541);  pat(7441,5261),cyc=1
+3721: finite(1543)
+3722: finite(1544)
+3723: inf(1543);  pat(7448,5266),cyc=1
+3724: finite(1545)
+3725: inf(1543);  pat(7451,5268),cyc=1
+3726: finite(1545)
+3727: finite(1546)
+3728: inf(1545);  pat(7458,5273),cyc=1
+3729: finite(1547)
+3730: inf(1545);  pat(7461,5275),cyc=1
+3731: finite(1547)
+3732: inf(1545);  pat(7464,5277),cyc=1
+3733: finite(1547)
+3734: inf(1546);  pat(7468,5280),cyc=1
+3735: finite(1548)
+3736: finite(1549)
+3737: inf(1549);  pat(7476,5286),cyc=1
+3738: finite(1551)
+3739: inf(1549);  pat(7479,5288),cyc=1
+3740: finite(1551)
+3741: inf(1554);  pat(7487,5295),cyc=1
+3742: finite(1551)
+3743: finite(1552)
+3744: inf(1550);  pat(7488,5294),cyc=1
+3745: finite(1552)
+3746: inf(1553);  pat(7494,5299),cyc=1
+3747: finite(1553)
+3748: inf(1553);  pat(7497,5301),cyc=1
+3749: finite(1554)
+3750: finite(1554)
+3751: inf(1553);  pat(7502,5304),cyc=1
+3752: finite(1555)
+3753: finite(1556)
+3754: inf(1555);  pat(7509,5309),cyc=1
+3755: finite(1557)
+3756: inf(1555);  pat(7512,5311),cyc=1
+3757: finite(1557)
+3758: inf(1556);  pat(7516,5314),cyc=1
+3759: finite(1558)
+3760: finite(1559)
+3761: finite(1560)
+3762: inf(1559);  pat(7526,5321),cyc=1
+3763: finite(1561)
+3764: inf(1560);  pat(7530,5324),cyc=1
+3765: finite(1562)
+3766: inf(1560);  pat(7533,5326),cyc=1
+3767: finite(1562)
+3768: inf(1565);  pat(7541,5333),cyc=1
+3769: finite(1563)
+3770: finite(1563)
+3771: inf(1562);  pat(7543,5333),cyc=1
+3772: finite(1564)
+3773: inf(1564);  pat(7548,5337),cyc=1
+3774: finite(1566)
+3775: inf(1564);  pat(7551,5339),cyc=1
+3776: finite(1566)
+3777: finite(1566)
+3778: inf(1564);  pat(7556,5342),cyc=1
+3779: finite(1566)
+3780: inf(1566);  pat(7561,5346),cyc=1
+3781: finite(1568)
+3782: finite(1568)
+3783: inf(1567);  pat(7567,5350),cyc=1
+3784: finite(1569)
+3785: inf(1567);  pat(7570,5352),cyc=1
+3786: finite(1569)
+3787: inf(1569);  pat(7575,5356),cyc=1
+3788: finite(1571)
+3789: finite(1571)
+3790: inf(1571);  pat(7582,5361),cyc=1
+3791: finite(1573)
+3792: inf(1573);  pat(7587,5365),cyc=1
+3793: finite(1572)
+3794: finite(1573)
+3795: inf(1572);  pat(7591,5367),cyc=1
+3796: finite(1574)
+3797: inf(1572);  pat(7594,5369),cyc=1
+3798: finite(1574)
+3799: inf(1573);  pat(7598,5372),cyc=1
+3800: finite(1575)
+3801: finite(1576)
+3802: inf(1575);  pat(7605,5377),cyc=1
+3803: finite(1577)
+3804: inf(1576);  pat(7609,5380),cyc=1
+3805: finite(1578)
+3806: finite(1578)
+3807: inf(1577);  pat(7615,5384),cyc=1
+3808: finite(1579)
+3809: inf(1578);  pat(7619,5387),cyc=1
+3810: finite(1580)
+3811: finite(1580)
+3812: inf(1580);  pat(7626,5392),cyc=1
+3813: finite(1582)
+3814: inf(1580);  pat(7629,5394),cyc=1
+3815: finite(1582)
+3816: finite(1583)
+3817: inf(1582);  pat(7636,5399),cyc=1
+3818: inf(1581);  pat(7637,5399),pat(7636,5400),cyc=2
+3819: finite(1583)
+3820: finite(1584)
+3821: finite(1585)
+3822: inf(1583);  pat(7645,5405),cyc=1
+3823: finite(1585)
+3824: inf(1585);  pat(7650,5409),cyc=1
+3825: finite(1587)
+3826: inf(1585);  pat(7653,5411),cyc=1
+3827: finite(1587)
+3828: inf(1585);  pat(7656,5413),cyc=1
+3829: finite(1587)
+3830: inf(1586);  pat(7660,5416),cyc=1
+3831: finite(1588)
+3832: finite(1589)
+3833: inf(1587);  pat(7666,5420),cyc=1
+3834: finite(1589)
+3835: inf(1588);  pat(7670,5423),cyc=1
+3836: finite(1590)
+3837: finite(1591)
+3838: inf(1590);  pat(7677,5428),cyc=1
+3839: finite(1592)
+3840: inf(1591);  pat(7681,5431),cyc=1
+3841: finite(1593)
+3842: finite(1593)
+3843: inf(1591);  pat(7686,5434),cyc=1
+3844: finite(1593)
+3845: inf(1592);  pat(7690,5437),cyc=1
+3846: finite(1594)
+3847: finite(1595)
+3848: inf(1594);  pat(7697,5442),cyc=1
+3849: finite(1596)
+3850: inf(1594);  pat(7700,5444),cyc=1
+3851: finite(1596)
+3852: inf(1595);  pat(7704,5447),cyc=1
+3853: finite(1597)
+3854: finite(1598)
+3855: inf(1597);  pat(7711,5452),cyc=1
+3856: finite(1599)
+3857: finite(1599)
+3858: inf(1598);  pat(7717,5456),cyc=1
+3859: finite(1600)
+3860: inf(1599);  pat(7721,5459),cyc=1
+3861: finite(1601)
+3862: inf(1600);  pat(7725,5462),cyc=1
+3863: finite(1602)
+3864: finite(1603)
+3865: inf(1601);  pat(7731,5466),cyc=1
+3866: finite(1603)
+3867: inf(1601);  pat(7734,5468),cyc=1
+3868: finite(1603)
+3869: finite(1604)
+3870: inf(1603);  pat(7741,5473),cyc=1
+3871: finite(1605)
+3872: inf(1604);  pat(7745,5476),cyc=1
+3873: finite(1606)
+3874: finite(1607)
+3875: inf(1605);  pat(7751,5480),cyc=1
+3876: finite(1607)
+3877: inf(1605);  pat(7754,5482),cyc=1
+3878: finite(1607)
+3879: inf(1606);  pat(7758,5485),cyc=1
+3880: finite(1608)
+3881: finite(1609)
+3882: inf(1608);  pat(7765,5490),cyc=1
+3883: finite(1610)
+3884: inf(1608);  pat(7768,5492),cyc=1
+3885: finite(1610)
+3886: inf(1609);  pat(7772,5495),cyc=1
+3887: finite(1611)
+3888: inf(1610);  pat(7776,5498),cyc=1
+3889: finite(1612)
+3890: finite(1612)
+3891: inf(1611);  pat(7782,5502),cyc=1
+3892: finite(1613)
+3893: finite(1614)
+3894: inf(1613);  pat(7789,5507),cyc=1
+3895: finite(1615)
+3896: finite(1616)
+3897: inf(1615);  pat(7796,5512),cyc=1
+3898: finite(1617)
+3899: inf(1615);  pat(7799,5514),cyc=1
+3900: finite(1617)
+3901: inf(1616);  pat(7803,5517),cyc=1
+3902: finite(1618)
+3903: finite(1619)
+3904: inf(1618);  pat(7810,5522),cyc=1
+3905: finite(1620)
+3906: inf(1620);  pat(7815,5526),cyc=1
+3907: finite(1619)
+3908: inf(1618);  pat(7816,5526),cyc=1
+3909: finite(1620)
+3910: inf(1620);  pat(7821,5530),cyc=1
+3911: finite(1622)
+3912: finite(1622)
+3913: finite(1623)
+3914: inf(1621);  pat(7829,5535),cyc=1
+3915: finite(1623)
+3916: inf(1622);  pat(7833,5538),cyc=1
+3917: finite(1624)
+3918: inf(1623);  pat(7837,5541),cyc=1
+3919: finite(1625)
+3920: finite(1626)
+3921: inf(1624);  pat(7843,5545),cyc=1
+3922: finite(1626)
+3923: inf(1625);  pat(7847,5548),cyc=1
+3924: finite(1627)
+3925: inf(1625);  pat(7850,5550),cyc=1
+3926: finite(1627)
+3927: inf(1630);  pat(7858,5557),cyc=1
+3928: finite(1628)
+3929: inf(1628);  pat(7859,5557),cyc=1
+3930: finite(1628)
+3931: inf(1629);  pat(7863,5560),cyc=1
+3932: finite(1630)
+3933: finite(1630)
+3934: inf(1630);  pat(7869,5564),cyc=1
+3935: finite(1631)
+3936: inf(1630);  pat(7872,5566),cyc=1
+3937: finite(1632)
+3938: finite(1633)
+3939: finite(1633)
+3940: inf(1633);  pat(7882,5573),cyc=1
+3941: finite(1635)
+3942: finite(1635)
+3943: inf(1634);  pat(7888,5577),cyc=1
+3944: finite(1636)
+3945: inf(1634);  pat(7891,5579),cyc=1
+3946: finite(1636)
+3947: inf(1634);  pat(7894,5581),cyc=1
+3948: finite(1636)
+3949: inf(1635);  pat(7898,5584),cyc=1
+3950: finite(1637)
+3951: inf(1636);  pat(7902,5587),cyc=1
+3952: finite(1638)
+3953: finite(1639)
+3954: inf(1638);  pat(7909,5592),cyc=1
+3955: finite(1640)
+3956: finite(1640)
+3957: inf(1639);  pat(7915,5596),cyc=1
+3958: finite(1641)
+3959: inf(1639);  pat(7918,5598),cyc=1
+3960: finite(1641)
+3961: inf(1640);  pat(7922,5601),cyc=1
+3962: finite(1642)
+3963: finite(1643)
+3964: inf(1643);  pat(7930,5607),cyc=1
+3965: finite(1645)
+3966: inf(1645);  pat(7935,5611),cyc=1
+3967: finite(1644)
+3968: inf(1645);  pat(7938,5613),cyc=1
+3969: finite(1645)
+3970: finite(1646)
+3971: inf(1645);  pat(7943,5616),cyc=1
+3972: finite(1647)
+3973: inf(1646);  pat(7947,5619),cyc=1
+3974: finite(1648)
+3975: finite(1648)
+3976: inf(1648);  pat(7954,5624),cyc=1
+3977: finite(1650)
+3978: inf(1648);  pat(7957,5626),cyc=1
+3979: finite(1650)
+3980: finite(1651)
+3981: inf(1649);  pat(7963,5630),cyc=1
+3982: finite(1651)
+3983: inf(1650);  pat(7967,5633),cyc=1
+3984: finite(1652)
+3985: inf(1650);  pat(7970,5635),cyc=1
+3986: finite(1652)
+3987: inf(1656);  pat(7979,5643),cyc=1
+3988: finite(1653)
+3989: inf(1654);  pat(7980,5643),cyc=1
+3990: finite(1654)
+3991: finite(1655)
+3992: finite(1655)
+3993: inf(1655);  pat(7988,5648),cyc=1
+3994: finite(1656)
+3995: inf(1655);  pat(7991,5650),cyc=1
+3996: finite(1657)
+3997: finite(1658)
+3998: inf(1656);  pat(7997,5654),cyc=1
+3999: finite(1658)
+4000: inf(1658);  pat(8002,5658),cyc=1
+4001: finite(1660)
+4002: inf(1658);  pat(8005,5660),cyc=1
+4003: finite(1660)
+4004: finite(1660)
+4005: inf(1660);  pat(8012,5665),cyc=1
+4006: finite(1662)
+4007: finite(1663)
+4008: inf(1662);  pat(8019,5670),cyc=1
+4009: inf(1662);  pat(8021,5671),pat(8020,5672),cyc=2
+4010: finite(1663)
+4011: finite(1663)
+4012: inf(1662);  pat(8025,5674),cyc=1
+4013: finite(1664)
+4014: inf(1662);  pat(8028,5676),cyc=1
+4015: finite(1664)
+4016: finite(1665)
+4017: inf(1664);  pat(8035,5681),cyc=1
+4018: finite(1666)
+4019: finite(1667)
+4020: inf(1666);  pat(8042,5686),cyc=1
+4021: finite(1668)
+4022: inf(1666);  pat(8045,5688),cyc=1
+4023: finite(1668)
+4024: inf(1669);  pat(8051,5693),cyc=1
+4025: finite(1668)
+4026: inf(1667);  pat(8052,5693),cyc=1
+4027: finite(1669)
+4028: finite(1670)
+4029: inf(1668);  pat(8058,5697),cyc=1
+4030: finite(1670)
+4031: inf(1669);  pat(8062,5700),cyc=1
+4032: finite(1671)
+4033: inf(1670);  pat(8066,5703),cyc=1
+4034: finite(1672)
+4035: finite(1673)
+4036: inf(1672);  pat(8073,5708),cyc=1
+4037: finite(1674)
+4038: finite(1674)
+4039: inf(1674);  pat(8080,5713),cyc=1
+4040: finite(1676)
+4041: inf(1674);  pat(8083,5715),cyc=1
+4042: finite(1676)
+4043: finite(1677)
+4044: inf(1675);  pat(8089,5719),cyc=1
+4045: finite(1677)
+4046: inf(1676);  pat(8093,5722),cyc=1
+4047: finite(1678)
+4048: finite(1679)
+4049: inf(1678);  pat(8100,5727),cyc=1
+4050: finite(1680)
+4051: inf(1678);  pat(8103,5729),cyc=1
+4052: finite(1680)
+4053: inf(1679);  pat(8107,5732),cyc=1
+4054: finite(1681)
+4055: finite(1682)
+4056: inf(1680);  pat(8113,5736),cyc=1
+4057: finite(1682)
+4058: finite(1683)
+4059: inf(1682);  pat(8120,5741),cyc=1
+4060: finite(1684)
+4061: inf(1682);  pat(8123,5743),cyc=1
+4062: finite(1684)
+4063: inf(1683);  pat(8127,5746),cyc=1
+4064: finite(1685)
+4065: inf(1684);  pat(8131,5749),cyc=1
+4066: finite(1686)
+4067: inf(1685);  pat(8135,5752),cyc=1
+4068: finite(1687)
+4069: finite(1688)
+4070: inf(1687);  pat(8142,5757),cyc=1
+4071: finite(1687)
+4072: inf(1687);  pat(8145,5759),cyc=1
+4073: finite(1689)
+4074: finite(1689)
+4075: inf(1689);  pat(8152,5764),cyc=1
+4076: finite(1691)
+4077: inf(1689);  pat(8155,5766),cyc=1
+4078: finite(1691)
+4079: finite(1692)
+4080: inf(1690);  pat(8161,5770),cyc=1
+4081: finite(1692)
+4082: inf(1690);  pat(8164,5772),cyc=1
+4083: finite(1692)
+4084: inf(1692);  pat(8169,5776),cyc=1
+4085: finite(1694)
+4086: finite(1694)
+4087: inf(1694);  pat(8176,5781),cyc=1
+4088: finite(1696)
+4089: inf(1696);  pat(8181,5785),cyc=1
+4090: finite(1695)
+4091: finite(1696)
+4092: inf(1695);  pat(8185,5787),cyc=1
+4093: finite(1697)
+4094: inf(1695);  pat(8188,5789),cyc=1
+4095: finite(1697)
+4096: inf(1696);  pat(8192,5792),cyc=1
+4097: finite(1698)
+4098: finite(1699)
+4099: inf(1697);  pat(8198,5796),cyc=1
+4100: finite(1699)
+4101: inf(1698);  pat(8202,5799),cyc=1
+4102: finite(1700)
+4103: finite(1701)
+4104: inf(1701);  pat(8210,5805),cyc=1
+4105: finite(1703)
+4106: inf(1701);  pat(8213,5807),cyc=1
+4107: finite(1703)
+4108: inf(1702);  pat(8217,5810),cyc=1
+4109: finite(1704)
+4110: finite(1704)
+4111: inf(1703);  pat(8223,5814),cyc=1
+4112: finite(1705)
+4113: finite(1705)
+4114: inf(1704);  pat(8229,5818),cyc=1
+4115: finite(1706)
+4116: inf(1704);  pat(8232,5820),cyc=1
+4117: finite(1706)
+4118: inf(1706);  pat(8237,5824),cyc=1
+4119: finite(1708)
+4120: finite(1708)
+4121: inf(1707);  pat(8243,5828),cyc=1
+4122: finite(1709)
+4123: inf(1708);  pat(8247,5831),cyc=1
+4124: finite(1710)
+4125: inf(1709);  pat(8251,5834),cyc=1
+4126: finite(1711)
+4127: finite(1712)
+4128: finite(1712)
+4129: inf(1711);  pat(8260,5840),cyc=1
+4130: finite(1713)
+4131: inf(1711);  pat(8263,5842),cyc=1
+4132: finite(1713)
+4133: inf(1712);  pat(8267,5845),cyc=1
+4134: finite(1714)
+4135: inf(1712);  pat(8270,5847),cyc=1
+4136: finite(1714)
+4137: inf(1718);  pat(8279,5855),cyc=1
+4138: finite(1715)
+4139: finite(1715)
+4140: inf(1715);  pat(8281,5855),cyc=1
+4141: finite(1717)
+4142: inf(1715);  pat(8284,5857),cyc=1
+4143: finite(1717)
+4144: inf(1716);  pat(8288,5860),cyc=1
+4145: finite(1718)
+4146: finite(1719)
+4147: inf(1717);  pat(8294,5864),cyc=1
+4148: finite(1719)
+4149: finite(1720)
+4150: inf(1719);  pat(8301,5869),cyc=1
+4151: finite(1721)
+4152: inf(1720);  pat(8305,5872),cyc=1
+4153: finite(1722)
+4154: inf(1720);  pat(8308,5874),cyc=1
+4155: finite(1722)
+4156: inf(1721);  pat(8312,5877),cyc=1
+4157: finite(1723)
+4158: finite(1724)
+4159: inf(1723);  pat(8319,5882),cyc=1
+4160: finite(1725)
+4161: finite(1725)
+4162: inf(1725);  pat(8326,5887),cyc=1
+4163: finite(1727)
+4164: inf(1727);  pat(8331,5891),cyc=1
+4165: finite(1726)
+4166: inf(1726);  pat(8333,5892),cyc=1
+4167: finite(1728)
+4168: inf(1726);  pat(8336,5894),cyc=1
+4169: finite(1728)
+4170: finite(1729)
+4171: finite(1730)
+4172: inf(1729);  pat(8346,5901),cyc=1
+4173: inf(1729);  pat(8348,5902),pat(8347,5903),cyc=2
+4174: finite(1731)
+4175: finite(1731)
+4176: finite(1732)
+4177: inf(1731);  pat(8356,5908),cyc=1
+4178: inf(1730);  pat(8357,5908),pat(8356,5909),cyc=2
+4179: finite(1732)
+4180: finite(1733)
+4181: finite(1734)
+4182: inf(1733);  pat(8366,5915),cyc=1
+4183: finite(1735)
+4184: inf(1733);  pat(8369,5917),cyc=1
+4185: finite(1735)
+4186: inf(1733);  pat(8372,5919),cyc=1
+4187: finite(1735)
+4188: inf(1735);  pat(8377,5923),cyc=1
+4189: finite(1737)
+4190: finite(1737)
+4191: inf(1736);  pat(8383,5927),cyc=1
+4192: finite(1738)
+4193: inf(1737);  pat(8387,5930),cyc=1
+4194: finite(1739)
+4195: finite(1740)
+4196: inf(1738);  pat(8393,5934),cyc=1
+4197: finite(1740)
+4198: inf(1740);  pat(8398,5938),cyc=1
+4199: finite(1742)
+4200: finite(1742)
+4201: inf(1742);  pat(8405,5943),cyc=1
+4202: inf(1740);  pat(8403,5942),pat(8406,5943),cyc=2
+4203: finite(1742)
+4204: inf(1741);  pat(8409,5945),pat(8410,5946),pat(8408,5947),pat(8411,5948),cyc=4
+4205: finite(1743)
+4206: finite(1744)
+4207: finite(1745)
+4208: inf(1743);  pat(8417,5951),cyc=1
+4209: finite(1745)
+4210: inf(1744);  pat(8421,5954),cyc=1
+4211: finite(1746)
+4212: inf(1744);  pat(8424,5956),cyc=1
+4213: finite(1746)
+4214: inf(1749);  pat(8432,5963),cyc=1
+4215: finite(1747)
+4216: inf(1747);  pat(8433,5963),cyc=1
+4217: finite(1748)
+4218: finite(1748)
+4219: finite(1749)
+4220: inf(1748);  pat(8441,5968),cyc=1
+4221: finite(1750)
+4222: inf(1749);  pat(8445,5971),cyc=1
+4223: finite(1751)
+4224: inf(1750);  pat(8449,5974),cyc=1
+4225: finite(1752)
+4226: finite(1752)
+4227: inf(1750);  pat(8454,5977),cyc=1
+4228: finite(1752)
+4229: inf(1752);  pat(8459,5981),cyc=1
+4230: finite(1754)
+4231: finite(1755)
+4232: inf(1753);  pat(8465,5985),cyc=1
+4233: finite(1755)
+4234: inf(1753);  pat(8468,5987),cyc=1
+4235: finite(1755)
+4236: finite(1756)
+4237: inf(1756);  pat(8476,5993),cyc=1
+4238: finite(1758)
+4239: inf(1756);  pat(8479,5995),cyc=1
+4240: finite(1758)
+4241: inf(1757);  pat(8483,5998),cyc=1
+4242: finite(1759)
+4243: finite(1760)
+4244: inf(1758);  pat(8489,6002),cyc=1
+4245: finite(1760)
+4246: finite(1761)
+4247: inf(1760);  pat(8496,6007),cyc=1
+4248: finite(1762)
+4249: inf(1760);  pat(8499,6009),cyc=1
+4250: finite(1762)
+4251: inf(1761);  pat(8503,6012),cyc=1
+4252: finite(1763)
+4253: inf(1762);  pat(8507,6015),cyc=1
+4254: finite(1764)
+4255: finite(1764)
+4256: inf(1764);  pat(8514,6020),cyc=1
+4257: finite(1766)
+4258: inf(1764);  pat(8517,6022),cyc=1
+4259: finite(1766)
+4260: inf(1765);  pat(8521,6025),cyc=1
+4261: finite(1767)
+4262: finite(1767)
+4263: inf(1765);  pat(8526,6028),cyc=1
+4264: finite(1767)
+4265: inf(1766);  pat(8530,6031),cyc=1
+4266: finite(1768)
+4267: finite(1769)
+4268: inf(1769);  pat(8538,6037),cyc=1
+4269: finite(1771)
+4270: inf(1771);  pat(8543,6041),cyc=1
+4271: finite(1770)
+4272: finite(1771)
+4273: inf(1770);  pat(8547,6043),cyc=1
+4274: finite(1772)
+4275: inf(1770);  pat(8550,6045),cyc=1
+4276: finite(1772)
+4277: inf(1774);  pat(8557,6051),cyc=1
+4278: finite(1773)
+4279: inf(1775);  pat(8561,6054),cyc=1
+4280: finite(1774)
+4281: finite(1774)
+4282: inf(1773);  pat(8564,6055),cyc=1
+4283: finite(1775)
+4284: finite(1776)
+4285: inf(1775);  pat(8571,6060),cyc=1
+4286: finite(1777)
+4287: finite(1778)
+4288: inf(1776);  pat(8577,6064),cyc=1
+4289: inf(1776);  pat(8579,6065),pat(8578,6066),cyc=2
+4290: finite(1778)
+4291: inf(1778);  pat(8584,6069),pat(8585,6070),pat(8583,6071),pat(8586,6072),cyc=4
+4292: finite(1779)
+4293: finite(1779)
+4294: finite(1780)
+4295: inf(1779);  pat(8591,6074),cyc=1
+4296: finite(1781)
+4297: inf(1780);  pat(8595,6077),cyc=1
+4298: finite(1782)
+4299: inf(1781);  pat(8599,6080),cyc=1
+4300: finite(1783)
+4301: finite(1784)
+4302: inf(1782);  pat(8605,6084),cyc=1
+4303: finite(1784)
+4304: inf(1782);  pat(8608,6086),cyc=1
+4305: finite(1784)
+4306: inf(1784);  pat(8613,6090),cyc=1
+4307: finite(1786)
+4308: finite(1787)
+4309: inf(1786);  pat(8620,6095),cyc=1
+4310: finite(1786)
+4311: inf(1786);  pat(8623,6097),cyc=1
+4312: finite(1788)
+4313: finite(1788)
+4314: inf(1787);  pat(8629,6101),cyc=1
+4315: finite(1789)
+4316: inf(1788);  pat(8633,6104),cyc=1
+4317: finite(1790)
+4318: finite(1790)
+4319: inf(1789);  pat(8639,6108),cyc=1
+4320: finite(1791)
+4321: inf(1790);  pat(8643,6111),cyc=1
+4322: finite(1792)
+4323: finite(1793)
+4324: inf(1792);  pat(8650,6116),cyc=1
+4325: finite(1794)
+4326: inf(1794);  pat(8655,6120),cyc=1
+4327: finite(1793)
+4328: inf(1795);  pat(8659,6123),cyc=1
+4329: finite(1794)
+4330: inf(1793);  pat(8660,6123),cyc=1
+4331: finite(1795)
+4332: finite(1796)
+4333: inf(1795);  pat(8667,6128),cyc=1
+4334: finite(1797)
+4335: inf(1796);  pat(8671,6131),cyc=1
+4336: finite(1798)
+4337: finite(1798)
+4338: inf(1797);  pat(8677,6135),cyc=1
+4339: finite(1799)
+4340: inf(1798);  pat(8681,6138),cyc=1
+4341: finite(1800)
+4342: finite(1800)
+4343: finite(1801)
+4344: inf(1799);  pat(8689,6143),cyc=1
+4345: inf(1800);  pat(8692,6145),pat(8691,6146),cyc=2
+4346: finite(1802)
+4347: inf(1801);  pat(8695,6148),pat(8697,6149),pat(8698,6150),pat(8696,6151),cyc=4
+4348: finite(1803)
+4349: finite(1803)
+4350: inf(1802);  pat(8701,6152),cyc=1
+4351: finite(1804)
+4352: inf(1802);  pat(8704,6154),cyc=1
+4353: finite(1804)
+4354: inf(1803);  pat(8708,6157),cyc=1
+4355: finite(1805)
+4356: finite(1806)
+4357: inf(1804);  pat(8714,6161),cyc=1
+4358: finite(1806)
+4359: inf(1805);  pat(8718,6164),cyc=1
+4360: finite(1807)
+4361: finite(1808)
+4362: inf(1807);  pat(8725,6169),cyc=1
+4363: finite(1809)
+4364: finite(1810)
+4365: inf(1808);  pat(8731,6173),cyc=1
+4366: finite(1810)
+4367: inf(1809);  pat(8735,6176),cyc=1
+4368: finite(1811)
+4369: finite(1812)
+4370: inf(1810);  pat(8741,6180),cyc=1
+4371: finite(1812)
+4372: inf(1812);  pat(8746,6184),cyc=1
+4373: finite(1814)
+4374: finite(1814)
+4375: inf(1813);  pat(8752,6188),cyc=1
+4376: finite(1815)
+4377: inf(1813);  pat(8755,6190),cyc=1
+4378: finite(1815)
+4379: inf(1813);  pat(8758,6192),cyc=1
+4380: finite(1815)
+4381: inf(1815);  pat(8763,6196),cyc=1
+4382: finite(1817)
+4383: finite(1817)
+4384: inf(1817);  pat(8770,6201),cyc=1
+4385: finite(1819)
+4386: inf(1819);  pat(8775,6205),cyc=1
+4387: finite(1818)
+4388: inf(1819);  pat(8778,6207),cyc=1
+4389: finite(1819)
+4390: finite(1820)
+4391: inf(1818);  pat(8782,6209),cyc=1
+4392: finite(1820)
+4393: inf(1819);  pat(8786,6212),cyc=1
+4394: finite(1821)
+4395: finite(1822)
+4396: inf(1820);  pat(8792,6216),cyc=1
+4397: finite(1822)
+4398: inf(1821);  pat(8796,6219),cyc=1
+4399: finite(1823)
+4400: finite(1824)
+4401: inf(1823);  pat(8803,6224),cyc=1
+4402: finite(1825)
+4403: inf(1823);  pat(8806,6226),cyc=1
+4404: finite(1825)
+4405: inf(1824);  pat(8810,6229),cyc=1
+4406: finite(1826)
+4407: finite(1827)
+4408: inf(1825);  pat(8816,6233),cyc=1
+4409: finite(1827)
+4410: inf(1827);  pat(8821,6237),cyc=1
+4411: finite(1829)
+4412: finite(1829)
+4413: inf(1827);  pat(8826,6240),cyc=1
+4414: finite(1829)
+4415: inf(1829);  pat(8831,6244),cyc=1
+4416: finite(1831)
+4417: inf(1829);  pat(8834,6246),cyc=1
+4418: finite(1831)
+4419: inf(1830);  pat(8838,6249),cyc=1
+4420: finite(1832)
+4421: finite(1833)
+4422: finite(1834)
+4423: inf(1833);  pat(8848,6256),cyc=1
+4424: finite(1835)
+4425: inf(1834);  pat(8852,6259),cyc=1
+4426: finite(1836)
+4427: inf(1837);  pat(8858,6264),cyc=1
+4428: finite(1835)
+4429: finite(1836)
+4430: inf(1835);  pat(8861,6265),cyc=1
+4431: finite(1837)
+4432: inf(1836);  pat(8865,6268),cyc=1
+4433: finite(1838)
+4434: inf(1837);  pat(8869,6271),cyc=1
+4435: finite(1839)
+4436: finite(1840)
+4437: inf(1838);  pat(8875,6275),cyc=1
+4438: finite(1840)
+4439: inf(1839);  pat(8879,6278),cyc=1
+4440: finite(1841)
+4441: inf(1839);  pat(8882,6280),cyc=1
+4442: finite(1841)
+4443: inf(1841);  pat(8887,6284),cyc=1
+4444: finite(1842)
+4445: finite(1842)
+4446: inf(1842);  pat(8893,6288),cyc=1
+4447: finite(1844)
+4448: finite(1844)
+4449: inf(1843);  pat(8899,6292),cyc=1
+4450: finite(1845)
+4451: finite(1846)
+4452: inf(1845);  pat(8906,6297),cyc=1
+4453: finite(1847)
+4454: inf(1847);  pat(8911,6301),cyc=1
+4455: finite(1846)
+4456: inf(1845);  pat(8912,6301),cyc=1
+4457: finite(1847)
+4458: finite(1848)
+4459: inf(1847);  pat(8919,6306),cyc=1
+4460: finite(1849)
+4461: inf(1848);  pat(8923,6309),cyc=1
+4462: finite(1850)
+4463: inf(1848);  pat(8926,6311),cyc=1
+4464: finite(1850)
+4465: finite(1851)
+4466: inf(1851);  pat(8934,6317),cyc=1
+4467: finite(1853)
+4468: inf(1853);  pat(8939,6321),cyc=1
+4469: finite(1852)
+4470: finite(1853)
+4471: inf(1852);  pat(8943,6323),cyc=1
+4472: finite(1854)
+4473: inf(1853);  pat(8947,6326),cyc=1
+4474: finite(1855)
+4475: inf(1854);  pat(8951,6329),cyc=1
+4476: finite(1856)
+4477: finite(1857)
+4478: inf(1855);  pat(8957,6333),cyc=1
+4479: finite(1857)
+4480: inf(1856);  pat(8961,6336),cyc=1
+4481: finite(1858)
+4482: finite(1858)
+4483: inf(1857);  pat(8967,6340),cyc=1
+4484: finite(1859)
+4485: inf(1858);  pat(8971,6343),cyc=1
+4486: finite(1860)
+4487: finite(1861)
+4488: inf(1860);  pat(8978,6348),cyc=1
+4489: finite(1862)
+4490: inf(1862);  pat(8983,6352),cyc=1
+4491: finite(1861)
+4492: inf(1860);  pat(8984,6352),cyc=1
+4493: finite(1862)
+4494: inf(1861);  pat(8988,6355),cyc=1
+4495: finite(1863)
+4496: finite(1864)
+4497: finite(1865)
+4498: inf(1864);  pat(8998,6362),cyc=1
+4499: finite(1866)
+4500: inf(1864);  pat(9001,6364),cyc=1
+4501: finite(1866)
+4502: inf(1864);  pat(9004,6366),cyc=1
+4503: finite(1866)
+4504: inf(1865);  pat(9008,6369),cyc=1
+4505: finite(1867)
+4506: finite(1868)
+4507: finite(1869)
+4508: inf(1868);  pat(9018,6376),cyc=1
+4509: inf(1867);  pat(9017,6376),pat(9020,6377),cyc=2
+4510: finite(1869)
+4511: inf(1871);  pat(9025,6382),pat(9027,6383),pat(9028,6384),pat(9026,6385),cyc=4
+4512: finite(1870)
+4513: inf(1869);  pat(9026,6382),pat(9028,6383),pat(9027,6384),pat(9029,6385),cyc=4
+4514: finite(1871)
+4515: finite(1872)
+4516: inf(1871);  pat(9033,6387),cyc=1
+4517: finite(1872)
+4518: inf(1873);  pat(9038,6391),cyc=1
+4519: finite(1873)
+4520: finite(1873)
+4521: inf(1873);  pat(9043,6394),cyc=1
+4522: finite(1875)
+4523: finite(1876)
+4524: inf(1874);  pat(9049,6398),cyc=1
+4525: finite(1876)
+4526: inf(1874);  pat(9052,6400),cyc=1
+4527: finite(1876)
+4528: inf(1875);  pat(9056,6403),cyc=1
+4529: finite(1877)
+4530: inf(1876);  pat(9060,6406),cyc=1
+4531: finite(1878)
+4532: finite(1879)
+4533: inf(1878);  pat(9067,6411),cyc=1
+4534: finite(1880)
+4535: finite(1880)
+4536: inf(1879);  pat(9073,6415),cyc=1
+4537: finite(1881)
+4538: finite(1882)
+4539: inf(1881);  pat(9080,6420),cyc=1
+4540: finite(1883)
+4541: inf(1882);  pat(9084,6423),cyc=1
+4542: finite(1884)
+4543: inf(1882);  pat(9087,6425),cyc=1
+4544: finite(1884)
+4545: finite(1884)
+4546: inf(1883);  pat(9093,6429),cyc=1
+4547: finite(1885)
+4548: finite(1886)
+4549: inf(1885);  pat(9100,6434),cyc=1
+4550: finite(1887)
+4551: inf(1885);  pat(9103,6436),cyc=1
+4552: finite(1887)
+4553: inf(1885);  pat(9106,6438),cyc=1
+4554: finite(1887)
+4555: inf(1886);  pat(9110,6441),cyc=1
+4556: finite(1888)
+4557: inf(1888);  pat(9115,6445),cyc=1
+4558: finite(1890)
+4559: finite(1890)
+4560: inf(1889);  pat(9121,6449),cyc=1
+4561: finite(1891)
+4562: inf(1890);  pat(9125,6452),cyc=1
+4563: finite(1892)
+4564: finite(1892)
+4565: inf(1890);  pat(9130,6455),cyc=1
+4566: finite(1892)
+4567: inf(1892);  pat(9135,6459),cyc=1
+4568: finite(1894)
+4569: finite(1894)
+4570: inf(1894);  pat(9142,6464),cyc=1
+4571: finite(1896)
+4572: inf(1896);  pat(9147,6468),cyc=1
+4573: finite(1895)
+4574: inf(1896);  pat(9150,6470),cyc=1
+4575: finite(1896)
+4576: inf(1896);  pat(9153,6472),cyc=1
+4577: finite(1898)
+4578: finite(1898)
+4579: inf(1896);  pat(9158,6475),cyc=1
+4580: finite(1898)
+4581: inf(1899);  pat(9164,6480),cyc=1
+4582: finite(1899)
+4583: finite(1899)
+4584: inf(1899);  pat(9169,6483),cyc=1
+4585: finite(1901)
+4586: finite(1902)
+4587: inf(1900);  pat(9175,6487),cyc=1
+4588: finite(1902)
+4589: inf(1901);  pat(9179,6490),cyc=1
+4590: finite(1903)
+4591: finite(1904)
+4592: inf(1903);  pat(9186,6495),cyc=1
+4593: finite(1905)
+4594: finite(1905)
+4595: inf(1903);  pat(9191,6498),cyc=1
+4596: inf(1904);  pat(9194,6500),pat(9193,6501),cyc=2
+4597: finite(1906)
+4598: inf(1905);  pat(9197,6503),pat(9199,6504),pat(9200,6505),pat(9198,6506),cyc=4
+4599: finite(1907)
+4600: finite(1907)
+4601: inf(1909);  pat(9206,6510),cyc=1
+4602: finite(1907)
+4603: inf(1907);  pat(9207,6510),cyc=1
+4604: finite(1908)
+4605: finite(1909)
+4606: inf(1908);  pat(9213,6514),cyc=1
+4607: finite(1910)
+4608: inf(1909);  pat(9217,6517),cyc=1
+4609: finite(1911)
+4610: finite(1911)
+4611: inf(1910);  pat(9223,6521),cyc=1
+4612: finite(1912)
+4613: inf(1911);  pat(9227,6524),cyc=1
+4614: finite(1913)
+4615: finite(1913)
+4616: inf(1912);  pat(9233,6528),cyc=1
+4617: finite(1914)
+4618: inf(1913);  pat(9237,6531),cyc=1
+4619: finite(1915)
+4620: inf(1914);  pat(9241,6534),cyc=1
+4621: finite(1916)
+4622: finite(1917)
+4623: inf(1916);  pat(9248,6539),cyc=1
+4624: finite(1916)
+4625: inf(1915);  pat(9250,6540),cyc=1
+4626: finite(1917)
+4627: inf(1917);  pat(9255,6544),cyc=1
+4628: finite(1919)
+4629: finite(1919)
+4630: inf(1918);  pat(9261,6548),cyc=1
+4631: finite(1920)
+4632: finite(1921)
+4633: inf(1919);  pat(9267,6552),cyc=1
+4634: finite(1921)
+4635: inf(1921);  pat(9272,6556),cyc=1
+4636: finite(1923)
+4637: inf(1921);  pat(9275,6558),cyc=1
+4638: finite(1923)
+4639: finite(1924)
+4640: inf(1922);  pat(9281,6562),cyc=1
+4641: finite(1924)
+4642: inf(1922);  pat(9284,6564),cyc=1
+4643: finite(1924)
+4644: inf(1923);  pat(9288,6567),cyc=1
+4645: finite(1925)
+4646: finite(1926)
+4647: inf(1926);  pat(9296,6573),cyc=1
+4648: finite(1928)
+4649: finite(1928)
+4650: inf(1926);  pat(9301,6576),cyc=1
+4651: finite(1928)
+4652: inf(1927);  pat(9305,6579),cyc=1
+4653: finite(1929)
+4654: inf(1927);  pat(9308,6581),cyc=1
+4655: finite(1929)
+4656: finite(1930)
+4657: inf(1930);  pat(9316,6587),cyc=1
+4658: finite(1932)
+4659: inf(1932);  pat(9321,6591),cyc=1
+4660: finite(1931)
+4661: inf(1932);  pat(9324,6593),cyc=1
+4662: finite(1932)
+4663: finite(1933)
+4664: inf(1932);  pat(9329,6596),cyc=1
+4665: finite(1934)
+4666: inf(1932);  pat(9332,6598),cyc=1
+4667: finite(1934)
+4668: inf(1934);  pat(9337,6602),cyc=1
+4669: finite(1936)
+4670: finite(1936)
+4671: inf(1934);  pat(9342,6605),cyc=1
+4672: finite(1936)
+4673: inf(1935);  pat(9346,6608),cyc=1
+4674: finite(1937)
+4675: finite(1938)
+4676: inf(1938);  pat(9354,6614),cyc=1
+4677: finite(1940)
+4678: inf(1938);  pat(9357,6616),cyc=1
+4679: finite(1940)
+4680: inf(1941);  pat(9363,6621),cyc=1
+4681: finite(1940)
+4682: finite(1941)
+4683: inf(1939);  pat(9366,6622),cyc=1
+4684: finite(1941)
+4685: inf(1940);  pat(9370,6625),cyc=1
+4686: finite(1942)
+4687: finite(1943)
+4688: finite(1944)
+4689: inf(1943);  pat(9380,6632),cyc=1
+4690: inf(1942);  pat(9379,6632),pat(9382,6633),cyc=2
+4691: finite(1944)
+4692: inf(1946);  pat(9387,6638),pat(9389,6639),pat(9390,6640),pat(9388,6641),cyc=4
+4693: finite(1945)
+4694: inf(1944);  pat(9388,6638),pat(9390,6639),pat(9389,6640),pat(9391,6641),cyc=4
+4695: finite(1946)
+4696: finite(1947)
+4697: finite(1948)
+4698: inf(1946);  pat(9397,6644),cyc=1
+4699: finite(1948)
+4700: inf(1947);  pat(9401,6647),cyc=1
+4701: finite(1949)
+4702: finite(1950)
+4703: inf(1949);  pat(9408,6652),cyc=1
+4704: finite(1951)
+4705: inf(1949);  pat(9411,6654),cyc=1
+4706: finite(1951)
+4707: inf(1950);  pat(9415,6657),cyc=1
+4708: finite(1952)
+4709: finite(1952)
+4710: inf(1951);  pat(9421,6661),cyc=1
+4711: finite(1953)
+4712: inf(1952);  pat(9425,6664),cyc=1
+4713: finite(1954)
+4714: inf(1952);  pat(9428,6666),cyc=1
+4715: finite(1954)
+4716: finite(1955)
+4717: inf(1953);  pat(9434,6670),cyc=1
+4718: finite(1955)
+4719: inf(1955);  pat(9439,6674),cyc=1
+4720: finite(1957)
+4721: inf(1955);  pat(9442,6676),cyc=1
+4722: finite(1957)
+4723: finite(1958)
+4724: inf(1957);  pat(9449,6681),cyc=1
+4725: finite(1959)
+4726: finite(1959)
+4727: inf(1958);  pat(9455,6685),cyc=1
+4728: finite(1960)
+4729: inf(1959);  pat(9459,6688),cyc=1
+4730: finite(1961)
+4731: finite(1962)
+4732: inf(1960);  pat(9465,6692),cyc=1
+4733: finite(1962)
+4734: inf(1960);  pat(9468,6694),cyc=1
+4735: finite(1962)
+4736: inf(1961);  pat(9472,6697),cyc=1
+4737: finite(1963)
+4738: finite(1964)
+4739: inf(1964);  pat(9480,6703),cyc=1
+4740: finite(1966)
+4741: inf(1964);  pat(9483,6705),cyc=1
+4742: finite(1966)
+4743: inf(1965);  pat(9487,6708),cyc=1
+4744: finite(1967)
+4745: finite(1967)
+4746: inf(1966);  pat(9493,6712),cyc=1
+4747: finite(1968)
+4748: inf(1966);  pat(9496,6714),cyc=1
+4749: finite(1968)
+4750: finite(1969)
+4751: inf(1968);  pat(9503,6719),cyc=1
+4752: finite(1970)
+4753: inf(1969);  pat(9507,6722),cyc=1
+4754: finite(1971)
+4755: inf(1969);  pat(9510,6724),cyc=1
+4756: finite(1971)
+4757: finite(1972)
+4758: inf(1970);  pat(9516,6728),cyc=1
+4759: finite(1972)
+4760: inf(1972);  pat(9521,6732),cyc=1
+4761: finite(1974)
+4762: finite(1974)
+4763: inf(1973);  pat(9527,6736),cyc=1
+4764: finite(1975)
+4765: inf(1974);  pat(9531,6739),cyc=1
+4766: finite(1976)
+4767: finite(1977)
+4768: finite(1978)
+4769: inf(1976);  pat(9540,6745),cyc=1
+4770: inf(1976);  pat(9542,6746),pat(9541,6747),cyc=2
+4771: finite(1978)
+4772: inf(1979);  pat(9547,6751),pat(9549,6752),pat(9550,6753),pat(9548,6754),cyc=4
+4773: finite(1978)
+4774: inf(1981);  pat(9552,6755),pat(9554,6756),pat(9553,6757),pat(9555,6758),cyc=4
+4775: finite(1979)
+4776: finite(1980)
+4777: finite(1981)
+4778: inf(1980);  pat(9558,6758),cyc=1
+4779: finite(1982)
+4780: inf(1980);  pat(9561,6760),cyc=1
+4781: finite(1982)
+4782: finite(1983)
+4783: inf(1982);  pat(9568,6765),cyc=1
+4784: finite(1984)
+4785: finite(1985)
+4786: inf(1984);  pat(9575,6770),cyc=1
+4787: inf(1983);  pat(9576,6770),pat(9575,6771),cyc=2
+4788: finite(1985)
+4789: finite(1986)
+4790: inf(1984);  pat(9581,6774),cyc=1
+4791: finite(1986)
+4792: inf(1986);  pat(9586,6778),cyc=1
+4793: finite(1988)
+4794: finite(1988)
+4795: inf(1987);  pat(9592,6782),cyc=1
+4796: finite(1989)
+4797: inf(1987);  pat(9595,6784),cyc=1
+4798: finite(1989)
+4799: inf(1988);  pat(9599,6787),cyc=1
+4800: finite(1990)
+4801: finite(1991)
+4802: inf(1989);  pat(9605,6791),cyc=1
+4803: finite(1991)
+4804: inf(1990);  pat(9609,6794),cyc=1
+4805: finite(1992)
+4806: inf(1991);  pat(9613,6797),cyc=1
+4807: finite(1993)
+4808: finite(1993)
+4809: inf(1992);  pat(9619,6801),cyc=1
+4810: finite(1994)
+4811: inf(1993);  pat(9623,6804),cyc=1
+4812: finite(1995)
+4813: finite(1996)
+4814: inf(1994);  pat(9629,6808),cyc=1
+4815: finite(1996)
+4816: inf(1994);  pat(9632,6810),cyc=1
+4817: finite(1996)
+4818: inf(1998);  pat(9639,6816),cyc=1
+4819: finite(1997)
+4820: inf(2000);  pat(9644,6820),cyc=1
+4821: finite(1998)
+4822: finite(1999)
+4823: inf(1998);  pat(9647,6821),cyc=1
+4824: finite(2000)
+4825: finite(2000)
+4826: inf(1999);  pat(9653,6825),cyc=1
+4827: finite(2001)
+4828: inf(2000);  pat(9657,6828),cyc=1
+4829: finite(2002)
+4830: inf(2004);  pat(9664,6834),cyc=1
+4831: finite(2003)
+4832: finite(2003)
+4833: inf(2002);  pat(9667,6835),cyc=1
+4834: finite(2003)
+4835: inf(2003);  pat(9671,6838),cyc=1
+4836: finite(2005)
+4837: finite(2005)
+4838: inf(2004);  pat(9677,6842),cyc=1
+4839: finite(2006)
+4840: inf(2005);  pat(9681,6845),cyc=1
+4841: finite(2007)
+4842: inf(2006);  pat(9685,6848),cyc=1
+4843: finite(2008)
+4844: finite(2008)
+4845: inf(2007);  pat(9691,6852),cyc=1
+4846: finite(2009)
+4847: finite(2010)
+4848: inf(2009);  pat(9698,6857),cyc=1
+4849: finite(2011)
+4850: inf(2010);  pat(9702,6860),cyc=1
+4851: finite(2012)
+4852: finite(2012)
+4853: inf(2011);  pat(9708,6864),cyc=1
+4854: finite(2013)
+4855: inf(2011);  pat(9711,6866),cyc=1
+4856: finite(2013)
+4857: inf(2012);  pat(9715,6869),cyc=1
+4858: finite(2014)
+4859: inf(2013);  pat(9719,6872),cyc=1
+4860: finite(2015)
+4861: finite(2015)
+4862: inf(2015);  pat(9726,6877),cyc=1
+4863: finite(2017)
+4864: inf(2015);  pat(9729,6879),cyc=1
+4865: finite(2017)
+4866: finite(2017)
+4867: inf(2017);  pat(9736,6884),cyc=1
+4868: finite(2019)
+4869: inf(2017);  pat(9739,6886),cyc=1
+4870: finite(2019)
+4871: inf(2017);  pat(9742,6888),cyc=1
+4872: finite(2019)
+4873: finite(2020)
+4874: finite(2021)
+4875: inf(2020);  pat(9752,6895),cyc=1
+4876: finite(2022)
+4877: inf(2021);  pat(9756,6898),cyc=1
+4878: finite(2023)
+4879: inf(2021);  pat(9759,6900),cyc=1
+4880: finite(2023)
+4881: finite(2024)
+4882: inf(2023);  pat(9766,6905),cyc=1
+4883: inf(2023);  pat(9768,6906),pat(9767,6907),cyc=2
+4884: finite(2025)
+4885: finite(2026)
+4886: inf(2024);  pat(9773,6910),cyc=1
+4887: finite(2026)
+4888: inf(2025);  pat(9777,6913),cyc=1
+4889: finite(2026)
+4890: finite(2027)
+4891: inf(2025);  pat(9782,6916),cyc=1
+4892: finite(2027)
+4893: inf(2026);  pat(9786,6919),cyc=1
+4894: finite(2028)
+4895: finite(2029)
+4896: inf(2028);  pat(9793,6924),cyc=1
+4897: finite(2030)
+4898: inf(2028);  pat(9796,6926),cyc=1
+4899: finite(2030)
+4900: finite(2031)
+4901: inf(2030);  pat(9803,6931),cyc=1
+4902: finite(2032)
+4903: inf(2031);  pat(9807,6934),cyc=1
+4904: finite(2033)
+4905: inf(2032);  pat(9811,6937),cyc=1
+4906: finite(2034)
+4907: finite(2034)
+4908: inf(2034);  pat(9818,6942),cyc=1
+4909: finite(2036)
+4910: finite(2036)
+4911: inf(2034);  pat(9823,6945),cyc=1
+4912: inf(2034);  pat(9825,6946),pat(9824,6947),cyc=2
+4913: finite(2036)
+4914: inf(2036);  pat(9830,6950),pat(9831,6951),pat(9829,6952),pat(9832,6953),cyc=4
+4915: finite(2037)
+4916: finite(2037)
+4917: inf(2037);  pat(9835,6954),cyc=1
+4918: finite(2038)
+4919: inf(2039);  pat(9840,6958),cyc=1
+4920: finite(2039)
+4921: finite(2040)
+4922: inf(2039);  pat(9845,6961),cyc=1
+4923: finite(2041)
+4924: finite(2041)
+4925: inf(2041);  pat(9852,6966),cyc=1
+4926: finite(2043)
+4927: inf(2041);  pat(9855,6968),cyc=1
+4928: finite(2043)
+4929: inf(2045);  pat(9862,6974),cyc=1
+4930: finite(2044)
+4931: finite(2044)
+4932: finite(2045)
+4933: inf(2044);  pat(9868,6977),cyc=1
+4934: inf(2043);  pat(9867,6977),pat(9870,6978),cyc=2
+4935: finite(2045)
+4936: finite(2046)
+4937: inf(2045);  pat(9875,6982),cyc=1
+4938: finite(2047)
+4939: inf(2046);  pat(9879,6985),cyc=1
+4940: finite(2048)
+4941: inf(2046);  pat(9882,6987),cyc=1
+4942: finite(2048)
+4943: finite(2049)
+4944: finite(2050)
+4945: inf(2048);  pat(9891,6993),cyc=1
+4946: finite(2050)
+4947: inf(2049);  pat(9895,6996),cyc=1
+4948: finite(2051)
+4949: inf(2050);  pat(9899,6999),cyc=1
+4950: finite(2052)
+4951: inf(2051);  pat(9903,7002),cyc=1
+4952: finite(2053)
+4953: finite(2053)
+4954: inf(2053);  pat(9910,7007),cyc=1
+4955: finite(2055)
+4956: inf(2055);  pat(9915,7011),cyc=1
+4957: finite(2054)
+4958: inf(2056);  pat(9919,7014),cyc=1
+4959: finite(2055)
+4960: inf(2054);  pat(9920,7014),cyc=1
+4961: finite(2056)
+4962: finite(2057)
+4963: inf(2055);  pat(9926,7018),cyc=1
+4964: finite(2057)
+4965: inf(2056);  pat(9930,7021),cyc=1
+4966: finite(2058)
+4967: finite(2059)
+4968: inf(2058);  pat(9937,7026),cyc=1
+4969: finite(2060)
+4970: finite(2061)
+4971: inf(2060);  pat(9944,7031),cyc=1
+4972: finite(2062)
+4973: inf(2061);  pat(9948,7034),cyc=1
+4974: finite(2063)
+4975: finite(2063)
+4976: inf(2062);  pat(9954,7038),cyc=1
+4977: finite(2064)
+4978: inf(2062);  pat(9957,7040),cyc=1
+4979: finite(2064)
+4980: inf(2063);  pat(9961,7043),cyc=1
+4981: finite(2065)
+4982: inf(2063);  pat(9964,7045),cyc=1
+4983: finite(2065)
+4984: inf(2069);  pat(9973,7053),cyc=1
+4985: finite(2066)
+4986: inf(2067);  pat(9974,7053),cyc=1
+4987: finite(2067)
+4988: finite(2068)
+4989: finite(2069)
+4990: inf(2067);  pat(9981,7057),cyc=1
+4991: finite(2069)
+4992: inf(2067);  pat(9984,7059),cyc=1
+4993: finite(2069)
+4994: finite(2070)
+4995: inf(2069);  pat(9991,7064),cyc=1
+4996: finite(2071)
+4997: inf(2070);  pat(9995,7067),cyc=1
+4998: finite(2072)
+4999: inf(2070);  pat(9998,7069),cyc=1
+5000: finite(2072)
+5001: finite(2073)
+5002: inf(2072);  pat(10005,7074),cyc=1
+5003: finite(2074)
+5004: inf(2072);  pat(10008,7076),cyc=1
+5005: finite(2074)
+5006: finite(2075)
+5007: inf(2074);  pat(10015,7081),cyc=1
+5008: finite(2076)
+5009: finite(2077)
+5010: inf(2075);  pat(10021,7085),cyc=1
+5011: finite(2077)
+5012: inf(2076);  pat(10025,7088),cyc=1
+5013: finite(2078)
+5014: inf(2077);  pat(10029,7091),cyc=1
+5015: finite(2079)
+5016: inf(2078);  pat(10033,7094),cyc=1
+5017: finite(2080)
+5018: finite(2081)
+5019: inf(2079);  pat(10039,7098),cyc=1
+5020: finite(2081)
+5021: inf(2079);  pat(10042,7100),cyc=1
+5022: finite(2081)
+5023: finite(2082)
+5024: inf(2081);  pat(10049,7105),cyc=1
+5025: finite(2083)
+5026: inf(2082);  pat(10053,7108),cyc=1
+5027: finite(2084)
+5028: finite(2085)
+5029: inf(2083);  pat(10059,7112),cyc=1
+5030: finite(2085)
+5031: inf(2084);  pat(10063,7115),cyc=1
+5032: finite(2086)
+5033: inf(2084);  pat(10066,7117),cyc=1
+5034: finite(2086)
+5035: inf(2085);  pat(10070,7120),cyc=1
+5036: finite(2087)
+5037: finite(2088)
+5038: inf(2087);  pat(10077,7125),cyc=1
+5039: finite(2089)
+5040: inf(2087);  pat(10080,7127),cyc=1
+5041: finite(2089)
+5042: finite(2090)
+5043: inf(2089);  pat(10087,7132),cyc=1
+5044: finite(2091)
+5045: inf(2090);  pat(10091,7135),cyc=1
+5046: finite(2092)
+5047: finite(2093)
+5048: inf(2092);  pat(10098,7140),cyc=1
+5049: finite(2094)
+5050: inf(2094);  pat(10103,7144),cyc=1
+5051: finite(2093)
+5052: inf(2094);  pat(10106,7146),cyc=1
+5053: finite(2094)
+5054: finite(2095)
+5055: inf(2093);  pat(10110,7148),cyc=1
+5056: finite(2095)
+5057: inf(2094);  pat(10114,7151),cyc=1
+5058: finite(2096)
+5059: finite(2097)
+5060: inf(2097);  pat(10122,7157),cyc=1
+5061: finite(2099)
+5062: inf(2097);  pat(10125,7159),cyc=1
+5063: finite(2099)
+5064: finite(2100)
+5065: inf(2098);  pat(10131,7163),cyc=1
+5066: finite(2100)
+5067: inf(2099);  pat(10135,7166),cyc=1
+5068: finite(2101)
+5069: inf(2099);  pat(10138,7168),cyc=1
+5070: finite(2101)
+5071: finite(2102)
+5072: inf(2100);  pat(10144,7172),cyc=1
+5073: finite(2102)
+5074: inf(2101);  pat(10148,7175),cyc=1
+5075: finite(2103)
+5076: inf(2103);  pat(10153,7179),cyc=1
+5077: finite(2105)
+5078: finite(2105)
+5079: finite(2106)
+5080: inf(2105);  pat(10162,7185),cyc=1
+5081: finite(2107)
+5082: inf(2105);  pat(10165,7187),cyc=1
+5083: finite(2107)
+5084: finite(2108)
+5085: inf(2106);  pat(10171,7191),cyc=1
+5086: inf(2107);  pat(10174,7193),pat(10173,7194),cyc=2
+5087: finite(2109)
+5088: inf(2108);  pat(10178,7196),pat(10176,7197),pat(10179,7198),pat(10181,7199),cyc=4
+5089: finite(2110)
+5090: finite(2110)
+5091: finite(2111)
+5092: inf(2110);  pat(10186,7202),cyc=1
+5093: finite(2112)
+5094: inf(2110);  pat(10189,7204),cyc=1
+5095: finite(2112)
+5096: inf(2111);  pat(10193,7207),cyc=1
+5097: finite(2113)
+5098: finite(2114)
+5099: inf(2112);  pat(10199,7211),cyc=1
+5100: finite(2114)
+5101: inf(2113);  pat(10203,7214),cyc=1
+5102: finite(2115)
+5103: inf(2114);  pat(10207,7217),cyc=1
+5104: finite(2116)
+5105: finite(2116)
+5106: inf(2115);  pat(10213,7221),cyc=1
+5107: finite(2117)
+5108: inf(2116);  pat(10217,7224),cyc=1
+5109: finite(2118)
+5110: inf(2117);  pat(10221,7227),cyc=1
+5111: finite(2119)
+5112: finite(2119)
+5113: inf(2117);  pat(10226,7230),cyc=1
+5114: finite(2119)
+5115: inf(2118);  pat(10230,7233),cyc=1
+5116: finite(2120)
+5117: inf(2119);  pat(10234,7236),cyc=1
+5118: finite(2121)
+5119: finite(2122)
+5120: finite(2123)
+5121: inf(2121);  pat(10243,7242),cyc=1
+5122: finite(2123)
+5123: inf(2123);  pat(10248,7246),cyc=1
+5124: finite(2125)
+5125: inf(2126);  pat(10254,7251),cyc=1
+5126: finite(2124)
+5127: inf(2123);  pat(10254,7250),cyc=1
+5128: finite(2125)
+5129: inf(2129);  pat(10263,7258),cyc=1
+5130: finite(2126)
+5131: inf(2126);  pat(10263,7257),cyc=1
+5132: finite(2127)
+5133: finite(2127)
+5134: inf(2127);  pat(10269,7261),cyc=1
+5135: finite(2129)
+5136: finite(2129)
+5137: inf(2128);  pat(10275,7265),cyc=1
+5138: finite(2130)
+5139: inf(2129);  pat(10279,7268),cyc=1
+5140: finite(2131)
+5141: finite(2132)
+5142: inf(2131);  pat(10286,7273),cyc=1
+5143: finite(2131)
+5144: inf(2130);  pat(10288,7274),cyc=1
+5145: finite(2132)
+5146: inf(2132);  pat(10293,7278),cyc=1
+5147: finite(2134)
+5148: finite(2135)
+5149: inf(2133);  pat(10299,7282),cyc=1
+5150: finite(2135)
+5151: inf(2133);  pat(10302,7284),cyc=1
+5152: finite(2135)
+5153: inf(2134);  pat(10306,7287),cyc=1
+5154: finite(2136)
+5155: finite(2136)
+5156: inf(2136);  pat(10313,7292),cyc=1
+5157: finite(2137)
+5158: inf(2138);  pat(10318,7296),cyc=1
+5159: finite(2138)
+5160: finite(2139)
+5161: inf(2137);  pat(10322,7298),cyc=1
+5162: finite(2139)
+5163: finite(2140)
+5164: inf(2139);  pat(10329,7303),cyc=1
+5165: finite(2141)
+5166: finite(2142)
+5167: inf(2141);  pat(10336,7308),cyc=1
+5168: inf(2141);  pat(10338,7309),pat(10337,7310),cyc=2
+5169: finite(2143)
+5170: finite(2144)
+5171: inf(2142);  pat(10343,7313),cyc=1
+5172: finite(2144)
+5173: finite(2145)
+5174: inf(2143);  pat(10349,7317),cyc=1
+5175: finite(2145)
+5176: inf(2144);  pat(10353,7320),cyc=1
+5177: finite(2146)
+5178: inf(2144);  pat(10356,7322),cyc=1
+5179: finite(2146)
+5180: inf(2149);  pat(10364,7329),cyc=1
+5181: finite(2147)
+5182: inf(2146);  pat(10364,7328),cyc=1
+5183: finite(2148)
+5184: finite(2149)
+5185: inf(2148);  pat(10371,7333),cyc=1
+5186: finite(2150)
+5187: finite(2151)
+5188: inf(2149);  pat(10377,7337),cyc=1
+5189: finite(2151)
+5190: finite(2152)
+5191: inf(2150);  pat(10383,7341),cyc=1
+5192: finite(2152)
+5193: inf(2151);  pat(10387,7344),cyc=1
+5194: finite(2153)
+5195: inf(2151);  pat(10390,7346),cyc=1
+5196: finite(2153)
+5197: inf(2152);  pat(10394,7349),cyc=1
+5198: finite(2154)
+5199: finite(2155)
+5200: inf(2154);  pat(10401,7354),cyc=1
+5201: finite(2156)
+5202: inf(2155);  pat(10405,7357),cyc=1
+5203: finite(2157)
+5204: inf(2156);  pat(10409,7360),cyc=1
+5205: finite(2158)
+5206: finite(2159)
+5207: inf(2158);  pat(10416,7365),cyc=1
+5208: finite(2158)
+5209: finite(2159)
+5210: inf(2159);  pat(10422,7369),cyc=1
+5211: finite(2161)
+5212: inf(2159);  pat(10425,7371),cyc=1
+5213: finite(2161)
+5214: inf(2160);  pat(10429,7374),cyc=1
+5215: finite(2162)
+5216: finite(2162)
+5217: inf(2161);  pat(10435,7378),cyc=1
+5218: finite(2163)
+5219: finite(2164)
+5220: inf(2162);  pat(10441,7382),cyc=1
+5221: finite(2164)
+5222: inf(2164);  pat(10446,7386),cyc=1
+5223: finite(2166)
+5224: inf(2167);  pat(10452,7391),cyc=1
+5225: finite(2165)
+5226: inf(2165);  pat(10453,7391),cyc=1
+5227: finite(2167)
+5228: finite(2167)
+5229: finite(2168)
+5230: inf(2167);  pat(10462,7397),cyc=1
+5231: inf(2167);  pat(10464,7398),pat(10463,7399),cyc=2
+5232: finite(2169)
+5233: finite(2169)
+5234: inf(2168);  pat(10469,7402),cyc=1
+5235: finite(2170)
+5236: inf(2168);  pat(10472,7404),cyc=1
+5237: finite(2170)
+5238: inf(2170);  pat(10477,7408),cyc=1
+5239: finite(2172)
+5240: finite(2173)
+5241: inf(2171);  pat(10483,7412),cyc=1
+5242: finite(2173)
+5243: inf(2172);  pat(10487,7415),cyc=1
+5244: finite(2174)
+5245: finite(2175)
+5246: inf(2173);  pat(10493,7419),cyc=1
+5247: finite(2175)
+5248: finite(2176)
+5249: inf(2174);  pat(10499,7423),cyc=1
+5250: finite(2176)
+5251: inf(2176);  pat(10504,7427),cyc=1
+5252: finite(2178)
+5253: inf(2179);  pat(10510,7432),cyc=1
+5254: finite(2177)
+5255: inf(2177);  pat(10511,7432),cyc=1
+5256: finite(2179)
+5257: finite(2179)
+5258: inf(2178);  pat(10517,7436),cyc=1
+5259: finite(2180)
+5260: inf(2178);  pat(10520,7438),cyc=1
+5261: finite(2180)
+5262: finite(2181)
+5263: inf(2181);  pat(10528,7444),cyc=1
+5264: finite(2183)
+5265: inf(2183);  pat(10533,7448),cyc=1
+5266: finite(2182)
+5267: inf(2182);  pat(10535,7449),cyc=1
+5268: finite(2184)
+5269: finite(2185)
+5270: inf(2183);  pat(10541,7453),cyc=1
+5271: finite(2185)
+5272: inf(2184);  pat(10545,7456),cyc=1
+5273: finite(2186)
+5274: finite(2187)
+5275: inf(2185);  pat(10551,7460),cyc=1
+5276: finite(2187)
+5277: inf(2185);  pat(10554,7462),cyc=1
+5278: finite(2187)
+5279: inf(2186);  pat(10558,7465),cyc=1
+5280: finite(2188)
+5281: finite(2189)
+5282: inf(2187);  pat(10564,7469),cyc=1
+5283: finite(2189)
+5284: inf(2188);  pat(10568,7472),cyc=1
+5285: finite(2190)
+5286: finite(2191)
+5287: inf(2190);  pat(10575,7477),cyc=1
+5288: finite(2192)
+5289: inf(2191);  pat(10579,7480),cyc=1
+5290: finite(2193)
+5291: finite(2194)
+5292: inf(2192);  pat(10585,7484),cyc=1
+5293: finite(2194)
+5294: inf(2192);  pat(10588,7486),cyc=1
+5295: finite(2194)
+5296: inf(2193);  pat(10592,7489),cyc=1
+5297: finite(2195)
+5298: finite(2196)
+5299: inf(2196);  pat(10600,7495),cyc=1
+5300: finite(2198)
+5301: finite(2198)
+5302: inf(2196);  pat(10605,7498),cyc=1
+5303: finite(2198)
+5304: inf(2197);  pat(10609,7501),cyc=1
+5305: finite(2199)
+5306: inf(2198);  pat(10613,7504),cyc=1
+5307: finite(2200)
+5308: inf(2198);  pat(10616,7506),cyc=1
+5309: finite(2200)
+5310: finite(2201)
+5311: inf(2200);  pat(10623,7511),cyc=1
+5312: finite(2202)
+5313: inf(2200);  pat(10626,7513),cyc=1
+5314: finite(2202)
+5315: finite(2203)
+5316: inf(2202);  pat(10633,7518),cyc=1
+5317: finite(2204)
+5318: inf(2202);  pat(10636,7520),cyc=1
+5319: finite(2204)
+5320: inf(2204);  pat(10641,7524),cyc=1
+5321: finite(2206)
+5322: finite(2206)
+5323: inf(2204);  pat(10646,7527),cyc=1
+5324: finite(2206)
+5325: inf(2206);  pat(10651,7531),cyc=1
+5326: finite(2208)
+5327: finite(2209)
+5328: inf(2207);  pat(10657,7535),cyc=1
+5329: finite(2209)
+5330: inf(2207);  pat(10660,7537),cyc=1
+5331: finite(2209)
+5332: finite(2210)
+5333: inf(2209);  pat(10667,7542),cyc=1
+5334: finite(2211)
+5335: inf(2210);  pat(10671,7545),cyc=1
+5336: finite(2212)
+5337: finite(2213)
+5338: inf(2212);  pat(10678,7550),cyc=1
+5339: finite(2214)
+5340: inf(2213);  pat(10682,7553),cyc=1
+5341: finite(2215)
+5342: inf(2216);  pat(10688,7558),cyc=1
+5343: finite(2214)
+5344: inf(2216);  pat(10691,7560),cyc=1
+5345: finite(2215)
+5346: finite(2216)
+5347: finite(2217)
+5348: inf(2216);  pat(10698,7564),cyc=1
+5349: inf(2215);  pat(10697,7564),pat(10700,7565),cyc=2
+5350: finite(2217)
+5351: finite(2218)
+5352: inf(2217);  pat(10705,7569),cyc=1
+5353: finite(2219)
+5354: inf(2218);  pat(10709,7572),cyc=1
+5355: finite(2220)
+5356: inf(2219);  pat(10713,7575),cyc=1
+5357: finite(2221)
+5358: finite(2222)
+5359: inf(2221);  pat(10720,7580),cyc=1
+5360: finite(2221)
+5361: inf(2220);  pat(10722,7581),cyc=1
+5362: finite(2222)
+5363: finite(2223)
+5364: inf(2222);  pat(10729,7586),cyc=1
+5365: finite(2224)
+5366: inf(2222);  pat(10732,7588),cyc=1
+5367: finite(2224)
+5368: finite(2225)
+5369: inf(2225);  pat(10740,7594),cyc=1
+5370: finite(2227)
+5371: inf(2225);  pat(10743,7596),cyc=1
+5372: finite(2227)
+5373: finite(2227)
+5374: inf(2227);  pat(10750,7601),cyc=1
+5375: finite(2229)
+5376: inf(2229);  pat(10755,7605),cyc=1
+5377: finite(2228)
+5378: inf(2228);  pat(10757,7606),cyc=1
+5379: finite(2230)
+5380: finite(2230)
+5381: inf(2229);  pat(10763,7610),cyc=1
+5382: finite(2231)
+5383: inf(2230);  pat(10767,7613),cyc=1
+5384: finite(2232)
+5385: finite(2233)
+5386: inf(2232);  pat(10774,7618),cyc=1
+5387: finite(2234)
+5388: finite(2234)
+5389: inf(2233);  pat(10780,7622),cyc=1
+5390: inf(2232);  pat(10779,7622),pat(10782,7623),cyc=2
+5391: finite(2234)
+5392: inf(2237);  pat(10789,7629),pat(10790,7630),pat(10788,7631),pat(10791,7632),cyc=4
+5393: finite(2235)
+5394: finite(2236)
+5395: inf(2235);  pat(10791,7630),cyc=1
+5396: finite(2237)
+5397: finite(2238)
+5398: inf(2236);  pat(10797,7634),cyc=1
+5399: finite(2238)
+5400: finite(2239)
+5401: inf(2237);  pat(10803,7638),cyc=1
+5402: finite(2239)
+5403: inf(2238);  pat(10807,7641),cyc=1
+5404: finite(2240)
+5405: inf(2238);  pat(10810,7643),cyc=1
+5406: finite(2240)
+5407: inf(2239);  pat(10814,7646),cyc=1
+5408: finite(2241)
+5409: finite(2242)
+5410: inf(2241);  pat(10821,7651),cyc=1
+5411: finite(2243)
+5412: inf(2242);  pat(10825,7654),cyc=1
+5413: finite(2244)
+5414: inf(2246);  pat(10832,7660),cyc=1
+5415: finite(2245)
+5416: finite(2245)
+5417: inf(2244);  pat(10835,7661),cyc=1
+5418: finite(2246)
+5419: finite(2247)
+5420: inf(2246);  pat(10842,7666),cyc=1
+5421: finite(2248)
+5422: finite(2248)
+5423: inf(2247);  pat(10848,7670),cyc=1
+5424: finite(2249)
+5425: inf(2248);  pat(10852,7673),cyc=1
+5426: finite(2250)
+5427: inf(2248);  pat(10855,7675),cyc=1
+5428: finite(2250)
+5429: inf(2249);  pat(10859,7678),cyc=1
+5430: finite(2251)
+5431: inf(2255);  pat(10868,7686),cyc=1
+5432: finite(2252)
+5433: finite(2252)
+5434: inf(2252);  pat(10870,7686),cyc=1
+5435: finite(2252)
+5436: inf(2252);  pat(10873,7688),cyc=1
+5437: finite(2254)
+5438: finite(2255)
+5439: inf(2253);  pat(10879,7692),cyc=1
+5440: finite(2255)
+5441: inf(2253);  pat(10882,7694),cyc=1
+5442: finite(2255)
+5443: finite(2256)
+5444: inf(2256);  pat(10890,7700),cyc=1
+5445: finite(2258)
+5446: finite(2258)
+5447: inf(2257);  pat(10896,7704),cyc=1
+5448: finite(2259)
+5449: inf(2258);  pat(10900,7707),cyc=1
+5450: finite(2260)
+5451: inf(2258);  pat(10903,7709),cyc=1
+5452: finite(2260)
+5453: finite(2261)
+5454: inf(2260);  pat(10910,7714),cyc=1
+5455: inf(2260);  pat(10912,7715),pat(10911,7716),cyc=2
+5456: finite(2262)
+5457: finite(2263)
+5458: inf(2261);  pat(10917,7719),cyc=1
+5459: finite(2262)
+5460: inf(2263);  pat(10922,7723),cyc=1
+5461: finite(2263)
+5462: inf(2263);  pat(10925,7725),cyc=1
+5463: finite(2264)
+5464: finite(2264)
+5465: inf(2264);  pat(10931,7729),cyc=1
+5466: finite(2265)
+5467: inf(2264);  pat(10934,7731),cyc=1
+5468: finite(2266)
+5469: finite(2266)
+5470: inf(2266);  pat(10941,7736),cyc=1
+5471: finite(2268)
+5472: inf(2266);  pat(10944,7738),cyc=1
+5473: finite(2268)
+5474: finite(2269)
+5475: inf(2268);  pat(10951,7743),cyc=1
+5476: finite(2270)
+5477: inf(2269);  pat(10955,7746),cyc=1
+5478: finite(2271)
+5479: finite(2272)
+5480: inf(2270);  pat(10961,7750),cyc=1
+5481: finite(2272)
+5482: inf(2270);  pat(10964,7752),cyc=1
+5483: finite(2272)
+5484: finite(2273)
+5485: inf(2272);  pat(10971,7757),cyc=1
+5486: finite(2274)
+5487: inf(2272);  pat(10974,7759),cyc=1
+5488: finite(2274)
+5489: finite(2275)
+5490: inf(2274);  pat(10981,7764),cyc=1
+5491: finite(2276)
+5492: inf(2275);  pat(10985,7767),cyc=1
+5493: finite(2277)
+5494: inf(2275);  pat(10988,7769),cyc=1
+5495: finite(2277)
+5496: inf(2276);  pat(10992,7772),cyc=1
+5497: finite(2278)
+5498: finite(2279)
+5499: finite(2280)
+5500: inf(2279);  pat(11002,7779),cyc=1
+5501: finite(2281)
+5502: inf(2279);  pat(11005,7781),cyc=1
+5503: finite(2281)
+5504: inf(2280);  pat(11009,7784),cyc=1
+5505: finite(2282)
+5506: inf(2281);  pat(11013,7787),cyc=1
+5507: finite(2283)
+5508: finite(2284)
+5509: inf(2283);  pat(11020,7792),cyc=1
+5510: finite(2283)
+5511: inf(2282);  pat(11022,7793),cyc=1
+5512: finite(2284)
+5513: inf(2286);  pat(11029,7799),cyc=1
+5514: finite(2285)
+5515: inf(2288);  pat(11034,7803),cyc=1
+5516: finite(2286)
+5517: finite(2286)
+5518: finite(2287)
+5519: inf(2286);  pat(11039,7805),cyc=1
+5520: finite(2288)
+5521: inf(2287);  pat(11043,7808),cyc=1
+5522: finite(2289)
+5523: inf(2288);  pat(11047,7811),cyc=1
+5524: finite(2290)
+5525: inf(2289);  pat(11051,7814),cyc=1
+5526: finite(2291)
+5527: finite(2291)
+5528: inf(2290);  pat(11057,7818),cyc=1
+5529: finite(2292)
+5530: finite(2293)
+5531: inf(2292);  pat(11064,7823),cyc=1
+5532: finite(2294)
+5533: inf(2292);  pat(11067,7825),cyc=1
+5534: finite(2294)
+5535: inf(2292);  pat(11070,7827),cyc=1
+5536: finite(2294)
+5537: finite(2295)
+5538: inf(2295);  pat(11078,7833),cyc=1
+5539: finite(2297)
+5540: inf(2295);  pat(11081,7835),cyc=1
+5541: finite(2297)
+5542: finite(2298)
+5543: inf(2297);  pat(11088,7840),cyc=1
+5544: finite(2299)
+5545: inf(2297);  pat(11091,7842),cyc=1
+5546: finite(2299)
+5547: inf(2298);  pat(11095,7845),cyc=1
+5548: finite(2300)
+5549: inf(2298);  pat(11098,7847),cyc=1
+5550: finite(2300)
+5551: finite(2301)
+5552: finite(2302)
+5553: inf(2300);  pat(11107,7853),cyc=1
+5554: finite(2302)
+5555: inf(2302);  pat(11112,7857),cyc=1
+5556: finite(2304)
+5557: inf(2302);  pat(11115,7859),cyc=1
+5558: finite(2304)
+5559: finite(2305)
+5560: finite(2306)
+5561: inf(2305);  pat(11125,7866),cyc=1
+5562: inf(2305);  pat(11127,7867),pat(11126,7868),cyc=2
+5563: finite(2307)
+5564: finite(2307)
+5565: inf(2306);  pat(11132,7871),cyc=1
+5566: finite(2308)
+5567: inf(2306);  pat(11135,7873),cyc=1
+5568: finite(2308)
+5569: inf(2307);  pat(11139,7876),cyc=1
+5570: finite(2309)
+5571: finite(2309)
+5572: inf(2309);  pat(11146,7881),cyc=1
+5573: finite(2311)
+5574: inf(2309);  pat(11149,7883),cyc=1
+5575: finite(2311)
+5576: inf(2310);  pat(11153,7886),cyc=1
+5577: finite(2312)
+5578: finite(2313)
+5579: inf(2311);  pat(11159,7890),cyc=1
+5580: finite(2313)
+5581: inf(2312);  pat(11163,7893),cyc=1
+5582: finite(2314)
+5583: inf(2312);  pat(11166,7895),cyc=1
+5584: finite(2314)
+5585: finite(2315)
+5586: inf(2314);  pat(11173,7900),cyc=1
+5587: finite(2316)
+5588: finite(2317)
+5589: inf(2316);  pat(11180,7905),cyc=1
+5590: finite(2318)
+5591: inf(2316);  pat(11183,7907),cyc=1
+5592: finite(2318)
+5593: finite(2319)
+5594: inf(2318);  pat(11190,7912),cyc=1
+5595: inf(2317);  pat(11189,7912),pat(11192,7913),cyc=2
+5596: finite(2319)
+5597: inf(2318);  pat(11195,7915),pat(11196,7916),pat(11194,7917),pat(11197,7918),cyc=4
+5598: finite(2320)
+5599: finite(2321)
+5600: finite(2322)
+5601: inf(2320);  pat(11203,7921),cyc=1
+5602: finite(2322)
+5603: inf(2321);  pat(11207,7924),cyc=1
+5604: finite(2323)
+5605: inf(2321);  pat(11210,7926),cyc=1
+5606: finite(2323)
+5607: finite(2324)
+5608: finite(2325)
+5609: inf(2324);  pat(11220,7933),cyc=1
+5610: inf(2324);  pat(11222,7934),pat(11221,7935),cyc=2
+5611: finite(2326)
+5612: finite(2326)
+5613: inf(2325);  pat(11227,7938),cyc=1
+5614: finite(2327)
+5615: inf(2327);  pat(11232,7942),cyc=1
+5616: finite(2329)
+5617: finite(2329)
+5618: inf(2328);  pat(11238,7946),cyc=1
+5619: finite(2330)
+5620: inf(2328);  pat(11241,7948),cyc=1
+5621: finite(2330)
+5622: inf(2329);  pat(11245,7951),cyc=1
+5623: finite(2331)
+5624: inf(2334);  pat(11253,7958),cyc=1
+5625: finite(2332)
+5626: finite(2332)
+5627: inf(2331);  pat(11255,7958),cyc=1
+5628: finite(2333)
+5629: finite(2333)
+5630: inf(2332);  pat(11261,7962),cyc=1
+5631: finite(2334)
+5632: inf(2333);  pat(11265,7965),cyc=1
+5633: finite(2335)
+5634: inf(2334);  pat(11269,7968),cyc=1
+5635: finite(2336)
+5636: finite(2336)
+5637: inf(2336);  pat(11276,7973),cyc=1
+5638: finite(2338)
+5639: finite(2338)
+5640: inf(2336);  pat(11281,7976),cyc=1
+5641: finite(2338)
+5642: inf(2339);  pat(11287,7981),cyc=1
+5643: finite(2339)
+5644: inf(2338);  pat(11289,7982),cyc=1
+5645: finite(2340)
+5646: inf(2339);  pat(11293,7985),cyc=1
+5647: finite(2341)
+5648: finite(2342)
+5649: inf(2340);  pat(11299,7989),cyc=1
+5650: finite(2342)
+5651: finite(2343)
+5652: inf(2342);  pat(11306,7994),cyc=1
+5653: finite(2344)
+5654: inf(2343);  pat(11310,7997),cyc=1
+5655: finite(2345)
+5656: inf(2343);  pat(11313,7999),cyc=1
+5657: finite(2345)
+5658: finite(2346)
+5659: inf(2344);  pat(11319,8003),cyc=1
+5660: finite(2346)
+5661: finite(2347)
+5662: inf(2346);  pat(11326,8008),cyc=1
+5663: inf(2345);  pat(11325,8008),pat(11328,8009),cyc=2
+5664: finite(2347)
+5665: finite(2348)
+5666: inf(2347);  pat(11333,8013),cyc=1
+5667: finite(2349)
+5668: finite(2350)
+5669: inf(2349);  pat(11340,8018),cyc=1
+5670: finite(2351)
+5671: finite(2352)
+5672: inf(2351);  pat(11347,8023),cyc=1
+5673: inf(2350);  pat(11346,8023),pat(11349,8024),cyc=2
+5674: finite(2352)
+5675: finite(2353)
+5676: inf(2352);  pat(11354,8028),cyc=1
+5677: finite(2354)
+5678: inf(2352);  pat(11357,8030),cyc=1
+5679: finite(2354)
+5680: finite(2354)
+5681: inf(2354);  pat(11364,8035),cyc=1
+5682: finite(2356)
+5683: inf(2354);  pat(11367,8037),cyc=1
+5684: finite(2356)
+5685: inf(2357);  pat(11373,8042),cyc=1
+5686: finite(2356)
+5687: inf(2359);  pat(11378,8046),cyc=1
+5688: finite(2357)
+5689: inf(2356);  pat(11378,8045),cyc=1
+5690: finite(2358)
+5691: finite(2359)
+5692: finite(2360)
+5693: inf(2359);  pat(11388,8052),cyc=1
+5694: inf(2359);  pat(11390,8053),pat(11389,8054),cyc=2
+5695: finite(2361)
+5696: finite(2361)
+5697: inf(2360);  pat(11395,8057),cyc=1
+5698: finite(2362)
+5699: finite(2362)
+5700: inf(2361);  pat(11401,8061),cyc=1
+5701: finite(2363)
+5702: inf(2362);  pat(11405,8064),cyc=1
+5703: finite(2364)
+5704: finite(2365)
+5705: inf(2363);  pat(11411,8068),cyc=1
+5706: finite(2365)
+5707: inf(2364);  pat(11415,8071),cyc=1
+5708: finite(2366)
+5709: finite(2367)
+5710: inf(2365);  pat(11421,8075),cyc=1
+5711: finite(2367)
+5712: inf(2367);  pat(11426,8079),cyc=1
+5713: finite(2369)
+5714: inf(2367);  pat(11429,8081),cyc=1
+5715: finite(2369)
+5716: inf(2372);  pat(11437,8088),cyc=1
+5717: finite(2370)
+5718: finite(2370)
+5719: inf(2369);  pat(11439,8088),cyc=1
+5720: finite(2370)
+5721: inf(2370);  pat(11443,8091),cyc=1
+5722: finite(2372)
+5723: inf(2371);  pat(11447,8094),cyc=1
+5724: finite(2373)
+5725: finite(2373)
+5726: inf(2371);  pat(11452,8097),cyc=1
+5727: finite(2373)
+5728: inf(2374);  pat(11458,8102),cyc=1
+5729: finite(2374)
+5730: inf(2373);  pat(11460,8103),cyc=1
+5731: finite(2375)
+5732: finite(2376)
+5733: inf(2375);  pat(11467,8108),cyc=1
+5734: finite(2377)
+5735: finite(2377)
+5736: inf(2376);  pat(11473,8112),cyc=1
+5737: finite(2378)
+5738: inf(2376);  pat(11476,8114),cyc=1
+5739: finite(2378)
+5740: inf(2377);  pat(11480,8117),cyc=1
+5741: finite(2379)
+5742: inf(2378);  pat(11484,8120),cyc=1
+5743: finite(2380)
+5744: finite(2381)
+5745: inf(2380);  pat(11491,8125),cyc=1
+5746: finite(2382)
+5747: finite(2383)
+5748: inf(2381);  pat(11497,8129),cyc=1
+5749: finite(2383)
+5750: finite(2384)
+5751: inf(2384);  pat(11505,8135),cyc=1
+5752: finite(2386)
+5753: inf(2386);  pat(11510,8139),cyc=1
+5754: finite(2385)
+5755: finite(2386)
+5756: inf(2385);  pat(11514,8141),cyc=1
+5757: inf(2385);  pat(11516,8142),pat(11515,8143),cyc=2
+5758: finite(2387)
+5759: finite(2388)
+5760: finite(2388)
+5761: inf(2388);  pat(11525,8149),cyc=1
+5762: inf(2386);  pat(11523,8148),pat(11526,8149),cyc=2
+5763: finite(2388)
+5764: inf(2387);  pat(11529,8151),pat(11530,8152),pat(11528,8153),pat(11531,8154),cyc=4
+5765: finite(2389)
+5766: finite(2390)
+5767: finite(2391)
+5768: inf(2390);  pat(11538,8158),cyc=1
+5769: finite(2392)
+5770: inf(2390);  pat(11541,8160),cyc=1
+5771: finite(2392)
+5772: inf(2391);  pat(11545,8163),cyc=1
+5773: finite(2393)
+5774: inf(2392);  pat(11549,8166),cyc=1
+5775: finite(2394)
+5776: finite(2394)
+5777: inf(2393);  pat(11555,8170),cyc=1
+5778: finite(2395)
+5779: inf(2394);  pat(11559,8173),cyc=1
+5780: finite(2396)
+5781: inf(2395);  pat(11563,8176),cyc=1
+5782: finite(2397)
+5783: finite(2398)
+5784: inf(2397);  pat(11570,8181),cyc=1
+5785: finite(2397)
+5786: inf(2396);  pat(11572,8182),cyc=1
+5787: finite(2398)
+5788: finite(2399)
+5789: inf(2398);  pat(11579,8187),cyc=1
+5790: finite(2400)
+5791: finite(2401)
+5792: inf(2400);  pat(11586,8192),cyc=1
+5793: finite(2402)
+5794: inf(2401);  pat(11590,8195),cyc=1
+5795: finite(2403)
+5796: inf(2403);  pat(11595,8199),cyc=1
+5797: finite(2402)
+5798: inf(2405);  pat(11600,8203),cyc=1
+5799: finite(2403)
+5800: inf(2402);  pat(11600,8202),cyc=1
+5801: finite(2404)
+5802: finite(2405)
+5803: inf(2403);  pat(11606,8206),cyc=1
+5804: finite(2405)
+5805: finite(2406)
+5806: finite(2407)
+5807: inf(2406);  pat(11616,8213),cyc=1
+5808: finite(2408)
+5809: inf(2406);  pat(11619,8215),cyc=1
+5810: finite(2408)
+5811: inf(2408);  pat(11624,8219),cyc=1
+5812: finite(2410)
+5813: inf(2409);  pat(11628,8222),cyc=1
+5814: finite(2411)
+5815: inf(2414);  pat(11636,8229),cyc=1
+5816: finite(2411)
+5817: inf(2412);  pat(11637,8229),cyc=1
+5818: finite(2411)
+5819: finite(2412)
+5820: inf(2410);  pat(11640,8230),cyc=1
+5821: finite(2412)
+5822: finite(2413)
+5823: inf(2412);  pat(11647,8235),cyc=1
+5824: finite(2414)
+5825: inf(2413);  pat(11651,8238),cyc=1
+5826: finite(2415)
+5827: finite(2415)
+5828: inf(2415);  pat(11658,8243),cyc=1
+5829: finite(2417)
+5830: inf(2415);  pat(11661,8245),cyc=1
+5831: finite(2417)
+5832: finite(2418)
+5833: inf(2416);  pat(11667,8249),cyc=1
+5834: finite(2418)
+5835: inf(2418);  pat(11672,8253),cyc=1
+5836: finite(2420)
+5837: finite(2420)
+5838: inf(2420);  pat(11679,8258),cyc=1
+5839: inf(2418);  pat(11677,8257),pat(11680,8258),cyc=2
+5840: finite(2420)
+5841: inf(2424);  pat(11687,8265),pat(11689,8266),pat(11690,8267),pat(11688,8268),cyc=4
+5842: finite(2421)
+5843: finite(2422)
+5844: inf(2420);  pat(11688,8264),cyc=1
+5845: finite(2422)
+5846: finite(2423)
+5847: inf(2423);  pat(11696,8270),cyc=1
+5848: finite(2425)
+5849: finite(2425)
+5850: inf(2424);  pat(11702,8274),cyc=1
+5851: inf(2423);  pat(11703,8274),pat(11702,8275),cyc=2
+5852: finite(2425)
+5853: inf(2424);  pat(11706,8277),pat(11708,8278),pat(11709,8279),pat(11707,8280),cyc=4
+5854: finite(2426)
+5855: finite(2426)
+5856: inf(2425);  pat(11712,8281),cyc=1
+5857: finite(2427)
+5858: finite(2428)
+5859: inf(2427);  pat(11719,8286),cyc=1
+5860: finite(2429)
+5861: finite(2430)
+5862: inf(2428);  pat(11725,8290),cyc=1
+5863: finite(2430)
+5864: inf(2428);  pat(11728,8292),cyc=1
+5865: finite(2430)
+5866: inf(2429);  pat(11732,8295),cyc=1
+5867: finite(2431)
+5868: inf(2430);  pat(11736,8298),cyc=1
+5869: finite(2432)
+5870: finite(2433)
+5871: inf(2431);  pat(11742,8302),cyc=1
+5872: finite(2433)
+5873: inf(2434);  pat(11748,8307),cyc=1
+5874: finite(2434)
+5875: inf(2433);  pat(11750,8308),cyc=1
+5876: finite(2435)
+5877: finite(2436)
+5878: finite(2437)
+5879: inf(2435);  pat(11759,8314),cyc=1
+5880: finite(2437)
+5881: inf(2437);  pat(11764,8318),cyc=1
+5882: finite(2439)
+5883: finite(2439)
+5884: inf(2439);  pat(11771,8323),cyc=1
+5885: inf(2437);  pat(11769,8322),pat(11772,8323),cyc=2
+5886: finite(2439)
+5887: inf(2443);  pat(11779,8330),pat(11781,8331),pat(11782,8332),pat(11780,8333),cyc=4
+5888: finite(2440)
+5889: inf(2439);  pat(11779,8328),pat(11780,8329),pat(11781,8330),pat(11778,8331),cyc=4
+5890: finite(2441)
+5891: finite(2442)
+5892: finite(2443)
+5893: inf(2441);  pat(11787,8334),cyc=1
+5894: finite(2443)
+5895: inf(2442);  pat(11791,8337),cyc=1
+5896: finite(2444)
+5897: finite(2445)
+5898: inf(2443);  pat(11797,8341),cyc=1
+5899: finite(2445)
+5900: inf(2445);  pat(11802,8345),cyc=1
+5901: finite(2447)
+5902: finite(2447)
+5903: inf(2446);  pat(11808,8349),cyc=1
+5904: finite(2448)
+5905: inf(2446);  pat(11811,8351),cyc=1
+5906: finite(2448)
+5907: inf(2447);  pat(11815,8354),cyc=1
+5908: finite(2449)
+5909: finite(2450)
+5910: inf(2449);  pat(11822,8359),cyc=1
+5911: finite(2451)
+5912: inf(2449);  pat(11825,8361),cyc=1
+5913: finite(2451)
+5914: inf(2449);  pat(11828,8363),cyc=1
+5915: finite(2451)
+5916: finite(2452)
+5917: inf(2451);  pat(11835,8368),cyc=1
+5918: finite(2453)
+5919: inf(2452);  pat(11839,8371),cyc=1
+5920: finite(2454)
+5921: inf(2452);  pat(11842,8373),cyc=1
+5922: finite(2454)
+5923: finite(2455)
+5924: inf(2454);  pat(11849,8378),cyc=1
+5925: finite(2456)
+5926: inf(2455);  pat(11853,8381),cyc=1
+5927: finite(2457)
+5928: finite(2458)
+5929: inf(2457);  pat(11860,8386),cyc=1
+5930: finite(2457)
+5931: finite(2458)
+5932: inf(2457);  pat(11865,8389),cyc=1
+5933: finite(2459)
+5934: inf(2458);  pat(11869,8392),cyc=1
+5935: finite(2460)
+5936: inf(2459);  pat(11873,8395),cyc=1
+5937: finite(2461)
+5938: finite(2462)
+5939: inf(2461);  pat(11880,8400),cyc=1
+5940: finite(2463)
+5941: inf(2462);  pat(11884,8403),cyc=1
+5942: finite(2464)
+5943: finite(2464)
+5944: inf(2463);  pat(11890,8407),cyc=1
+5945: finite(2465)
+5946: inf(2463);  pat(11893,8409),cyc=1
+5947: finite(2465)
+5948: finite(2466)
+5949: inf(2464);  pat(11899,8413),cyc=1
+5950: finite(2466)
+5951: inf(2465);  pat(11903,8416),cyc=1
+5952: finite(2467)
+5953: inf(2465);  pat(11906,8418),cyc=1
+5954: finite(2467)
+5955: inf(2466);  pat(11910,8421),cyc=1
+5956: finite(2468)
+5957: finite(2469)
+5958: inf(2469);  pat(11918,8427),cyc=1
+5959: finite(2471)
+5960: finite(2472)
+5961: inf(2470);  pat(11924,8431),cyc=1
+5962: finite(2472)
+5963: inf(2470);  pat(11927,8433),cyc=1
+5964: finite(2472)
+5965: inf(2471);  pat(11931,8436),cyc=1
+5966: finite(2473)
+5967: finite(2473)
+5968: inf(2473);  pat(11938,8441),cyc=1
+5969: finite(2475)
+5970: inf(2473);  pat(11941,8443),cyc=1
+5971: finite(2475)
+5972: finite(2475)
+5973: inf(2475);  pat(11948,8448),cyc=1
+5974: finite(2477)
+5975: inf(2475);  pat(11951,8450),cyc=1
+5976: finite(2477)
+5977: inf(2475);  pat(11954,8452),cyc=1
+5978: finite(2477)
+5979: finite(2478)
+5980: inf(2478);  pat(11962,8458),cyc=1
+5981: finite(2480)
+5982: inf(2478);  pat(11965,8460),cyc=1
+5983: finite(2480)
+5984: finite(2481)
+5985: inf(2479);  pat(11971,8464),cyc=1
+5986: finite(2481)
+5987: inf(2481);  pat(11976,8468),cyc=1
+5988: finite(2483)
+5989: inf(2484);  pat(11982,8473),cyc=1
+5990: finite(2482)
+5991: inf(2484);  pat(11985,8475),cyc=1
+5992: finite(2483)
+5993: finite(2484)
+5994: finite(2485)
+5995: inf(2484);  pat(11992,8479),cyc=1
+5996: inf(2484);  pat(11994,8480),pat(11993,8481),cyc=2
+5997: finite(2486)
+5998: finite(2487)
+5999: inf(2485);  pat(11999,8484),cyc=1
+6000: finite(2487)
+6001: inf(2490);  pat(12007,8491),cyc=1
+6002: finite(2488)
+6003: finite(2488)
+6004: inf(2488);  pat(12010,8492),cyc=1
+6005: finite(2490)
+6006: inf(2488);  pat(12013,8494),cyc=1
+6007: finite(2490)
+6008: finite(2491)
+6009: inf(2489);  pat(12019,8498),cyc=1
+6010: finite(2491)
+6011: inf(2490);  pat(12023,8501),cyc=1
+6012: finite(2492)
+6013: finite(2493)
+6014: inf(2491);  pat(12029,8505),cyc=1
+6015: finite(2493)
+6016: inf(2492);  pat(12033,8508),cyc=1
+6017: finite(2494)
+6018: inf(2492);  pat(12036,8510),cyc=1
+6019: finite(2494)
+6020: inf(2497);  pat(12044,8517),cyc=1
+6021: finite(2495)
+6022: inf(2494);  pat(12044,8516),cyc=1
+6023: finite(2496)
+6024: finite(2497)
+6025: finite(2498)
+6026: inf(2496);  pat(12053,8522),cyc=1
+6027: finite(2498)
+6028: inf(2497);  pat(12057,8525),cyc=1
+6029: finite(2499)
+6030: finite(2500)
+6031: inf(2498);  pat(12063,8529),cyc=1
+6032: finite(2500)
+6033: inf(2499);  pat(12067,8532),cyc=1
+6034: finite(2501)
+6035: inf(2500);  pat(12071,8535),cyc=1
+6036: finite(2502)
+6037: finite(2503)
+6038: inf(2501);  pat(12077,8539),cyc=1
+6039: finite(2503)
+6040: inf(2501);  pat(12080,8541),cyc=1
+6041: finite(2503)
+6042: inf(2502);  pat(12084,8544),cyc=1
+6043: finite(2504)
+6044: finite(2505)
+6045: inf(2504);  pat(12091,8549),cyc=1
+6046: finite(2506)
+6047: inf(2505);  pat(12095,8552),cyc=1
+6048: finite(2507)
+6049: finite(2508)
+6050: inf(2506);  pat(12101,8556),cyc=1
+6051: finite(2508)
+6052: inf(2509);  pat(12107,8561),cyc=1
+6053: finite(2509)
+6054: inf(2508);  pat(12109,8562),cyc=1
+6055: finite(2510)
+6056: finite(2511)
+6057: inf(2510);  pat(12116,8567),cyc=1
+6058: finite(2512)
+6059: inf(2512);  pat(12121,8571),cyc=1
+6060: finite(2511)
+6061: finite(2512)
+6062: inf(2512);  pat(12126,8574),cyc=1
+6063: finite(2514)
+6064: inf(2514);  pat(12131,8578),cyc=1
+6065: finite(2513)
+6066: finite(2514)
+6067: inf(2514);  pat(12136,8581),cyc=1
+6068: finite(2516)
+6069: finite(2517)
+6070: inf(2515);  pat(12142,8585),cyc=1
+6071: inf(2515);  pat(12144,8586),pat(12143,8587),cyc=2
+6072: finite(2517)
+6073: inf(2515);  pat(12147,8588),pat(12148,8589),pat(12146,8590),pat(12149,8591),cyc=4
+6074: finite(2517)
+6075: finite(2518)
+6076: inf(2516);  pat(12152,8592),cyc=1
+6077: finite(2518)
+6078: finite(2519)
+6079: inf(2518);  pat(12159,8597),cyc=1
+6080: finite(2520)
+6081: inf(2519);  pat(12163,8600),cyc=1
+6082: finite(2521)
+6083: finite(2522)
+6084: inf(2521);  pat(12170,8605),cyc=1
+6085: finite(2523)
+6086: inf(2521);  pat(12173,8607),cyc=1
+6087: finite(2523)
+6088: inf(2521);  pat(12176,8609),cyc=1
+6089: finite(2523)
+6090: inf(2523);  pat(12181,8613),cyc=1
+6091: finite(2525)
+6092: finite(2525)
+6093: finite(2526)
+6094: inf(2525);  pat(12190,8619),cyc=1
+6095: inf(2525);  pat(12192,8620),pat(12191,8621),cyc=2
+6096: finite(2527)
+6097: finite(2528)
+6098: finite(2528)
+6099: inf(2526);  pat(12199,8625),cyc=1
+6100: finite(2528)
+6101: inf(2528);  pat(12204,8629),cyc=1
+6102: finite(2530)
+6103: inf(2528);  pat(12207,8631),cyc=1
+6104: finite(2530)
+6105: finite(2531)
+6106: inf(2530);  pat(12214,8636),cyc=1
+6107: inf(2529);  pat(12213,8636),pat(12216,8637),cyc=2
+6108: finite(2531)
+6109: inf(2530);  pat(12219,8639),pat(12220,8640),pat(12218,8641),pat(12221,8642),cyc=4
+6110: finite(2532)
+6111: finite(2533)
+6112: finite(2534)
+6113: inf(2532);  pat(12227,8645),cyc=1
+6114: finite(2534)
+6115: inf(2532);  pat(12230,8647),cyc=1
+6116: finite(2534)
+6117: inf(2534);  pat(12235,8651),cyc=1
+6118: finite(2536)
+6119: finite(2537)
+6120: inf(2535);  pat(12241,8655),cyc=1
+6121: finite(2537)
+6122: inf(2536);  pat(12245,8658),cyc=1
+6123: finite(2538)
+6124: finite(2539)
+6125: inf(2537);  pat(12251,8662),cyc=1
+6126: finite(2539)
+6127: inf(2537);  pat(12254,8664),cyc=1
+6128: finite(2539)
+6129: inf(2541);  pat(12261,8670),cyc=1
+6130: finite(2540)
+6131: inf(2543);  pat(12266,8674),cyc=1
+6132: finite(2541)
+6133: inf(2540);  pat(12266,8673),cyc=1
+6134: finite(2542)
+6135: finite(2543)
+6136: inf(2542);  pat(12273,8678),cyc=1
+6137: finite(2544)
+6138: finite(2545)
+6139: finite(2545)
+6140: inf(2543);  pat(12281,8683),cyc=1
+6141: inf(2543);  pat(12283,8684),pat(12282,8685),cyc=2
+6142: finite(2545)
+6143: finite(2546)
+6144: inf(2545);  pat(12289,8689),cyc=1
+6145: finite(2547)
+6146: finite(2548)
+6147: inf(2546);  pat(12295,8693),cyc=1
+6148: finite(2548)
+6149: inf(2547);  pat(12299,8696),cyc=1
+6150: finite(2549)
+6151: inf(2548);  pat(12303,8699),cyc=1
+6152: finite(2550)
+6153: finite(2551)
+6154: inf(2550);  pat(12310,8704),cyc=1
+6155: finite(2552)
+6156: inf(2550);  pat(12313,8706),cyc=1
+6157: finite(2552)
+6158: finite(2553)
+6159: inf(2551);  pat(12319,8710),cyc=1
+6160: finite(2553)
+6161: inf(2552);  pat(12323,8713),cyc=1
+6162: finite(2554)
+6163: inf(2553);  pat(12327,8716),cyc=1
+6164: finite(2555)
+6165: finite(2556)
+6166: inf(2554);  pat(12333,8720),cyc=1
+6167: finite(2556)
+6168: inf(2555);  pat(12337,8723),cyc=1
+6169: finite(2557)
+6170: inf(2556);  pat(12341,8726),cyc=1
+6171: finite(2558)
+6172: finite(2559)
+6173: inf(2557);  pat(12347,8730),cyc=1
+6174: finite(2559)
+6175: inf(2558);  pat(12351,8733),cyc=1
+6176: finite(2560)
+6177: inf(2559);  pat(12355,8736),cyc=1
+6178: finite(2561)
+6179: finite(2561)
+6180: inf(2560);  pat(12361,8740),cyc=1
+6181: finite(2562)
+6182: inf(2561);  pat(12365,8743),cyc=1
+6183: finite(2563)
+6184: finite(2564)
+6185: inf(2562);  pat(12371,8747),cyc=1
+6186: finite(2564)
+6187: inf(2562);  pat(12374,8749),cyc=1
+6188: finite(2564)
+6189: finite(2565)
+6190: inf(2564);  pat(12381,8754),cyc=1
+6191: finite(2566)
+6192: inf(2564);  pat(12384,8756),cyc=1
+6193: finite(2566)
+6194: inf(2568);  pat(12391,8762),cyc=1
+6195: finite(2567)
+6196: inf(2567);  pat(12393,8763),cyc=1
+6197: finite(2568)
+6198: finite(2568)
+6199: inf(2568);  pat(12399,8767),cyc=1
+6200: finite(2570)
+6201: inf(2571);  pat(12405,8772),cyc=1
+6202: finite(2571)
+6203: finite(2571)
+6204: inf(2570);  pat(12409,8774),cyc=1
+6205: finite(2572)
+6206: inf(2571);  pat(12413,8777),cyc=1
+6207: finite(2573)
+6208: finite(2573)
+6209: inf(2572);  pat(12419,8781),cyc=1
+6210: finite(2574)
+6211: inf(2573);  pat(12423,8784),cyc=1
+6212: finite(2575)
+6213: finite(2576)
+6214: inf(2574);  pat(12429,8788),cyc=1
+6215: finite(2576)
+6216: inf(2574);  pat(12432,8790),cyc=1
+6217: finite(2576)
+6218: inf(2575);  pat(12436,8793),cyc=1
+6219: finite(2577)
+6220: finite(2578)
+6221: inf(2577);  pat(12443,8798),cyc=1
+6222: finite(2579)
+6223: inf(2577);  pat(12446,8800),cyc=1
+6224: finite(2579)
+6225: finite(2580)
+6226: inf(2579);  pat(12453,8805),cyc=1
+6227: finite(2581)
+6228: finite(2582)
+6229: inf(2581);  pat(12460,8810),cyc=1
+6230: inf(2581);  pat(12462,8811),pat(12461,8812),cyc=2
+6231: finite(2583)
+6232: finite(2583)
+6233: inf(2582);  pat(12467,8815),cyc=1
+6234: finite(2584)
+6235: inf(2582);  pat(12470,8817),cyc=1
+6236: finite(2584)
+6237: finite(2585)
+6238: finite(2586)
+6239: inf(2585);  pat(12480,8824),cyc=1
+6240: inf(2584);  pat(12479,8824),pat(12482,8825),cyc=2
+6241: finite(2586)
+6242: finite(2587)
+6243: inf(2586);  pat(12487,8829),cyc=1
+6244: finite(2588)
+6245: inf(2587);  pat(12491,8832),cyc=1
+6246: finite(2589)
+6247: finite(2590)
+6248: inf(2588);  pat(12497,8836),cyc=1
+6249: finite(2590)
+6250: finite(2591)
+6251: inf(2590);  pat(12504,8841),cyc=1
+6252: inf(2590);  pat(12506,8842),pat(12505,8843),cyc=2
+6253: finite(2592)
+6254: finite(2593)
+6255: inf(2592);  pat(12512,8847),cyc=1
+6256: finite(2594)
+6257: finite(2594)
+6258: inf(2592);  pat(12517,8850),cyc=1
+6259: finite(2594)
+6260: inf(2593);  pat(12521,8853),cyc=1
+6261: finite(2595)
+6262: inf(2593);  pat(12524,8855),cyc=1
+6263: finite(2595)
+6264: inf(2595);  pat(12529,8859),cyc=1
+6265: finite(2597)
+6266: finite(2597)
+6267: inf(2595);  pat(12534,8862),cyc=1
+6268: finite(2597)
+6269: inf(2597);  pat(12539,8866),cyc=1
+6270: finite(2599)
+6271: finite(2599)
+6272: inf(2598);  pat(12545,8870),cyc=1
+6273: finite(2600)
+6274: finite(2601)
+6275: inf(2600);  pat(12552,8875),cyc=1
+6276: inf(2600);  pat(12554,8876),pat(12553,8877),cyc=2
+6277: finite(2602)
+6278: finite(2602)
+6279: finite(2603)
+6280: inf(2602);  pat(12562,8882),cyc=1
+6281: finite(2604)
+6282: inf(2602);  pat(12565,8884),cyc=1
+6283: finite(2604)
+6284: inf(2606);  pat(12572,8890),cyc=1
+6285: finite(2605)
+6286: inf(2604);  pat(12573,8890),cyc=1
+6287: finite(2606)
+6288: finite(2607)
+6289: inf(2605);  pat(12579,8894),cyc=1
+6290: finite(2607)
+6291: inf(2605);  pat(12582,8896),cyc=1
+6292: finite(2607)
+6293: inf(2606);  pat(12586,8899),cyc=1
+6294: finite(2608)
+6295: finite(2609)
+6296: inf(2607);  pat(12592,8903),cyc=1
+6297: finite(2609)
+6298: inf(2610);  pat(12598,8908),cyc=1
+6299: finite(2610)
+6300: inf(2609);  pat(12600,8909),cyc=1
+6301: finite(2611)
+6302: finite(2612)
+6303: inf(2610);  pat(12606,8913),cyc=1
+6304: finite(2612)
+6305: inf(2611);  pat(12610,8916),cyc=1
+6306: finite(2613)
+6307: inf(2612);  pat(12614,8919),cyc=1
+6308: finite(2614)
+6309: finite(2615)
+6310: finite(2616)
+6311: inf(2614);  pat(12623,8925),cyc=1
+6312: finite(2616)
+6313: inf(2615);  pat(12627,8928),cyc=1
+6314: finite(2617)
+6315: inf(2616);  pat(12631,8931),cyc=1
+6316: finite(2618)
+6317: inf(2621);  pat(12639,8938),cyc=1
+6318: finite(2619)
+6319: finite(2619)
+6320: inf(2619);  pat(12642,8939),cyc=1
+6321: finite(2620)
+6322: inf(2618);  pat(12644,8940),cyc=1
+6323: finite(2620)
+6324: inf(2619);  pat(12648,8943),cyc=1
+6325: finite(2621)
+6326: finite(2622)
+6327: inf(2621);  pat(12655,8948),cyc=1
+6328: finite(2623)
+6329: finite(2624)
+6330: inf(2623);  pat(12662,8953),cyc=1
+6331: finite(2625)
+6332: finite(2625)
+6333: inf(2624);  pat(12668,8957),cyc=1
+6334: finite(2626)
+6335: inf(2624);  pat(12671,8959),cyc=1
+6336: finite(2626)
+6337: inf(2625);  pat(12675,8962),cyc=1
+6338: finite(2627)
+6339: inf(2626);  pat(12679,8965),cyc=1
+6340: finite(2628)
+6341: finite(2628)
+6342: inf(2627);  pat(12685,8969),cyc=1
+6343: finite(2629)
+6344: inf(2628);  pat(12689,8972),cyc=1
+6345: finite(2630)
+6346: finite(2630)
+6347: inf(2629);  pat(12695,8976),cyc=1
+6348: finite(2631)
+6349: finite(2632)
+6350: inf(2631);  pat(12702,8981),cyc=1
+6351: inf(2630);  pat(12701,8981),pat(12704,8982),cyc=2
+6352: finite(2632)
+6353: finite(2633)
+6354: inf(2633);  pat(12710,8987),cyc=1
+6355: finite(2635)
+6356: inf(2633);  pat(12713,8989),cyc=1
+6357: finite(2635)
+6358: finite(2636)
+6359: inf(2634);  pat(12719,8993),cyc=1
+6360: finite(2636)
+6361: inf(2635);  pat(12723,8996),cyc=1
+6362: finite(2637)
+6363: finite(2637)
+6364: inf(2637);  pat(12730,9001),cyc=1
+6365: finite(2639)
+6366: inf(2639);  pat(12735,9005),cyc=1
+6367: finite(2638)
+6368: inf(2638);  pat(12737,9006),cyc=1
+6369: finite(2640)
+6370: inf(2639);  pat(12741,9009),cyc=1
+6371: finite(2641)
+6372: finite(2641)
+6373: inf(2639);  pat(12746,9012),cyc=1
+6374: finite(2641)
+6375: inf(2641);  pat(12751,9016),cyc=1
+6376: finite(2643)
+6377: finite(2643)
+6378: inf(2643);  pat(12758,9021),cyc=1
+6379: finite(2645)
+6380: finite(2645)
+6381: inf(2643);  pat(12763,9024),cyc=1
+6382: finite(2645)
+6383: inf(2645);  pat(12768,9028),cyc=1
+6384: finite(2647)
+6385: finite(2648)
+6386: inf(2646);  pat(12774,9032),cyc=1
+6387: finite(2648)
+6388: inf(2646);  pat(12777,9034),cyc=1
+6389: finite(2648)
+6390: finite(2649)
+6391: inf(2648);  pat(12784,9039),cyc=1
+6392: inf(2647);  pat(12783,9039),pat(12786,9040),cyc=2
+6393: finite(2649)
+6394: inf(2648);  pat(12789,9042),pat(12790,9043),pat(12788,9044),pat(12791,9045),cyc=4
+6395: finite(2650)
+6396: finite(2651)
+6397: finite(2652)
+6398: inf(2650);  pat(12797,9048),cyc=1
+6399: finite(2652)
+6400: inf(2651);  pat(12801,9051),cyc=1
+6401: finite(2653)
+6402: inf(2651);  pat(12804,9053),cyc=1
+6403: finite(2653)
+6404: inf(2656);  pat(12812,9060),cyc=1
+6405: finite(2654)
+6406: inf(2653);  pat(12812,9059),cyc=1
+6407: finite(2655)
+6408: finite(2656)
+6409: inf(2655);  pat(12819,9064),cyc=1
+6410: finite(2657)
+6411: finite(2658)
+6412: inf(2657);  pat(12826,9069),cyc=1
+6413: finite(2659)
+6414: inf(2657);  pat(12829,9071),cyc=1
+6415: finite(2659)
+6416: finite(2660)
+6417: inf(2659);  pat(12836,9076),cyc=1
+6418: finite(2661)
+6419: inf(2660);  pat(12840,9079),cyc=1
+6420: finite(2662)
+6421: inf(2660);  pat(12843,9081),cyc=1
+6422: finite(2662)
+6423: finite(2662)
+6424: inf(2661);  pat(12849,9085),cyc=1
+6425: finite(2663)
+6426: inf(2662);  pat(12853,9088),cyc=1
+6427: finite(2664)
+6428: inf(2663);  pat(12857,9091),cyc=1
+6429: finite(2665)
+6430: finite(2666)
+6431: inf(2664);  pat(12863,9095),cyc=1
+6432: finite(2666)
+6433: inf(2664);  pat(12866,9097),cyc=1
+6434: finite(2666)
+6435: finite(2667)
+6436: inf(2665);  pat(12872,9101),cyc=1
+6437: finite(2667)
+6438: inf(2666);  pat(12876,9104),cyc=1
+6439: finite(2668)
+6440: finite(2669)
+6441: inf(2668);  pat(12883,9109),cyc=1
+6442: finite(2670)
+6443: inf(2668);  pat(12886,9111),cyc=1
+6444: finite(2670)
+6445: inf(2672);  pat(12893,9117),cyc=1
+6446: finite(2671)
+6447: inf(2670);  pat(12894,9117),cyc=1
+6448: finite(2672)
+6449: finite(2673)
+6450: inf(2672);  pat(12901,9122),cyc=1
+6451: finite(2674)
+6452: finite(2675)
+6453: inf(2673);  pat(12907,9126),cyc=1
+6454: finite(2675)
+6455: inf(2674);  pat(12911,9129),cyc=1
+6456: finite(2676)
+6457: finite(2677)
+6458: inf(2675);  pat(12917,9133),cyc=1
+6459: finite(2677)
+6460: finite(2678)
+6461: inf(2677);  pat(12924,9138),cyc=1
+6462: inf(2677);  pat(12926,9139),pat(12925,9140),cyc=2
+6463: finite(2679)
+6464: finite(2680)
+6465: finite(2680)
+6466: inf(2680);  pat(12935,9146),cyc=1
+6467: inf(2679);  pat(12936,9146),pat(12935,9147),cyc=2
+6468: finite(2681)
+6469: finite(2681)
+6470: inf(2680);  pat(12941,9150),cyc=1
+6471: finite(2682)
+6472: inf(2685);  pat(12949,9157),cyc=1
+6473: finite(2683)
+6474: inf(2682);  pat(12949,9156),cyc=1
+6475: finite(2684)
+6476: finite(2685)
+6477: inf(2683);  pat(12955,9160),cyc=1
+6478: finite(2685)
+6479: inf(2684);  pat(12959,9163),cyc=1
+6480: finite(2686)
+6481: inf(2684);  pat(12962,9165),cyc=1
+6482: finite(2686)
+6483: finite(2687)
+6484: finite(2688)
+6485: inf(2687);  pat(12972,9172),cyc=1
+6486: finite(2689)
+6487: inf(2688);  pat(12976,9175),cyc=1
+6488: finite(2690)
+6489: inf(2688);  pat(12979,9177),cyc=1
+6490: finite(2690)
+6491: inf(2689);  pat(12983,9180),cyc=1
+6492: finite(2691)
+6493: finite(2692)
+6494: inf(2691);  pat(12990,9185),cyc=1
+6495: finite(2693)
+6496: finite(2693)
+6497: inf(2692);  pat(12996,9189),cyc=1
+6498: inf(2696);  pat(13002,9194),pat(13001,9195),cyc=2
+6499: finite(2693)
+6500: finite(2694)
+6501: finite(2696)
+6502: inf(2694);  pat(13006,9196),cyc=1
+6503: finite(2696)
+6504: inf(2694);  pat(13009,9198),cyc=1
+6505: finite(2696)
+6506: inf(2697);  pat(13015,9203),cyc=1
+6507: finite(2696)
+6508: inf(2698);  pat(13019,9206),cyc=1
+6509: finite(2697)
+6510: finite(2698)
+6511: inf(2698);  pat(13024,9209),cyc=1
+6512: finite(2700)
+6513: inf(2698);  pat(13027,9211),cyc=1
+6514: finite(2700)
+6515: inf(2699);  pat(13031,9214),cyc=1
+6516: finite(2701)
+6517: finite(2701)
+6518: inf(2700);  pat(13037,9218),cyc=1
+6519: finite(2702)
+6520: inf(2700);  pat(13040,9220),cyc=1
+6521: finite(2702)
+6522: finite(2703)
+6523: inf(2702);  pat(13047,9225),cyc=1
+6524: finite(2704)
+6525: inf(2703);  pat(13051,9228),cyc=1
+6526: finite(2705)
+6527: inf(2703);  pat(13054,9230),cyc=1
+6528: finite(2705)
+6529: finite(2706)
+6530: inf(2704);  pat(13060,9234),cyc=1
+6531: finite(2706)
+6532: inf(2706);  pat(13065,9238),cyc=1
+6533: finite(2708)
+6534: finite(2708)
+6535: finite(2709)
+6536: inf(2708);  pat(13074,9244),cyc=1
+6537: finite(2710)
+6538: inf(2709);  pat(13078,9247),cyc=1
+6539: inf(2708);  pat(13079,9247),pat(13077,9248),pat(13081,9249),cyc=3
+6540: finite(2710)
+6541: inf(2709);  pat(13083,9250),pat(13084,9251),pat(13085,9252),pat(13082,9253),pat(13086,9254),pat(13088,9255),pat(13089,9256),pat(13090,9257),pat(13087,9258),cyc=9
+6542: finite(2711)
+6543: finite(2712)
+6544: finite(2713)
+6545: inf(2711);  pat(13091,9256),cyc=1
+6546: finite(2713)
+6547: inf(2713);  pat(13096,9260),cyc=1
+6548: finite(2715)
+6549: finite(2715)
+6550: inf(2713);  pat(13101,9263),cyc=1
+6551: finite(2715)
+6552: inf(2714);  pat(13105,9266),cyc=1
+6553: finite(2716)
+6554: inf(2714);  pat(13108,9268),cyc=1
+6555: finite(2716)
+6556: inf(2719);  pat(13116,9275),cyc=1
+6557: finite(2717)
+6558: inf(2717);  pat(13117,9275),cyc=1
+6559: finite(2718)
+6560: finite(2718)
+6561: inf(2717);  pat(13122,9278),cyc=1
+6562: finite(2719)
+6563: finite(2720)
+6564: inf(2718);  pat(13128,9282),cyc=1
+6565: finite(2720)
+6566: inf(2719);  pat(13132,9285),cyc=1
+6567: finite(2721)
+6568: inf(2721);  pat(13137,9289),cyc=1
+6569: finite(2723)
+6570: finite(2723)
+6571: inf(2722);  pat(13143,9293),cyc=1
+6572: finite(2724)
+6573: inf(2725);  pat(13149,9298),cyc=1
+6574: finite(2725)
+6575: finite(2725)
+6576: inf(2724);  pat(13153,9300),cyc=1
+6577: finite(2726)
+6578: inf(2724);  pat(13156,9302),cyc=1
+6579: finite(2726)
+6580: finite(2727)
+6581: inf(2725);  pat(13162,9306),cyc=1
+6582: finite(2727)
+6583: inf(2727);  pat(13167,9310),cyc=1
+6584: finite(2729)
+6585: inf(2727);  pat(13170,9312),cyc=1
+6586: finite(2729)
+6587: inf(2729);  pat(13175,9316),cyc=1
+6588: finite(2730)
+6589: finite(2730)
+6590: inf(2730);  pat(13181,9320),cyc=1
+6591: finite(2731)
+6592: inf(2730);  pat(13184,9322),cyc=1
+6593: finite(2732)
+6594: finite(2732)
+6595: inf(2731);  pat(13190,9326),cyc=1
+6596: finite(2733)
+6597: inf(2734);  pat(13196,9331),cyc=1
+6598: finite(2734)
+6599: inf(2733);  pat(13198,9332),cyc=1
+6600: finite(2735)

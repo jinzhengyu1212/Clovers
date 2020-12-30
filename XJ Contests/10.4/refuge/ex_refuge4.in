@@ -1,0 +1,24 @@
+16
+input n
+for(i=0;i<n;i=i+1){
+	input a[i]
+}
+for(i=0;i<n;i=i+1){
+	for(j=i+1;j<n;j=j+1){
+		if a[i]>a[j]
+			tmp=a[i]
+			a[i]=a[j]
+			a[j]=tmp
+		fi
+	}
+}
+for(i=0;i<n;i=i+1){
+	output a[i]
+}
+3
+3
+3 2 1
+4
+1 5 2 6
+7
+1 1 2 2 1 4 5

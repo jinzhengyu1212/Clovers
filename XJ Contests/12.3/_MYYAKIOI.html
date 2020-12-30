@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<!-- saved from url=(0027)https://hack.chat/?MYYAKIOI -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <title>?MYYAKIOI</title>
+  <link rel="manifest" href="https://hack.chat/manifest.json">
+
+  <link rel="stylesheet" href="./_MYYAKIOI_files/style.css">
+  <link id="scheme-link" rel="stylesheet" href="./_MYYAKIOI_files/atelier-dune.css">
+
+  <link rel="stylesheet" href="./_MYYAKIOI_files/katex.min.css">
+  <script src="./_MYYAKIOI_files/katex.min.js"></script>
+  <script src="./_MYYAKIOI_files/remarkableKatex.min.js"></script>
+
+  <script src="./_MYYAKIOI_files/highlight.min.js"></script>
+  <link id="highlight-link" rel="stylesheet" href="./_MYYAKIOI_files/hybrid.css">
+  <script src="./_MYYAKIOI_files/remarkable.min.js"></script>
+</head>
+
+<body style="margin-bottom: 54px;">
+  <audio style="display: none" id="notify-sound" preload="auto" src="audio/notify.mp3">
+    <source src="audio/notify.mp3" type="audio/ogg">
+  </audio>
+  <article class="container">
+    <div id="messages" class="messages"><div class="message info"><span class="nick"><a title="2020/12/17 下午9:38:27">*</a></span><p class="text"><p>Users online: MiFaFa_MYY</p>
+</p></div><div class="message info"><span class="nick"><a title="2020/12/17 下午9:38:27">*</a></span><p class="text"><p>New beta available at: <a rel="noreferrer" onclick="return verifyLink(this)" href="https://beta.hack.chat/" target="_blank">https://beta.hack.chat/</a> or <a rel="noreferrer" onclick="return verifyLink(this)" href="https://beta.hack.chat/?MYYAKIOI" target="_blank">https://beta.hack.chat/?MYYAKIOI</a></p>
+</p></div><div class="message info"><span class="nick"><a title="2020/12/17 下午9:39:49">*</a></span><p class="text"><p>rin joined</p>
+</p></div><div class="message"><span class="nick"><a title="2020/12/17 下午9:39:54">rin</a></span><p class="text"><p><a href="https://hack.chat/??" target="_blank">??</a></p>
+</p></div><div class="message"><span class="nick"><a title="2020/12/17 下午9:40:02">rin</a></span><p class="text"><p>到处MYY</p>
+</p></div><div class="message me"><span class="nick"><a title="2020/12/17 下午9:40:28">MiFaFa_MYY</a></span><p class="text"><p>。。。</p>
+</p></div><div class="message"><span class="nick"><a title="2020/12/17 下午9:40:37">rin</a></span><p class="text"><p>这玩意数据清空吗</p>
+</p></div><div class="message me"><span class="nick"><a title="2020/12/17 下午9:40:47">MiFaFa_MYY</a></span><p class="text"><p>看不见</p>
+</p></div><div class="message"><span class="nick"><a title="2020/12/17 下午9:40:52">rin</a></span><p class="text"><p>手动存记录多累啊</p>
+</p></div><div class="message me"><span class="nick"><a title="2020/12/17 下午9:40:55">MiFaFa_MYY</a></span><p class="text"><p>清空的</p>
+</p></div><div class="message me"><span class="nick"><a title="2020/12/17 下午9:41:07">MiFaFa_MYY</a></span><p class="text"><p>你还要保存？</p>
+</p></div><div class="message"><span class="nick"><a title="2020/12/17 下午9:41:17">rin</a></span><p class="text"><p>我 我 我无所谓</p>
+</p></div><div class="message"><span class="nick"><a title="2020/12/17 下午9:41:56">rin</a></span><p class="text"><p>我以前下狠心不被我妈抓的时候删过的记录</p>
+</p></div><div class="message"><span class="nick"><a title="2020/12/17 下午9:42:05">rin</a></span><p class="text"><p>哦 想想看都心疼</p>
+</p></div></div>
+  </article>
+  <footer id="footer">
+    <div class="container">
+      <form id="chatform" class="message">
+        <textarea id="chatinput" type="text" autocomplete="off" autofocus="" style="height: 38px;"></textarea>
+      </form>
+    </div>
+  </footer>
+  <nav id="sidebar">
+    <div id="sidebar-content" class="hidden">
+      <h4>Settings</h4>
+      <p>
+        <input id="pin-sidebar" type="checkbox">
+        <label for="pin-sidebar">Pin sidebar</label>
+      </p>
+      <p>
+        <input id="sound-switch" type="checkbox">
+        <label for="sound-switch">Sound notifications</label>
+      </p>
+      <p>
+        <input id="notify-switch" type="checkbox">
+        <label for="notify-switch">Screen notifications</label>
+      </p>
+      <p>
+        <input id="joined-left" type="checkbox" checked="">
+        <label for="joined-left">Join/left notify</label>
+      </p>
+      <p>
+        <input id="parse-latex" type="checkbox" checked="">
+        <label for="parse-latex">Allow LaTeX</label>
+      </p>
+      <p>
+        <input id="syntax-highlight" type="checkbox" checked="">
+        <label for="syntax-highlight">Allow Highlight</label>
+      </p>
+      <p>
+        <input id="allow-imgur" type="checkbox">
+        <label for="allow-imgur" title="Embed images like: ![Title](https://i.imgur.com/image.png)">Allow Imgur</label>
+      </p>
+      <hr>
+      <p>
+        </p><h4>Color scheme</h4>
+        <select id="scheme-selector"><option value="android">android</option><option value="android-white">android-white</option><option value="atelier-dune">atelier-dune</option><option value="atelier-forest">atelier-forest</option><option value="atelier-heath">atelier-heath</option><option value="atelier-lakeside">atelier-lakeside</option><option value="atelier-seaside">atelier-seaside</option><option value="banana">banana</option><option value="bright">bright</option><option value="bubblegum">bubblegum</option><option value="chalk">chalk</option><option value="default">default</option><option value="eighties">eighties</option><option value="fresh-green">fresh-green</option><option value="greenscreen">greenscreen</option><option value="hacker">hacker</option><option value="maniac">maniac</option><option value="mariana">mariana</option><option value="military">military</option><option value="mocha">mocha</option><option value="monokai">monokai</option><option value="nese">nese</option><option value="ocean">ocean</option><option value="omega">omega</option><option value="pop">pop</option><option value="railscasts">railscasts</option><option value="solarized">solarized</option><option value="tomorrow">tomorrow</option></select>
+      <p></p>
+      <p>
+        </p><h4>Highlight scheme</h4>
+        <select id="highlight-selector"><option value="agate">agate</option><option value="androidstudio">androidstudio</option><option value="atom-one-dark">atom-one-dark</option><option value="darcula">darcula</option><option value="github">github</option><option value="rainbow">rainbow</option><option value="tomorrow">tomorrow</option><option value="xcode">xcode</option><option value="zenburn">zenburn</option></select>
+      <p></p>
+      <hr>
+      <p>
+        <button id="clear-messages">Clear all messages</button>
+      </p>
+      <hr>
+      <h4>Users online</h4>
+      <p>(Click user to invite)</p>
+      <ul id="users"><li><a>MiFaFa_MYY</a></li><li><a>rin</a></li></ul>
+    </div>
+  </nav>
+  <script src="./_MYYAKIOI_files/client.js"></script>
+
+
+
+</body></html>

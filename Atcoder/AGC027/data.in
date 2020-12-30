@@ -1,0 +1,1 @@
+a%b=a%c=a%d=a%e -> a=lcm(b,c,d,e)+1

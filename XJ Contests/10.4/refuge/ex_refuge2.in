@@ -1,0 +1,11 @@
+7
+input a
+input b
+if a<b
+	output a
+else
+	output b
+fi
+2
+1 3
+4 3
