@@ -31,53 +31,30 @@ inline int read(){
     while(c>='0'&&c<='9') x=(x<<1)+(x<<3)+(c^48),c=getchar();
     return x*f;
 }
-const int N=19;
-const int M=(1<<N);
-int n,k,a[N],full;
-int f[M],g[40000000];
-void FWT(){
-    for(int h=1;h<=full;h<<=1){
-        for(int i=0;i<=full;i+=(h<<1)){
-            for(int j=i;j<i+h;j++) f[j+h]+=f[j];
-        }
-    }
-}
-
-bool check(int mid){
-    memset(f,0,sizeof(f));
-    for(int i=1;i<=mid;i++){
-        f[g[i]]++;
-    }
-    FWT();
-    for(int S=1;S<=full;S++){
-        int cnt=0;
-        for(int i=0;i<n;i++){
-            if(S>>i&1) cnt+=k;
-        }
-        int rest=mid-f[full^S];
-        if(rest<cnt) return 0;
-    }
-    return 1;
-}
-
+const int N=500005;
+int n; ll ans=0,ret[N],a[N],deg[N],val[N];
 int main()
 {
-    n=read(); k=read(); full=(1<<n)-1;
-    for(int i=1;i<=n;i++) a[i]=read();
-    for(int i=1;i<=2*n*k;i++){
-        int mask=0;
-        for(int j=1;j<=n;j++){
-            int tmp=i%(2*a[j]); if(tmp==0) tmp=2*a[j];
-            if(tmp<=a[j]) mask|=(1<<(j-1));
+    int T=read();
+    while(T--){
+        n=read();
+        for(int i=1;i<=n;i++) a[i]=read(),deg[i]=0;
+        for(int i=1;i<n;i++){
+            int x=read(),y=read();
+            deg[x]++; deg[y]++;
         }
-        g[i]=mask;
+        ans=0;
+        for(int i=1;i<=n;i++) ans+=a[i];
+        printf("%lld ",ans);
+        int top=0;
+        for(int i=1;i<=n;i++)
+            for(int j=2;j<=deg[i];j++) val[++top]=a[i];
+        sort(val+1,val+top+1); reverse(val+1,val+top+1);
+        for(int i=1;i<=top;i++){
+            ans+=val[i];
+            printf("%lld ",ans);
+        }
+        puts("");
     }
-    int l=n*k,r=2*n*k,mid,best;
-    while(l<=r){
-        mid=(l+r)>>1;
-        if(check(mid)) r=mid-1,best=mid;
-        else l=mid+1;
-    }
-    cout<<best<<endl;
     return 0;
 }

@@ -9,7 +9,7 @@ typedef pair<int,int> pii;
 #define mk make_pair
 const int inf=(int)1e9;
 const ll INF=(ll)5e18;
-const int MOD=998244353;
+const int MOD=1e9+7;
 int _abs(int x){return x<0 ? -x : x;}
 int add(int x,int y){x+=y; return x>=MOD ? x-MOD : x;}
 int sub(int x,int y){x-=y; return x<0 ? x+MOD : x;}
@@ -31,53 +31,42 @@ inline int read(){
     while(c>='0'&&c<='9') x=(x<<1)+(x<<3)+(c^48),c=getchar();
     return x*f;
 }
-const int N=19;
-const int M=(1<<N);
-int n,k,a[N],full;
-int f[M],g[40000000];
-void FWT(){
-    for(int h=1;h<=full;h<<=1){
-        for(int i=0;i<=full;i+=(h<<1)){
-            for(int j=i;j<i+h;j++) f[j+h]+=f[j];
-        }
+const int N=500005;
+int n,m,bl[N],vis[N];
+namespace DSU{
+    int fa[N];
+    void init(){for(int i=1;i<=m;i++) fa[i]=i;}
+    int getfather(int x){return x==fa[x] ? x : fa[x]=getfather(fa[x]);}
+    void unite(int x,int y){
+        x=getfather(x),y=getfather(y);
+        bl[y]|=bl[x]; fa[x]=y;
     }
+    bool same(int x,int y){return getfather(x)==getfather(y);}
 }
 
-bool check(int mid){
-    memset(f,0,sizeof(f));
-    for(int i=1;i<=mid;i++){
-        f[g[i]]++;
-    }
-    FWT();
-    for(int S=1;S<=full;S++){
-        int cnt=0;
-        for(int i=0;i<n;i++){
-            if(S>>i&1) cnt+=k;
-        }
-        int rest=mid-f[full^S];
-        if(rest<cnt) return 0;
-    }
-    return 1;
-}
-
+int ans=1;
+vector<int> v;
 int main()
 {
-    n=read(); k=read(); full=(1<<n)-1;
-    for(int i=1;i<=n;i++) a[i]=read();
-    for(int i=1;i<=2*n*k;i++){
-        int mask=0;
-        for(int j=1;j<=n;j++){
-            int tmp=i%(2*a[j]); if(tmp==0) tmp=2*a[j];
-            if(tmp<=a[j]) mask|=(1<<(j-1));
+    n=read(); m=read();
+    DSU::init();
+    for(int i=1;i<=n;i++){
+        int k=read();
+        if(k==1){
+            int x=read();
+            x=DSU::getfather(x);
+            vis[x]=1;
+            if(!bl[x]) v.push_back(i),bl[x]=1;
+            continue;
         }
-        g[i]=mask;
+        int x=read(),y=read();
+        x=DSU::getfather(x),y=DSU::getfather(y);
+        if(DSU::same(x,y)||(bl[x]&&bl[y])) continue;
+        v.push_back(i); DSU::unite(x,y);
     }
-    int l=n*k,r=2*n*k,mid,best;
-    while(l<=r){
-        mid=(l+r)>>1;
-        if(check(mid)) r=mid-1,best=mid;
-        else l=mid+1;
-    }
-    cout<<best<<endl;
+    int kkk=sz(v);
+    cout<<qpow(2,kkk)<<" "<<kkk<<endl;
+    for(auto &to : v) printf("%d ",to);
+    cout<<endl;
     return 0;
 }

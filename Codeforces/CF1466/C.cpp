@@ -8,7 +8,7 @@ typedef long long ll;
 typedef pair<int,int> pii;
 #define mk make_pair
 const int inf=(int)1e9;
-const ll INF=(ll)5e18;
+const ll INdp=(ll)5e18;
 const int MOD=998244353;
 int _abs(int x){return x<0 ? -x : x;}
 int add(int x,int y){x+=y; return x>=MOD ? x-MOD : x;}
@@ -31,53 +31,40 @@ inline int read(){
     while(c>='0'&&c<='9') x=(x<<1)+(x<<3)+(c^48),c=getchar();
     return x*f;
 }
-const int N=19;
-const int M=(1<<N);
-int n,k,a[N],full;
-int f[M],g[40000000];
-void FWT(){
-    for(int h=1;h<=full;h<<=1){
-        for(int i=0;i<=full;i+=(h<<1)){
-            for(int j=i;j<i+h;j++) f[j+h]+=f[j];
-        }
-    }
-}
-
-bool check(int mid){
-    memset(f,0,sizeof(f));
-    for(int i=1;i<=mid;i++){
-        f[g[i]]++;
-    }
-    FWT();
-    for(int S=1;S<=full;S++){
-        int cnt=0;
-        for(int i=0;i<n;i++){
-            if(S>>i&1) cnt+=k;
-        }
-        int rest=mid-f[full^S];
-        if(rest<cnt) return 0;
-    }
-    return 1;
-}
-
+const int N=100005;
+char s[N];
+int n,dp[N][2][2];
 int main()
 {
-    n=read(); k=read(); full=(1<<n)-1;
-    for(int i=1;i<=n;i++) a[i]=read();
-    for(int i=1;i<=2*n*k;i++){
-        int mask=0;
-        for(int j=1;j<=n;j++){
-            int tmp=i%(2*a[j]); if(tmp==0) tmp=2*a[j];
-            if(tmp<=a[j]) mask|=(1<<(j-1));
+    int T=read();
+    while(T--){
+        scanf("%s",s+1);
+        n=strlen(s+1);
+        if(n==1){
+            puts("0");
+            continue;
         }
-        g[i]=mask;
+        for(int i=1;i<=n;i++) dp[i][0][0]=dp[i][0][1]=dp[i][1][0]=dp[i][1][1]=inf;
+        if(s[2]!=s[1]) dp[2][0][0]=0;
+        dp[2][1][0]=1; dp[2][0][1]=1;
+        dp[2][1][1]=2;
+        for(int i=3;i<=n;i++){
+            if(s[i]==s[i-2])
+			{
+				dp[i][1][0]=dp[i-1][1][1];
+				dp[i][1][1]=min(dp[i-1][1][1],dp[i-1][0][1])+1;
+				dp[i][0][1]=min(dp[i-1][1][0],dp[i-1][0][0])+1;
+				if(s[i]!=s[i-1]) dp[i][0][0]=dp[i-1][1][0];
+			}
+			else
+			{
+				dp[i][0][1]=min(dp[i-1][0][0],dp[i-1][1][0])+1;
+				dp[i][1][0]=min(dp[i-1][1][1],dp[i-1][0][1]);
+				dp[i][1][1]=min(dp[i-1][1][1],dp[i-1][0][1])+1;
+				if(s[i]!=s[i-1]) dp[i][0][0]=min(dp[i-1][0][0],dp[i-1][1][0]);
+			}
+        }
+        printf("%d\n",min(min(dp[n][0][1],dp[n][1][0]),min(dp[n][0][0],dp[n][1][1])));
     }
-    int l=n*k,r=2*n*k,mid,best;
-    while(l<=r){
-        mid=(l+r)>>1;
-        if(check(mid)) r=mid-1,best=mid;
-        else l=mid+1;
-    }
-    cout<<best<<endl;
     return 0;
 }

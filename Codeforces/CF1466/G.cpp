@@ -31,53 +31,45 @@ inline int read(){
     while(c>='0'&&c<='9') x=(x<<1)+(x<<3)+(c^48),c=getchar();
     return x*f;
 }
-const int N=19;
-const int M=(1<<N);
-int n,k,a[N],full;
-int f[M],g[40000000];
-void FWT(){
-    for(int h=1;h<=full;h<<=1){
-        for(int i=0;i<=full;i+=(h<<1)){
-            for(int j=i;j<i+h;j++) f[j+h]+=f[j];
+const int N=2000005;
+int n,q;
+char s[N],t[N];
+struct SAM{
+    int link[N],maxlen[N],trans[N][26],f[N],firstpos[N];
+    void extend(int id){
+        int cur=++sz,p; f[sz]=1;
+        maxlen[cur]=maxlen[lst]+1; firstpos[cur]=maxlen[cur];
+        for(p=lst;p&&!trans[p][id];p=link[p]) trans[p][id]=cur;
+        if(!p) link[cur]=1;
+        else{
+            int q=trans[p][id];
+            if(maxlen[q]==maxlen[p]+1) link[cur]=q;
+            else{
+                int tmp=++sz; 
+                maxlen[tmp]=maxlen[p]+1; firstpos[tmp]=firstpos[q];
+                copy(trans[q],trans[q]+26,trans[tmp]);
+                link[tmp]=link[q];
+                for(;p&&trans[p][id]==q;p=link[p]) trans[p][id]=tmp;
+                link[cur]=link[q]=tmp;
+            }
         }
+        lst=cur;
     }
-}
-
-bool check(int mid){
-    memset(f,0,sizeof(f));
-    for(int i=1;i<=mid;i++){
-        f[g[i]]++;
+    vector<int> v[N];
+    void build(){
+        for(int i=2;i<=sz;i++) v[link[i]].push_back(i);
     }
-    FWT();
-    for(int S=1;S<=full;S++){
-        int cnt=0;
-        for(int i=0;i<n;i++){
-            if(S>>i&1) cnt+=k;
-        }
-        int rest=mid-f[full^S];
-        if(rest<cnt) return 0;
+    void dfs(int u){
+        for(auto &to : v[u]) dfs(to),f[u]+=f[to];
     }
-    return 1;
-}
+}tree;
 
 int main()
 {
-    n=read(); k=read(); full=(1<<n)-1;
-    for(int i=1;i<=n;i++) a[i]=read();
-    for(int i=1;i<=2*n*k;i++){
-        int mask=0;
-        for(int j=1;j<=n;j++){
-            int tmp=i%(2*a[j]); if(tmp==0) tmp=2*a[j];
-            if(tmp<=a[j]) mask|=(1<<(j-1));
-        }
-        g[i]=mask;
+    n=read(); q=read();
+    scanf("%s",s+1); scanf("%s",t+1);
+    while(n<1000000){
+        
     }
-    int l=n*k,r=2*n*k,mid,best;
-    while(l<=r){
-        mid=(l+r)>>1;
-        if(check(mid)) r=mid-1,best=mid;
-        else l=mid+1;
-    }
-    cout<<best<<endl;
     return 0;
 }
