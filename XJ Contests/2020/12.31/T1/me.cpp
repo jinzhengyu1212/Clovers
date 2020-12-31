@@ -33,7 +33,7 @@ inline int read(){
 }
 const int N=300005;
 int a[N],b[N],top=0;
-int n; ll ans[N],tmp[N];
+int n,d[N];
 unsigned int s[N];
 void init(){
     for(int i=1;i<=n;i++){
@@ -57,20 +57,6 @@ void print(){
     else for(int i=top;i>=1;i--) printf("%lld",ans[i]);
     puts("");
 }
-int back(int *a,int n){
-    int ret;
-    for(ret=1;ret<=n;ret++){
-        a[ret+1]+=a[ret]/10;
-        a[ret]%=10;
-    }
-    while(!a[ret]&&ret) ret--;
-    while(a[ret+1]){
-        ret++;
-        a[ret+1]+=a[ret]/10;
-        a[ret]%=10;
-    }
-    return ret;
-}
 
 int main()
 {
@@ -83,22 +69,9 @@ int main()
         a[i]%=10;
     }
     if(a[n+1]) n++;
-    for(int d=2;d<=n;d++){
-        int rest=n;
-        for(int i=1;i<=n;i++) b[i]=a[i];
-        while(rest>d){
-            for(int i=1;i<=rest;i++) tmp[i]=b[i];
-            for(int i=rest;i>d;i--){
-                ans[i-d]+=tmp[i],tmp[i-d]+=tmp[i];
-                int to=(i-1)%d+1; b[to]+=b[i];
-            }
-            for(int i=d+1;i<=rest;i++) b[i]=0; 
-            rest=back(b,rest);
-        }
-        int flag=1;
-        for(int i=1;i<=d;i++) if(b[i]!=9) flag=0;
-        ans[1]+=flag;
+    for(int i=2;i<=n;i++){
+        for(int j=i;j<=n;j+=i) d[j]++;
     }
-    print();
+    for(int i=1;i<=n;i++) b[i]=a[i]; reverse(b+1,b+n+1);
     return 0;
 }
