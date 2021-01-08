@@ -9,7 +9,7 @@ typedef pair<int,int> pii;
 #define mk make_pair
 const int inf=(int)1e9;
 const ll INF=(ll)5e18;
-const int MOD=998244353;
+const int MOD=1e9+7;
 int _abs(int x){return x<0 ? -x : x;}
 int add(int x,int y){x+=y; return x>=MOD ? x-MOD : x;}
 int sub(int x,int y){x-=y; return x<0 ? x+MOD : x;}
@@ -33,12 +33,12 @@ inline int read(){
 }
 #define ui unsigned int
 const int N=750005;
-const int M=500001*33+5;
+const int M=50001*33+5;
 int tot,n; 
 ui a[N]; ll k,ans=0,kkk=0;
 struct Trie{
     int ch[M][2],sz[M];
-    int cnt[60000*33+5][32],vis[60000*33+5];
+    int cnt[50000*33+5][32],vis[50000*33+5];
     void insert(int x,int y,ui val){
         for(int i=31;i>=0;i--){
             int d=val>>i&1;
@@ -124,7 +124,6 @@ namespace solver1{
     priority_queue<node> q;
     void main(){
         tot=n;
-        for(int i=2;i<=n;i++) a[i]^=a[i-1];
         for(int i=1;i<=n;i++){
             T.insert(i,i-1,a[i-1]);
             ui val=T.query(i,1,a[i]);
@@ -137,25 +136,7 @@ namespace solver1{
             ui val=T.query(now.id,now.rk+1,a[now.id]);
             q.push({val,now.id,now.rk+1});
         }
-        cout<<ans<<endl;
-    }
-}
-
-bool check(){for(int i=2;i<=n;i++) if(a[i]!=a[i-1]) return 0; return 1;}
-namespace solver2{
-    void write(__int128_t x){
-        int b[101],top=0;
-        while(x){
-            b[++top]=x%10;
-            x/=10;
-        }
-        for(int i=top;i>=1;i--) printf("%d",b[i]);
-        puts("");
-    }
-    void main(){
-        ll sum=0;
-        for(int i=1;i<=n;i++) sum+=(i+1)/2;
-        write((__int128_t)min(sum,k)*a[1]);       
+        cout<<ans%MOD<<endl;
     }
 }
 
@@ -167,7 +148,6 @@ namespace solver3{
     }
     void main(){
         tot=n;
-        for(int i=2;i<=n;i++) a[i]^=a[i-1];
         for(int i=1;i<=n;i++){
             T.insert(i,i-1,a[i-1]);
         }
@@ -184,7 +164,7 @@ namespace solver3{
             ans+=T.calc(i,a[i],best);
         }
         ans+=(k-kkk)*best;
-        cout<<ans<<endl;
+        cout<<ans%MOD<<endl;
     }
 }
 
@@ -194,10 +174,6 @@ int main()
     for(int i=1;i<=n;i++) scanf("%u",&a[i]);
     if(n<=60000){
         solver3::main();
-        return 0;
-    }
-    if(check()){
-        solver2::main();
         return 0;
     }
     if(k<=200000){

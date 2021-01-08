@@ -34,52 +34,40 @@ inline int read(){
 const int N=100005;
 #define int long long
 int n,a[N],ans=0,typ;
-
-namespace solver1{
-    void main(){
-        for(int d=0;d<60;d++){
-            int cnt=0;
-            for(int i=1;i<=n;i++){
-                if(a[i]>>d&1) cnt++;
-            }
-            if(cnt) ans+=(1ll<<d);
-        }
-        cout<<ans<<endl;
-    }
-}
-
-namespace solver2{
-    void main(){
-        ll mx=0;
-        for(int i=1;i<=n;i++) checkmax(mx,a[i]);
-        for(int i=1;i<=n;i++){
-            if((a[i]^mx)>a[i]) a[i]^=mx;
-        }
-        for(int d=0;d<60;d++){
-            int cnt=0;
-            for(int i=1;i<=n;i++){
-                if(a[i]>>d&1) cnt++;
-            }
-            if(cnt){
-                checkmax(cnt,n-1);
-                ans+=cnt*(1ll<<d);
-            }
-        }
-        cout<<ans<<endl;
-    }
-}
+int b[70];
 
 signed main()
 {
     typ=read(); n=read();
     for(int i=1;i<=n;i++) scanf("%lld",&a[i]);
+    for(int i=1;i<=n;i++){
+        for(int j=63;j>=0;j--){
+            if(a[i]>>j&1){
+                if(!b[j]){b[j]=a[i]; break;}
+                else a[i]^=b[j];
+            }
+        }
+    }
+    for(int i=63;i>=1;i--){
+        for(int j=i-1;j>=0;j--){
+            if(b[i]>>j&1) b[i]^=b[j];
+        }
+    }
+    memset(a,0,sizeof(a)); int top=0;
+    for(int i=63;i>=0;i--){
+        if(b[i]) a[++top]=b[i];
+    }
     if(typ==0){
-        solver1::main();
-        return 0;
+        int sum=0;
+        for(int i=0;i<=63;i++) sum+=b[i];
+        cout<<sum<<endl;
     }
     else{
-        solver2::main();
-        return 0;
+        int sum=0,val=0;
+        for(int i=1;i<=top;i++) val^=a[i];
+        sum=val;
+        for(int i=2;i<=n;i++) sum+=(val^a[i]);
+        cout<<sum<<endl;
     }
     return 0;
 }

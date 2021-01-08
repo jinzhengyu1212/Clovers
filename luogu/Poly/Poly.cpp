@@ -26,18 +26,10 @@ void write_Poly(Poly A){
 int add(int x,int y){x+=y; return x>=MOD ? x-MOD : x;}
 int sub(int x,int y){x-=y; return x<0 ? x+MOD : x;}
 #define mul(a,b) (ll)(a)*(b)%MOD
-void ADD(int &x,int y){x+=y; if(x>=MOD) x-=MOD;}
-void SUB(int &x,int y){x-=y; if(x<0) x+=MOD;}
-void MUL(int &x,int y){x=1ll*x*y%MOD;}
-int qpow(int x,int y){
-    int ret=1;
-    while(y){
-        if(y&1) ret=mul(ret,x);
-        x=mul(x,x);
-        y>>=1;
-    }
-    return ret;
-}
+void Add(int &x,int y){x+=y; if(x>=MOD) x-=MOD;}
+void Sub(int &x,int y){x-=y; if(x<0) x+=MOD;}
+void Mul(int &x,int y){x=1ll*x*y%MOD;}
+int qpow(int x,int y){int ret=1; while(y) {if(y&1) ret=mul(ret,x); x=mul(x,x); y>>=1;} return ret;}
 int Inv(int x){return qpow(x,MOD-2);}
 int inv[N];
 
@@ -84,14 +76,14 @@ namespace FFT{
 Poly operator + (Poly A,Poly B){
     int len=max((int)A.size(),(int)B.size());
     A.resize(len); B.resize(len);
-    for(register int i=0;i<len;++i) ADD(A[i],B[i]);
+    for(register int i=0;i<len;++i) Add(A[i],B[i]);
     return A;
 }
 
 Poly operator - (Poly A,Poly B){
     int len=max((int)A.size(),(int)B.size());
     A.resize(len); B.resize(len);
-    for(register int i=0;i<len;++i) SUB(A[i],B[i]);
+    for(register int i=0;i<len;++i) Sub(A[i],B[i]);
     return A;
 }
 
