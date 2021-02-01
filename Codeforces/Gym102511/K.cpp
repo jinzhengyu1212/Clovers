@@ -9,7 +9,7 @@ typedef pair<int,int> pii;
 #define mk make_pair
 const int inf=(int)1e9;
 const ll INF=(ll)5e18;
-const int MOD=1e9+7;
+const int MOD=998244353;
 int _abs(int x){return x<0 ? -x : x;}
 int add(int x,int y){x+=y; return x>=MOD ? x-MOD : x;}
 int sub(int x,int y){x-=y; return x<0 ? x+MOD : x;}
@@ -31,29 +31,44 @@ inline int read(){
     while(c>='0'&&c<='9') x=(x<<1)+(x<<3)+(c^48),c=getchar();
     return x*f;
 }
-#define int long long
-int n,k,C[66][66];
+const int N=505;
+const int X=2520;
+int n,d[N],p[N],belong[N],sum[N],dp[205][205];
+double ans[N];
+struct Light{
+    int x,r,g;
+}a[N];
 
-signed main()
+int main()
 {
-    k=read(); n=read();
-    C[0][0]=1;
-    for(int i=1;i<=k;i++){
-        C[i][0]=1;
-        for(int j=1;j<=i;j++) C[i][j]=C[i-1][j]+C[i-1][j-1];
+    n=read();
+    for(int i=1;i<=n;i++) a[i].x=read(),a[i].r=read(),a[i].g=read(),p[i]=a[i].r+a[i].g;
+    for(int i=1;i<=n;i++) d[i]=p[i],p[i]/=__gcd(p[i],X);
+    for(int i=1;i<=n;i++){
+        int mx=p[i];
+        for(int j=1;j<=n;j++) if(p[j]%p[i]==0) checkmax(mx,p[j]);
+        p[i]=mx;
     }
-    n=(n%k+k)%k;
-    if(!n){printf("%lld\n",(1ll<<k)); return 0;}
-    int ans=0;
-    for(int pre=1;pre<k;pre++){
-        int mx=0;
-        for(int i=0;i<k;i++){
-            for(int j=1;j<=(k-pre);j++){
-                if(i*j%k==n) checkmax(mx,C[k-pre-1][j-1]);
+    for(int typ=0;typ<X;typ++){
+        memset(dp,0,sizeof(dp));
+        memset(sum,0,sizeof(sum));
+        for(int i=1;i<=n;i++){
+            double Alive=1;
+            for(int j=1;j<=200;j++)if(sum[j])
+                Alive*=1.0*(j-sum[j])/j;
+            int pos=(typ+a[i].x)%d[i],ad=0;
+            for(int j=0;j<p[i];j++,pos=(pos+X)%d[i]){
+                if(pos<a[i].r){
+                    if(!dp[p[i]][j]) ad++,dp[p[i]][j]=1;
+                }
             }
+            if(ad==0) continue;
+            Alive*=1.0*ad/(p[i]-sum[p[i]]); sum[p[i]]+=ad;
+            ans[i]+=1.0*Alive/X;
         }
-        ans+=mx;
     }
-    cout<<ans*2<<endl;
+    double Alive=1;
+    for(int i=1;i<=n;i++) printf("%.8lf\n",ans[i]),Alive-=ans[i];
+    printf("%.8lf\n",Alive);
     return 0;
 }

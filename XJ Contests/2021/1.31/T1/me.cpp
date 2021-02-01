@@ -31,26 +31,57 @@ inline int read(){
     while(c>='0'&&c<='9') x=(x<<1)+(x<<3)+(c^48),c=getchar();
     return x*f;
 }
-const int N=20005;
-int n,m,k,fac[N],ifac[N];
-int C(int n,int m){
-    return mul(fac[n],mul(ifac[n-m],ifac[m]));
+const int N=505;
+int n,m,k=300,fac[N],ifac[N];
+int S1[N][N],S2[N][N],dp[N],Cm[N],Base[N],pown[N];
+int C(int n,int m){return mul(fac[n],mul(ifac[m],ifac[n-m]));}
+
+void solve(){
+    memset(dp,0,sizeof(dp));
+    Cm[0]=1;
+    for(int i=1;i<=min(k,m);i++) Cm[i]=mul(Cm[i-1],mul(qpow(i,MOD-2),m-i+1));
+    for(int p=1;p<=k;p++){
+        for(int q=1;q<=min(m,p);q++){
+            int tmp=mul(S2[p][q],fac[q]);
+            Mul(tmp,Cm[q]);
+            Mul(tmp,qpow(2,m-q));
+            Add(dp[p],tmp);
+        }
+    }
+    dp[0]=qpow(2,m);
+    int ans=0;
+    pown[0]=1; for(int i=1;i<=k;i++) pown[i]=mul(pown[i-1],n);
+    for(int j=1;j<=k;j++){
+        int flag=((k-j)&1 ? MOD-1 : 1);
+        int sum=0;
+        for(int p=0;p<=j;p++){
+            int tmp=mul(pown[j-p],C(j,p));
+            Mul(tmp,Base[p]); Mul(tmp,dp[p]);
+            Add(sum,tmp);
+        }
+        Add(ans,mul(flag,mul(S1[k][j],sum)));
+    }
+    printf("%lld\n",mul(ans,ifac[k]));
 }
 
 int main()
 {
-    fac[0]=1; for(int i=1;i<=20000;i++) fac[i]=mul(fac[i-1],i);
-    ifac[20000]=qpow(fac[20000],MOD-2);
-    for(int i=19999;i>=0;i--) ifac[i]=mul(ifac[i+1],i+1);
+    fac[0]=1; for(int i=1;i<=k;i++) fac[i]=mul(fac[i-1],i);
+    Base[0]=1; for(int i=1;i<=k;i++) Base[i]=mul(Base[i-1],2);
+    ifac[k]=qpow(fac[k],MOD-2);
+    for(int i=k-1;i>=0;i--) ifac[i]=mul(ifac[i+1],i+1);
+    S1[1][1]=1; S2[1][1]=1;
+    for(int i=2;i<=k;i++){
+        for(int j=1;j<=i;j++){
+            S1[i][j]=add(S1[i-1][j-1],mul(i-1,S1[i-1][j]));
+            S2[i][j]=add(S2[i-1][j-1],mul(j,S2[i-1][j]));
+        }
+    }
     int T=read();
     while(T--){
         n=read(); m=read(); k=read();
-        if(n<=5000&&m<=5000){
-            int ans=0;
-            for(int i=0;i<=m;i++) Add(ans,mul(C(m,i),C(n-m+2*i,k)));
-            cout<<ans<<endl;
-            continue;
-        }
+        n-=m;
+        solve();       
     }
     return 0;
 }

@@ -9,7 +9,7 @@ typedef pair<int,int> pii;
 #define mk make_pair
 const int inf=(int)1e9;
 const ll INF=(ll)5e18;
-const int MOD=1e9+7;
+const int MOD=998244353;
 int _abs(int x){return x<0 ? -x : x;}
 int add(int x,int y){x+=y; return x>=MOD ? x-MOD : x;}
 int sub(int x,int y){x-=y; return x<0 ? x+MOD : x;}
@@ -31,29 +31,9 @@ inline int read(){
     while(c>='0'&&c<='9') x=(x<<1)+(x<<3)+(c^48),c=getchar();
     return x*f;
 }
-#define int long long
-int n,k,C[66][66];
+const int N=2005;
 
-signed main()
+int main()
 {
-    k=read(); n=read();
-    C[0][0]=1;
-    for(int i=1;i<=k;i++){
-        C[i][0]=1;
-        for(int j=1;j<=i;j++) C[i][j]=C[i-1][j]+C[i-1][j-1];
-    }
-    n=(n%k+k)%k;
-    if(!n){printf("%lld\n",(1ll<<k)); return 0;}
-    int ans=0;
-    for(int pre=1;pre<k;pre++){
-        int mx=0;
-        for(int i=0;i<k;i++){
-            for(int j=1;j<=(k-pre);j++){
-                if(i*j%k==n) checkmax(mx,C[k-pre-1][j-1]);
-            }
-        }
-        ans+=mx;
-    }
-    cout<<ans*2<<endl;
     return 0;
 }
