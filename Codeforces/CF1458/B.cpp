@@ -31,9 +31,31 @@ inline int read(){
     while(c>='0'&&c<='9') x=(x<<1)+(x<<3)+(c^48),c=getchar();
     return x*f;
 }
-const int N=2005;
+const int N=205;
+int n,a[N],b[N];
+int suma=0,sumb=0,dp[105][20005];
 
 int main()
 {
+    n=read();
+    for(int i=1;i<=n;i++) a[i]=read()*2,b[i]=read()*2;
+    memset(dp,-1,sizeof(dp)); dp[0][0]=0;
+    for(int x=1;x<=n;x++){
+        for(int i=x-1;i>=0;i--){
+            for(int j=0;j<=suma;j++) if(dp[i][j]!=-1){
+                checkmax(dp[i+1][j+a[x]],dp[i][j]+b[x]);
+                checkmax(dp[i+1][j],dp[i][j]);
+            }
+        }
+        suma+=a[x]; sumb+=b[x];
+    }
+    for(int i=1;i<=n;i++){
+        int mx=0;
+        for(int j=0;j<=suma;j++) if(dp[i][j]!=-1){
+            int rest=(sumb-dp[i][j])/2;
+            checkmax(mx,min(j,dp[i][j]+rest));
+        }
+        printf("%.2lf\n",mx/2.0);
+    }
     return 0;
 }
